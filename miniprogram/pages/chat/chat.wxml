@@ -1,0 +1,24 @@
+<view class="page">
+  <scroll-view class="messages" scroll-y scroll-into-view="{{lastId}}">
+    <view class="hero">
+      <view class="eyebrow">上海 · 就业搬迁</view>
+      <view class="title">先把下一步想清楚</view>
+      <view class="subtitle">告诉我你的情况，我会整理先后顺序、关键时间和需要核验的事项。</view>
+    </view>
+    <view class="bubble assistant welcome">
+      可以先说：入职时间、公司位置、希望通勤多久、搬家完成时间、一次性搬家预算、是否接受合租。想看区域参考时，再告诉我每月租金预算。
+    </view>
+    <block wx:for="{{displayMessages}}" wx:key="id">
+      <view id="{{item.id}}" class="row {{item.role}}">
+        <view class="bubble {{item.role}}"><text selectable="true">{{item.content}}</text></view>
+      </view>
+    </block>
+    <view wx:if="{{loading}}" class="row assistant"><view class="bubble assistant pending">正在整理方案…</view></view>
+    <view id="bottom"></view>
+  </scroll-view>
+  <view class="composer">
+    <textarea class="input" value="{{draft}}" placeholder="描述你的情况或继续追问…" maxlength="4000" auto-height bindinput="onInput" />
+    <button class="send" disabled="{{loading || !draft}}" bindtap="send">发送</button>
+  </view>
+  <view class="footnote">仅供办事规划参考；政策与地点以官方办理页面及实际情况为准。</view>
+</view>

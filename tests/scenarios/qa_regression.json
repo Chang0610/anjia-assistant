@@ -1,0 +1,12 @@
+[
+  {"id":"S01_missing_info","name":"信息不足只追问","profile":{},"turns":["我下个月要去上海工作，帮我安排搬家。"],"checks":["no_calendar_change","has_follow_up"]},
+  {"id":"S02_first_plan","name":"资料齐全生成首版计划","profile":{},"turns":["我2026年10月15日在张江高科入职，10月12日前租好房，10月14日搬入，月租预算3500元，接受合租，希望通勤40分钟内。请给我计划表。"],"checks":["has_calendar_proposal","has_operations","has_confirmation_language"]},
+  {"id":"S03_normal_advice","name":"普通区域咨询不改日历","profile":{"company_location":"张江高科","monthly_rent_budget":"3500元","commute_preference":"40分钟内"},"turns":["哪些区域适合我？"],"checks":["no_calendar_change","has_evidence_or_uncertainty"]},
+  {"id":"S04_add_event","name":"明确新增事项","profile":{"company_location":"张江高科","onboarding_date":"2026-10-15"},"turns":["请新增一个10月10日晚上确认租赁合同的日程。"],"checks":["has_calendar_proposal","has_operations"]},
+  {"id":"S05_shift_move","name":"改搬家日期并处理关联","profile":{},"calendar":{"confirmed":[{"id":"move-1","title":"完成搬家","date":"2026-10-14","hard_deadline":false},{"id":"handover-1","title":"旧住处交接","date":"2026-10-13","hard_deadline":false}]},"turns":["把搬家改到10月13日。"],"checks":["has_calendar_proposal","has_operations","does_not_claim_applied"]},
+  {"id":"S06_onboarding_shift","name":"入职日期变化检查关联","profile":{},"calendar":{"confirmed":[{"id":"trial-1","title":"通勤试走","date":"2026-10-16","hard_deadline":false},{"id":"move-1","title":"完成搬家","date":"2026-10-14","hard_deadline":false}]},"turns":["我的入职日期改为2026年10月15日，请同步调整安排。"],"checks":["has_calendar_proposal","does_not_claim_applied"]},
+  {"id":"S07_delete_event","name":"删除事项说明影响","profile":{},"calendar":{"confirmed":[{"id":"view-1","title":"实地看房","date":"2026-10-08","hard_deadline":false}]},"turns":["取消10月8日的实地看房。"],"checks":["has_calendar_proposal","has_delete_operation","does_not_claim_applied"]},
+  {"id":"S08_hard_deadline","name":"硬截止冲突先核验","profile":{},"calendar":{"confirmed":[{"id":"deadline-1","title":"旧住处退租交接","date":"2026-10-12","hard_deadline":true},{"id":"move-1","title":"完成搬家","date":"2026-10-14","hard_deadline":false}]},"turns":["把搬家改到10月13日。"],"checks":["mentions_risk_or_verification"]},
+  {"id":"S09_duplicate","name":"重复输入不重复新增","profile":{},"calendar":{"confirmed":[{"id":"rent-1","title":"租赁签约","date":"2026-10-10","hard_deadline":false}]},"turns":["请安排10月10日租赁签约。","我再确认一次，10月10日租赁签约。"],"checks":["second_turn_no_duplicate_add"]},
+  {"id":"S10_reject_confirm","name":"拒绝确认不写入","profile":{},"turns":["请安排10月11日看房。","不需要改动当前日程表。"],"checks":["has_calendar_proposal","second_turn_no_calendar_change"]}
+]

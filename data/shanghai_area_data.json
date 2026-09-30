@@ -1,0 +1,1011 @@
+{
+  "meta": {
+    "title": "上海区域租房·通勤·配套·水电网费基础数据",
+    "researched_at": "2026-09-22",
+    "rent_method": "安居客平台实时挂牌价抽样（2026-09-22，约60条挂牌）；整租与合租同一口径；区间为挂牌样本参考区间，非租金统计",
+    "commute_method": "上海地铁官方线网换乘方案估算：区间2.5分钟/站 + 换乘6分钟/次 + 站外步行候车12分钟，取整到5分钟；非地图实测；查询日期2026-09-22",
+    "data_status_values": {
+      "sample_reference": "挂牌样本参考区间，非统计口径；可用于'当前估算'类区域参考，须向用户明示为样本区间",
+      "estimated": "线网估算，非实测；展示为估算",
+      "pending_verification": "未逐条核验；产品端必须标注'待核验'",
+      "verified": "2024年后官方/权威来源",
+      "legacy_corroborated": "引自2024年前官方文件、有旁证现行有效；标注来源与时效"
+    }
+  },
+  "areas": [
+    {
+      "id": "zhangjiang",
+      "name": "浦东张江",
+      "boundary": "张江高科站周边，张江路/科苑路/广兰路一带",
+      "reference_station": "张江高科（2号线）",
+      "rent_method": "安居客平台实时挂牌价抽样，整租与合租同一口径",
+      "rent_period": "2026-09-22（挂牌读取时点）",
+      "rent_source": "安居客上海租房频道；21世纪经济报道",
+      "rent_whole_1br": {
+        "min": 3800,
+        "max": 5500,
+        "unit": "元/月"
+      },
+      "rent_whole_2br": {
+        "min": 4800,
+        "max": 4800,
+        "unit": "元/月"
+      },
+      "rent_whole_other": null,
+      "rent_shared_single_room": {
+        "min": 2200,
+        "max": 3000,
+        "unit": "元/月",
+        "note": "合租单间价，未区分主卧/次卧"
+      },
+      "rent_note": "挂牌样本参考区间，非统计口径；整租两居为单样本",
+      "data_status": "sample_reference",
+      "commute": [
+        {
+          "to": "陆家嘴",
+          "minutes_min": 30,
+          "minutes_max": 30,
+          "route": "2号线直达6站（张江高科—龙阳路—世纪公园—上海科技馆—世纪大道—东昌路—陆家嘴）",
+          "data_status": "estimated"
+        },
+        {
+          "to": "张江高科",
+          "minutes_min": 10,
+          "minutes_max": 10,
+          "route": "同站，含站外步行",
+          "data_status": "estimated"
+        },
+        {
+          "to": "徐家汇",
+          "minutes_min": 40,
+          "minutes_max": 45,
+          "route": "2号线至世纪大道换9号线，1次换乘",
+          "data_status": "estimated"
+        }
+      ],
+      "facilities": {
+        "markets": [
+          {
+            "name": "张江农贸市场",
+            "location": "张江路",
+            "verified": false,
+            "note": "待地图POI核验"
+          },
+          {
+            "name": "孙桥菜市场",
+            "location": "孙桥",
+            "verified": false,
+            "note": "待地图POI核验"
+          },
+          {
+            "name": "孙环路蔬果超市",
+            "location": "孙环路一带",
+            "verified": false,
+            "note": "待地图POI核验"
+          }
+        ],
+        "supermarkets": [
+          {
+            "name": "盒马鲜生",
+            "location": "长泰广场店",
+            "verified": false,
+            "note": "待地图POI核验"
+          },
+          {
+            "name": "大润发",
+            "location": "金桥店，邻近",
+            "verified": false,
+            "note": "待地图POI核验"
+          },
+          {
+            "name": "联华超市",
+            "location": "张江社区店",
+            "verified": false,
+            "note": "待地图POI核验"
+          }
+        ],
+        "malls": [
+          {
+            "name": "长泰广场",
+            "location": null,
+            "verified": false,
+            "note": "待地图POI核验"
+          },
+          {
+            "name": "张江长泰广场邻近商业",
+            "location": null,
+            "verified": false,
+            "note": "待地图POI核验"
+          }
+        ]
+      }
+    },
+    {
+      "id": "jinqiao",
+      "name": "浦东金桥",
+      "boundary": "金桥站/金杨路一带，金杨新村、碧云社区",
+      "reference_station": "金桥（9号线）",
+      "rent_method": "安居客平台实时挂牌价抽样，整租与合租同一口径",
+      "rent_period": "2026-09-22（挂牌读取时点）",
+      "rent_source": "安居客上海租房频道",
+      "rent_whole_1br": null,
+      "rent_whole_2br": {
+        "min": 4800,
+        "max": 5800,
+        "unit": "元/月"
+      },
+      "rent_whole_other": null,
+      "rent_shared_single_room": {
+        "min": 1950,
+        "max": 1950,
+        "unit": "元/月",
+        "note": "合租单间价，未区分主卧/次卧"
+      },
+      "rent_note": "挂牌样本参考区间，非统计口径；合租单间为单样本；样本板块为金杨新村/碧云，邻近金桥站",
+      "data_status": "sample_reference",
+      "commute": [
+        {
+          "to": "陆家嘴",
+          "minutes_min": 35,
+          "minutes_max": 35,
+          "route": "9号线至世纪大道换2号线，1次换乘",
+          "data_status": "estimated"
+        },
+        {
+          "to": "张江高科",
+          "minutes_min": 40,
+          "minutes_max": 40,
+          "route": "9号线至世纪大道换2号线，1次换乘",
+          "data_status": "estimated"
+        },
+        {
+          "to": "徐家汇",
+          "minutes_min": 40,
+          "minutes_max": 40,
+          "route": "9号线直达11站",
+          "data_status": "estimated"
+        }
+      ],
+      "facilities": {
+        "markets": [
+          {
+            "name": "金桥菜市场",
+            "location": "金桥",
+            "verified": false,
+            "note": "待地图POI核验"
+          },
+          {
+            "name": "碧云菜市场",
+            "location": "碧云",
+            "verified": false,
+            "note": "待地图POI核验"
+          },
+          {
+            "name": "金杨菜市场",
+            "location": "金杨",
+            "verified": false,
+            "note": "待地图POI核验"
+          }
+        ],
+        "supermarkets": [
+          {
+            "name": "家乐福",
+            "location": "金桥店",
+            "verified": false,
+            "note": "待地图POI核验"
+          },
+          {
+            "name": "盒马鲜生",
+            "location": "碧云店",
+            "verified": false,
+            "note": "待地图POI核验"
+          },
+          {
+            "name": "联华超市",
+            "location": null,
+            "verified": false,
+            "note": "待地图POI核验"
+          }
+        ],
+        "malls": [
+          {
+            "name": "金桥国际商业广场",
+            "location": null,
+            "verified": false,
+            "note": "待地图POI核验"
+          },
+          {
+            "name": "LaLaport 上海金桥",
+            "location": null,
+            "verified": false,
+            "note": "待地图POI核验"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pujiang",
+      "name": "闵行浦江镇",
+      "boundary": "8号线浦江镇站周边，浦锦路/联航路一带",
+      "reference_station": "浦江镇（8号线）",
+      "rent_method": "安居客平台实时挂牌价抽样，整租与合租同一口径",
+      "rent_period": "2026-09-22（挂牌读取时点）",
+      "rent_source": "安居客上海租房频道；21世纪经济报道",
+      "rent_whole_1br": null,
+      "rent_whole_2br": {
+        "min": 3200,
+        "max": 4800,
+        "unit": "元/月"
+      },
+      "rent_whole_other": null,
+      "rent_shared_single_room": null,
+      "rent_note": "挂牌样本参考区间，非统计口径；21世纪经济报道称2026年浦江镇两居室多在5000–5500+",
+      "data_status": "sample_reference",
+      "commute": [
+        {
+          "to": "陆家嘴",
+          "minutes_min": 50,
+          "minutes_max": 55,
+          "route": "8号线至人民广场换2号线，1次换乘",
+          "data_status": "estimated"
+        },
+        {
+          "to": "张江高科",
+          "minutes_min": 65,
+          "minutes_max": 70,
+          "route": "8号线至人民广场换2号线，1次换乘",
+          "data_status": "estimated"
+        },
+        {
+          "to": "徐家汇",
+          "minutes_min": 60,
+          "minutes_max": 60,
+          "route": "8号线至人民广场换1号线，1次换乘",
+          "data_status": "estimated"
+        }
+      ],
+      "facilities": {
+        "markets": [
+          {
+            "name": "浦江镇菜市场",
+            "location": "浦江镇",
+            "verified": false,
+            "note": "待地图POI核验"
+          },
+          {
+            "name": "联航路菜场",
+            "location": "联航路",
+            "verified": false,
+            "note": "待地图POI核验"
+          },
+          {
+            "name": "江月路菜场",
+            "location": "江月路",
+            "verified": false,
+            "note": "待地图POI核验"
+          }
+        ],
+        "supermarkets": [
+          {
+            "name": "大润发",
+            "location": "浦江店",
+            "verified": false,
+            "note": "待地图POI核验"
+          },
+          {
+            "name": "永辉超市",
+            "location": "浦江万达店",
+            "verified": false,
+            "note": "待地图POI核验"
+          },
+          {
+            "name": "联华超市",
+            "location": null,
+            "verified": false,
+            "note": "待地图POI核验"
+          }
+        ],
+        "malls": [
+          {
+            "name": "浦江万达广场",
+            "location": null,
+            "verified": false,
+            "note": "待地图POI核验"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wujing",
+      "name": "闵行吴泾",
+      "boundary": "5号线江川路站周边，吴泾镇/紫竹高新区一带",
+      "reference_station": "江川路（5号线）",
+      "rent_method": "安居客平台实时挂牌价抽样，整租与合租同一口径",
+      "rent_period": "2026-09-22（挂牌读取时点）",
+      "rent_source": "安居客上海租房频道",
+      "rent_whole_1br": {
+        "min": 2200,
+        "max": 3300,
+        "unit": "元/月"
+      },
+      "rent_whole_2br": {
+        "min": 4500,
+        "max": 4500,
+        "unit": "元/月"
+      },
+      "rent_whole_other": null,
+      "rent_shared_single_room": null,
+      "rent_note": "挂牌样本参考区间，非统计口径；整租两居为单样本",
+      "data_status": "sample_reference",
+      "commute": [
+        {
+          "to": "陆家嘴",
+          "minutes_min": 75,
+          "minutes_max": 80,
+          "route": "5号线至莘庄换1号线至人民广场换2号线，2次换乘",
+          "data_status": "estimated"
+        },
+        {
+          "to": "张江高科",
+          "minutes_min": 90,
+          "minutes_max": 90,
+          "route": "5号线至莘庄换1号线至人民广场换2号线，2次换乘；无合理短途方案",
+          "data_status": "estimated"
+        },
+        {
+          "to": "徐家汇",
+          "minutes_min": 50,
+          "minutes_max": 55,
+          "route": "5号线至莘庄换1号线，1次换乘",
+          "data_status": "estimated"
+        }
+      ],
+      "facilities": {
+        "markets": [
+          {
+            "name": "吴泾菜市场",
+            "location": "吴泾",
+            "verified": false,
+            "note": "待地图POI核验"
+          },
+          {
+            "name": "紫竹菜场",
+            "location": "紫竹",
+            "verified": false,
+            "note": "待地图POI核验"
+          },
+          {
+            "name": "塘湾菜市场",
+            "location": "塘湾",
+            "verified": false,
+            "note": "待地图POI核验"
+          }
+        ],
+        "supermarkets": [
+          {
+            "name": "永辉超市",
+            "location": "紫竹半岛店",
+            "verified": false,
+            "note": "待地图POI核验"
+          },
+          {
+            "name": "大润发",
+            "location": "闵行店",
+            "verified": false,
+            "note": "待地图POI核验"
+          },
+          {
+            "name": "联华超市",
+            "location": null,
+            "verified": false,
+            "note": "待地图POI核验"
+          }
+        ],
+        "malls": [
+          {
+            "name": "吴泾宝龙广场",
+            "location": null,
+            "verified": false,
+            "note": "待地图POI核验"
+          },
+          {
+            "name": "紫竹半岛商业街区",
+            "location": null,
+            "verified": false,
+            "note": "待地图POI核验"
+          }
+        ]
+      }
+    },
+    {
+      "id": "huajing",
+      "name": "徐汇华泾/上海南站",
+      "boundary": "上海南站周边及华泾镇，华泾路/朱梅路一带",
+      "reference_station": "上海南站（1/3/15号线）",
+      "rent_method": "安居客平台实时挂牌价抽样，整租与合租同一口径",
+      "rent_period": "2026-09-22（挂牌读取时点）",
+      "rent_source": "安居客上海租房频道",
+      "rent_whole_1br": {
+        "min": 3950,
+        "max": 4900,
+        "unit": "元/月"
+      },
+      "rent_whole_2br": {
+        "min": 5600,
+        "max": 5600,
+        "unit": "元/月"
+      },
+      "rent_whole_other": null,
+      "rent_shared_single_room": null,
+      "rent_note": "挂牌样本参考区间，非统计口径；整租两居为单样本",
+      "data_status": "sample_reference",
+      "commute": [
+        {
+          "to": "陆家嘴",
+          "minutes_min": 40,
+          "minutes_max": 45,
+          "route": "1号线至人民广场换2号线，1次换乘",
+          "data_status": "estimated"
+        },
+        {
+          "to": "张江高科",
+          "minutes_min": 55,
+          "minutes_max": 60,
+          "route": "1号线至人民广场换2号线，1次换乘",
+          "data_status": "estimated"
+        },
+        {
+          "to": "徐家汇",
+          "minutes_min": 20,
+          "minutes_max": 20,
+          "route": "1号线直达3站",
+          "data_status": "estimated"
+        }
+      ],
+      "facilities": {
+        "markets": [
+          {
+            "name": "华泾菜市场",
+            "location": "华泾",
+            "verified": false,
+            "note": "待地图POI核验"
+          },
+          {
+            "name": "长桥菜市场",
+            "location": "长桥",
+            "verified": false,
+            "note": "待地图POI核验"
+          },
+          {
+            "name": "华泾路菜场",
+            "location": "华泾路",
+            "verified": false,
+            "note": "待地图POI核验"
+          }
+        ],
+        "supermarkets": [
+          {
+            "name": "家乐福",
+            "location": "上海南站店",
+            "verified": false,
+            "note": "待地图POI核验"
+          },
+          {
+            "name": "沃尔玛",
+            "location": "徐汇店",
+            "verified": false,
+            "note": "待地图POI核验"
+          },
+          {
+            "name": "盒马鲜生",
+            "location": null,
+            "verified": false,
+            "note": "待地图POI核验"
+          }
+        ],
+        "malls": [
+          {
+            "name": "徐汇万科中心",
+            "location": null,
+            "verified": false,
+            "note": "待地图POI核验"
+          },
+          {
+            "name": "上海南站南广场商业",
+            "location": null,
+            "verified": false,
+            "note": "待地图POI核验"
+          }
+        ]
+      }
+    },
+    {
+      "id": "caoyang",
+      "name": "普陀曹杨",
+      "boundary": "曹杨路站周边，曹杨新村/甘泉一带",
+      "reference_station": "曹杨路（3/4/11/14号线）",
+      "rent_method": "安居客平台实时挂牌价抽样，整租与合租同一口径",
+      "rent_period": "2026-09-22（挂牌读取时点）",
+      "rent_source": "安居客上海租房频道；21世纪经济报道",
+      "rent_whole_1br": {
+        "min": 3800,
+        "max": 3800,
+        "unit": "元/月"
+      },
+      "rent_whole_2br": {
+        "min": 4800,
+        "max": 4900,
+        "unit": "元/月"
+      },
+      "rent_whole_other": null,
+      "rent_shared_single_room": {
+        "min": 1800,
+        "max": 1800,
+        "unit": "元/月",
+        "note": "合租单间价，未区分主卧/次卧"
+      },
+      "rent_note": "挂牌样本参考区间，非统计口径；整租一居为单样本；21世纪经济报道称普陀一居室整租约5000；合租单间为单样本",
+      "data_status": "sample_reference",
+      "commute": [
+        {
+          "to": "陆家嘴",
+          "minutes_min": 30,
+          "minutes_max": 30,
+          "route": "14号线直达7站",
+          "data_status": "estimated"
+        },
+        {
+          "to": "张江高科",
+          "minutes_min": 50,
+          "minutes_max": 50,
+          "route": "14号线至陆家嘴换2号线，1次换乘",
+          "data_status": "estimated"
+        },
+        {
+          "to": "徐家汇",
+          "minutes_min": 20,
+          "minutes_max": 25,
+          "route": "11号线直达4站",
+          "data_status": "estimated"
+        }
+      ],
+      "facilities": {
+        "markets": [
+          {
+            "name": "曹杨菜市场",
+            "location": "曹杨",
+            "verified": false,
+            "note": "待地图POI核验"
+          },
+          {
+            "name": "兰溪路菜场",
+            "location": "兰溪路",
+            "verified": false,
+            "note": "待地图POI核验"
+          },
+          {
+            "name": "武宁路菜场",
+            "location": "武宁路",
+            "verified": false,
+            "note": "待地图POI核验"
+          }
+        ],
+        "supermarkets": [
+          {
+            "name": "家乐福",
+            "location": "武宁店",
+            "verified": false,
+            "note": "待地图POI核验"
+          },
+          {
+            "name": "沃尔玛",
+            "location": "中山公园店",
+            "verified": false,
+            "note": "待地图POI核验"
+          },
+          {
+            "name": "联华超市",
+            "location": null,
+            "verified": false,
+            "note": "待地图POI核验"
+          }
+        ],
+        "malls": [
+          {
+            "name": "百联中环购物广场",
+            "location": null,
+            "verified": false,
+            "note": "待地图POI核验"
+          },
+          {
+            "name": "巴黎春天",
+            "location": "长寿路店，邻近",
+            "verified": false,
+            "note": "待地图POI核验"
+          }
+        ]
+      }
+    },
+    {
+      "id": "zhaoxiang",
+      "name": "青浦赵巷",
+      "boundary": "17号线赵巷站周边，嘉松中路/盈港东路一带",
+      "reference_station": "赵巷（17号线）",
+      "rent_method": "安居客平台实时挂牌价抽样，整租与合租同一口径",
+      "rent_period": "2026-09-22（挂牌读取时点）",
+      "rent_source": "安居客上海租房频道",
+      "rent_whole_1br": null,
+      "rent_whole_2br": null,
+      "rent_whole_other": {
+        "min": 3800,
+        "max": 4880,
+        "note": "整租，居室标签不全",
+        "unit": "元/月"
+      },
+      "rent_shared_single_room": null,
+      "rent_note": "挂牌样本参考区间，非统计口径；整租居室标签不全",
+      "data_status": "sample_reference",
+      "commute": [
+        {
+          "to": "陆家嘴",
+          "minutes_min": 60,
+          "minutes_max": 65,
+          "route": "17号线至虹桥火车站换2号线，1次换乘",
+          "data_status": "estimated"
+        },
+        {
+          "to": "张江高科",
+          "minutes_min": 75,
+          "minutes_max": 80,
+          "route": "17号线至虹桥火车站换2号线，1次换乘",
+          "data_status": "estimated"
+        },
+        {
+          "to": "徐家汇",
+          "minutes_min": 60,
+          "minutes_max": 60,
+          "route": "17号线至虹桥火车站换2号线至江苏路换11号线，2次换乘",
+          "data_status": "estimated"
+        }
+      ],
+      "facilities": {
+        "markets": [
+          {
+            "name": "赵巷菜市场",
+            "location": "赵巷",
+            "verified": false,
+            "note": "待地图POI核验"
+          },
+          {
+            "name": "盈港菜场",
+            "location": "盈港",
+            "verified": false,
+            "note": "待地图POI核验"
+          },
+          {
+            "name": "嘉松中路菜场",
+            "location": "嘉松中路",
+            "verified": false,
+            "note": "待地图POI核验"
+          }
+        ],
+        "supermarkets": [
+          {
+            "name": "大润发",
+            "location": "青浦店",
+            "verified": false,
+            "note": "待地图POI核验"
+          },
+          {
+            "name": "永辉超市",
+            "location": "青浦万达店",
+            "verified": false,
+            "note": "待地图POI核验"
+          },
+          {
+            "name": "联华超市",
+            "location": null,
+            "verified": false,
+            "note": "待地图POI核验"
+          }
+        ],
+        "malls": [
+          {
+            "name": "青浦万达茂",
+            "location": null,
+            "verified": false,
+            "note": "待地图POI核验"
+          },
+          {
+            "name": "青浦吾悦广场",
+            "location": null,
+            "verified": false,
+            "note": "待地图POI核验"
+          }
+        ]
+      }
+    },
+    {
+      "id": "jiading",
+      "name": "嘉定城区",
+      "boundary": "11号线嘉定西站周边，嘉定老城区",
+      "reference_station": "嘉定西（11号线）",
+      "rent_method": "安居客平台实时挂牌价抽样，整租与合租同一口径",
+      "rent_period": "2026-09-22（挂牌读取时点）",
+      "rent_source": "安居客上海租房频道",
+      "rent_whole_1br": null,
+      "rent_whole_2br": {
+        "min": 3300,
+        "max": 3300,
+        "unit": "元/月"
+      },
+      "rent_whole_other": null,
+      "rent_shared_single_room": null,
+      "rent_note": "挂牌样本参考区间，非统计口径；整租两居为单样本",
+      "data_status": "sample_reference",
+      "commute": [
+        {
+          "to": "陆家嘴",
+          "minutes_min": 65,
+          "minutes_max": 65,
+          "route": "11号线至江苏路换2号线，1次换乘",
+          "data_status": "estimated"
+        },
+        {
+          "to": "张江高科",
+          "minutes_min": 80,
+          "minutes_max": 80,
+          "route": "11号线至江苏路换2号线，1次换乘",
+          "data_status": "estimated"
+        },
+        {
+          "to": "徐家汇",
+          "minutes_min": 50,
+          "minutes_max": 55,
+          "route": "11号线直达16站",
+          "data_status": "estimated"
+        }
+      ],
+      "facilities": {
+        "markets": [
+          {
+            "name": "嘉定菜市场",
+            "location": "嘉定",
+            "verified": false,
+            "note": "待地图POI核验"
+          },
+          {
+            "name": "城中路菜场",
+            "location": "城中路",
+            "verified": false,
+            "note": "待地图POI核验"
+          },
+          {
+            "name": "嘉定西菜场",
+            "location": "嘉定西",
+            "verified": false,
+            "note": "待地图POI核验"
+          }
+        ],
+        "supermarkets": [
+          {
+            "name": "大润发",
+            "location": "嘉定店",
+            "verified": false,
+            "note": "待地图POI核验"
+          },
+          {
+            "name": "沃尔玛",
+            "location": "嘉定店",
+            "verified": false,
+            "note": "待地图POI核验"
+          },
+          {
+            "name": "联华超市",
+            "location": null,
+            "verified": false,
+            "note": "待地图POI核验"
+          }
+        ],
+        "malls": [
+          {
+            "name": "嘉定百联",
+            "location": null,
+            "verified": false,
+            "note": "待地图POI核验"
+          },
+          {
+            "name": "中信泰富万达广场",
+            "location": "嘉定店",
+            "verified": false,
+            "note": "待地图POI核验"
+          }
+        ]
+      }
+    }
+  ],
+  "utilities": [
+    {
+      "utility": "water",
+      "tier": "tier1: 0–220立方米/年",
+      "unit": "立方米",
+      "price": 4.05,
+      "price_unit": "元/立方米",
+      "note": "综合水价（含污水处理费）；合表用户暂按第一阶梯；5人及以上家庭年基数+100立方米",
+      "source": "中证鹏元《浦东水务评级报告》附表",
+      "source_url": "https://www.cspengyuan.com/api/files/6960d82442b27b2bdc79a1c8",
+      "published": "2024年后发布；浦东2024-01调价",
+      "data_status": "verified"
+    },
+    {
+      "utility": "water",
+      "tier": "tier2: 221–300立方米/年",
+      "unit": "立方米",
+      "price": 5.8,
+      "price_unit": "元/立方米",
+      "note": "综合水价",
+      "source": "中证鹏元《浦东水务评级报告》附表",
+      "source_url": "https://www.cspengyuan.com/api/files/6960d82442b27b2bdc79a1c8",
+      "published": "2024年后发布",
+      "data_status": "verified"
+    },
+    {
+      "utility": "water",
+      "tier": "tier3: 300立方米以上/年",
+      "unit": "立方米",
+      "price": 8.79,
+      "price_unit": "元/立方米",
+      "note": "综合水价",
+      "source": "中证鹏元《浦东水务评级报告》附表",
+      "source_url": "https://www.cspengyuan.com/api/files/6960d82442b27b2bdc79a1c8",
+      "published": "2024年后发布",
+      "data_status": "verified"
+    },
+    {
+      "utility": "water",
+      "tier": "污水处理费计收规则",
+      "unit": "立方米",
+      "price": 2.0,
+      "price_unit": "元/立方米",
+      "note": "按用水量×2.00×0.9计收",
+      "source": "中证鹏元《浦东水务评级报告》附表",
+      "source_url": "https://www.cspengyuan.com/api/files/6960d82442b27b2bdc79a1c8",
+      "published": "2024年后发布",
+      "data_status": "verified"
+    },
+    {
+      "utility": "electricity",
+      "tier": "tier1: 0–3120千瓦时/年",
+      "unit": "千瓦时",
+      "price": 0.617,
+      "price_unit": "元/千瓦时",
+      "note": "分时峰0.617/谷0.307",
+      "source": "上海市发改委居民阶梯电价文件",
+      "source_url": "https://fgw.sh.gov.cn/cmsres/ec/ec34097f16b4486f82f1f31c4e4d3d3a/63984da62e3e73b33e4e3288ad1a3279.pdf",
+      "published": "2021-10-25文件；2025年旁证现行未变",
+      "data_status": "legacy_corroborated"
+    },
+    {
+      "utility": "electricity",
+      "tier": "tier2: 3121–4800千瓦时/年",
+      "unit": "千瓦时",
+      "price": 0.667,
+      "price_unit": "元/千瓦时",
+      "note": "分时峰0.677/谷0.337",
+      "source": "上海市发改委居民阶梯电价文件",
+      "source_url": "https://fgw.sh.gov.cn/cmsres/ec/ec34097f16b4486f82f1f31c4e4d3d3a/63984da62e3e73b33e4e3288ad1a3279.pdf",
+      "published": "2021-10-25文件；2025年旁证现行未变",
+      "data_status": "legacy_corroborated"
+    },
+    {
+      "utility": "electricity",
+      "tier": "tier3: 4800千瓦时以上/年",
+      "unit": "千瓦时",
+      "price": 0.917,
+      "price_unit": "元/千瓦时",
+      "note": "分时峰0.977/谷0.487",
+      "source": "上海市发改委居民阶梯电价文件",
+      "source_url": "https://fgw.sh.gov.cn/cmsres/ec/ec34097f16b4486f82f1f31c4e4d3d3a/63984da62e3e73b33e4e3288ad1a3279.pdf",
+      "published": "2021-10-25文件；2025年旁证现行未变",
+      "data_status": "legacy_corroborated"
+    },
+    {
+      "utility": "gas",
+      "tier": "tier1: 0–310立方米/年",
+      "unit": "立方米",
+      "price": 3.0,
+      "price_unit": "元/立方米",
+      "note": "",
+      "source": "上海市英文政务页价表（交叉印证）",
+      "source_url": "https://english.shanghai.gov.cn/en-EstablishaCompany/20231209/941408eab4d04397ba21064971e9385d.html",
+      "published": "2023-12-09，早于2024-01要求",
+      "data_status": "legacy_corroborated"
+    },
+    {
+      "utility": "gas",
+      "tier": "tier2: 311–520立方米/年",
+      "unit": "立方米",
+      "price": 3.3,
+      "price_unit": "元/立方米",
+      "note": "",
+      "source": "上海市英文政务页价表（交叉印证）",
+      "source_url": "https://english.shanghai.gov.cn/en-EstablishaCompany/20231209/941408eab4d04397ba21064971e9385d.html",
+      "published": "2023-12-09",
+      "data_status": "legacy_corroborated"
+    },
+    {
+      "utility": "gas",
+      "tier": "tier3: 520立方米以上/年",
+      "unit": "立方米",
+      "price": 4.2,
+      "price_unit": "元/立方米",
+      "note": "",
+      "source": "上海市英文政务页价表（交叉印证）",
+      "source_url": "https://english.shanghai.gov.cn/en-EstablishaCompany/20231209/941408eab4d04397ba21064971e9385d.html",
+      "published": "2023-12-09",
+      "data_status": "legacy_corroborated"
+    },
+    {
+      "utility": "broadband",
+      "tier": "上海电信2025A单宽1000M",
+      "unit": "月",
+      "price": 100.0,
+      "price_unit": "元/月",
+      "note": "下行1000M/上行100M；1200元/年；新装安装调测费100元；协议期12个月，到期自动续订",
+      "source": "上海电信官方2025A活动说明",
+      "source_url": "https://sh.189.cn/pdf/newxy_1766040166011.pdf",
+      "published": "2025年",
+      "data_status": "verified"
+    }
+  ],
+  "gaps": [
+    {
+      "category": "租金",
+      "description": "分商圈×分房型（整租一居/两居、合租主卧/次卧）租金统计缺失；当前8区域区间为安居客挂牌样本参考区间，非统计口径；单样本价格仅为线索",
+      "product_implication": "产品不得把样本区间包装成统计结论；合租只展示单间口径",
+      "severity": "P0"
+    },
+    {
+      "category": "租金",
+      "description": "合租主卧/次卧细分缺失：所有可核验来源（挂牌平台、行业报告）均未区分主卧/次卧",
+      "product_implication": "合租只给单间价，不细分主次卧",
+      "severity": "P0"
+    },
+    {
+      "category": "租金",
+      "description": "莘庄、七宝、漕河泾、五角场、顾村、九亭/泗泾、嘉定新城、徐泾东挂牌样本不足，未纳入正式表",
+      "product_implication": "这些区域只能标'数据待核验'，不输出匹配结论",
+      "severity": "P0"
+    },
+    {
+      "category": "通勤",
+      "description": "24条通勤为官方线网换乘估算，非高德/百度实测；早高峰拥挤、限流未计入",
+      "product_implication": "通勤耗时展示为估算区间，标注估算方法",
+      "severity": "P1"
+    },
+    {
+      "category": "配套",
+      "description": "全部菜市场/超市/商场POI未逐条地图验证",
+      "product_implication": "配套清单标注'待核验'，不保证营业状态",
+      "severity": "P0"
+    },
+    {
+      "category": "电费",
+      "description": "缺2024年后国网上海/发改委页面直接重列居民阶梯价；当前数字引自2021年官方文件、2025年旁证现行未变",
+      "product_implication": "电费估算标注费率来源与时效",
+      "severity": "P1"
+    },
+    {
+      "category": "燃气费",
+      "description": "缺2024年后官方直接确认居民管道气阶梯价的页面",
+      "product_implication": "燃气费估算标注费率来源与时效",
+      "severity": "P1"
+    },
+    {
+      "category": "宽带",
+      "description": "缺上海移动、上海联通2024年后官方家庭宽带套餐",
+      "product_implication": "宽带只给电信官方单宽资费，不宣称三运营商区间",
+      "severity": "P1"
+    }
+  ]
+}

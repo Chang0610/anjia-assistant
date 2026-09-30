@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>移居上海助手</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="phone">
+    <section id="chat-view" class="view chat-view">
+      <div class="calendar-hero"><span>问问安家AI小助手</span></div>
+      <main id="chat" class="chat-scroll" aria-live="polite">
+        <div class="eyebrow">上海 · 就业搬迁</div>
+        <h1 class="chat-title">先把下一步想清楚</h1>
+        <p class="chat-subtitle">描述你的情况，我会梳理顺序、时间与需要核验的事项。</p>
+        <section id="onboarding-card" class="onboarding-card" aria-label="首次使用信息引导" hidden></section>
+        <div id="intro-row" class="row assistant"><div id="intro-bubble" class="bubble">可以先说：入职时间、公司位置、希望通勤多久、搬家完成时间、一次性搬家预算、是否接受合租。想看区域参考时，再告诉我每月租金预算。</div></div>
+        <button id="in-app-reminders" class="in-app-reminders" type="button" hidden></button>
+        <div id="proposal-wrap" class="proposal-wrap" hidden></div>
+      </main>
+      <form id="chat-form" class="composer">
+        <textarea id="chat-input" placeholder="询问计划，或说“把看房改到周五”…" maxlength="4000" rows="2" aria-label="输入消息"></textarea>
+        <button id="send" class="primary send" type="submit">发送</button>
+      </form>
+      <div class="footnote">资料与日程保存在本机浏览器；站内提醒在打开页面时显示。</div>
+    </section>
+
+    <section id="calendar-view" class="view calendar-view" hidden>
+      <div class="calendar-hero"><span>计划日历</span><button id="add-custom-event" class="hero-more" type="button" aria-label="添加自定义日程">•••</button></div>
+      <div class="calendar-body">
+        <div class="month-bar">
+          <h1 id="month-title"></h1>
+          <div class="month-actions"><button id="prev-month" type="button" aria-label="上个月">‹</button><button id="next-month" type="button" aria-label="下个月">›</button></div>
+        </div>
+        <div class="month-card">
+          <div class="weekdays"><span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span><span>日</span></div>
+          <div id="month-grid" class="month-grid"></div>
+        </div>
+        <div class="day-heading"><h2 id="day-title"></h2><span id="day-count" class="count-pill"></span></div>
+        <div id="day-events" class="event-list"></div>
+        <div id="undated-section" class="undated-section" hidden><div class="day-heading"><h2>日期待确认</h2><span id="undated-count" class="count-pill"></span></div><div id="undated-events" class="event-list"></div></div>
+      </div>
+      <div id="custom-modal" class="modal-backdrop" hidden>
+        <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="custom-modal-title">
+          <form id="custom-event-form">
+            <h2 id="custom-modal-title">添加自定义日程</h2>
+            <p class="modal-subtitle">为当前选中的日期安排事项。</p>
+            <label class="modal-field">起始日期<input id="custom-start" type="date" required></label>
+            <label class="modal-field">终止日期<input id="custom-end" type="date" required></label>
+            <label class="modal-field">事件描述<textarea id="custom-description" rows="3" maxlength="300" placeholder="例如：完成搬家并核对水电表读数" required></textarea></label>
+            <label class="hard-option"><input id="custom-hard" type="checkbox"><span>硬截止</span><small>在终止日期标记红点</small></label>
+            <div id="custom-error" class="modal-error" role="alert"></div>
+            <div class="modal-actions"><button id="cancel-custom" type="button">取消</button><button class="primary" type="submit">保存日程</button></div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section id="profile-view" class="view profile-view" hidden>
+      <div class="calendar-hero profile-hero"><span>我的</span><button id="profile-menu-button" class="hero-more" type="button" aria-label="更多选项" aria-expanded="false">•••</button><div id="profile-menu" class="profile-menu" hidden><button id="open-history" class="profile-menu-option" type="button">历史输入 <span id="history-count"></span><span aria-hidden="true">›</span></button><div id="history-panel" hidden><button id="back-history" class="history-back" type="button">‹ 返回</button><div class="profile-menu-title">历史输入</div><div id="history-list" class="history-list"></div></div></div></div>
+      <div class="profile-body">
+        <div class="profile-intro">我会记住你在聊天中提供的情况，下次提问时自动带入。你可以在这里更正或删除。</div>
+        <div class="profile-count" id="profile-count"></div>
+        <button id="open-reminders" class="reminder-entry" type="button"><span><strong>提醒设置</strong><small>设置站内提醒与提醒时间</small></span><b aria-hidden="true">›</b></button>
+        <form id="profile-form">
+          <div id="profile-fields"></div>
+          <button class="primary profile-save" type="submit">保存资料</button>
+        </form>
+        <div id="profile-status" class="profile-status" role="status"></div>
+        <button id="clear-user-data" class="clear-data" type="button">清空我的资料和聊天记录</button>
+        <p class="privacy-note">资料和历史输入仅保存在此浏览器。问答时会把相关资料及近期对话发给已配置的大模型；请勿输入证件号、银行卡号等敏感信息。清除浏览器站点数据也会删除这些记录。</p>
+      </div>
+      <section id="reminder-settings" class="reminder-settings" hidden aria-label="提醒设置">
+        <div class="reminder-header"><button id="back-reminders" type="button" aria-label="返回">‹</button><h1>提醒设置</h1><span></span></div>
+        <div class="reminder-content">
+          <div class="reminder-card">
+            <label class="reminder-toggle"><span><strong>站内提醒</strong><small>在小程序内显示</small></span><input id="reminder-in-app" type="checkbox"><i></i></label>
+            <label class="reminder-toggle"><span><strong>微信订阅提醒</strong><small>暂未接入，仅保存使用意向</small></span><input id="reminder-wechat" type="checkbox"><i></i></label>
+          </div>
+          <h2 class="reminder-section-title">提醒时间</h2>
+          <div class="reminder-card reminder-times"><label>任务到期前 3 天 <input id="reminder-three-days" class="picker-input" type="text" readonly placeholder="点击滑动选择"></label><label>任务到期当天 <input id="reminder-due-day" class="picker-input" type="text" readonly placeholder="点击滑动选择"></label></div>
+          <h2 class="reminder-section-title">发送状态</h2>
+          <div id="reminder-status-list" class="reminder-card reminder-status-list"></div>
+          <p class="reminder-notice">站内提醒只在打开页面时显示。微信订阅消息尚未接入，当前不会发送微信通知。</p>
+          <button id="save-reminders" class="primary reminder-save" type="button">保存提醒设置</button>
+        </div>
+      </section>
+      <div id="profile-picker" class="modal-backdrop" hidden><div class="modal-card picker-card" role="dialog" aria-modal="true" aria-labelledby="picker-title"><h2 id="picker-title"></h2><div id="picker-search-wrap" class="picker-search-wrap" hidden><input id="picker-search" type="search" placeholder="搜索省份或城市" aria-label="搜索省份或城市"><div id="picker-search-results" class="picker-search-results" hidden></div></div><div id="picker-city-labels" class="picker-city-labels" hidden><span>省份</span><span>城市</span></div><div id="picker-columns" class="picker-columns"></div><div class="modal-actions"><button id="picker-cancel" type="button">取消</button><button id="picker-confirm" class="primary" type="button">确定</button></div></div></div>
+    </section>
+
+    <nav class="bottom-nav" aria-label="页面切换">
+      <button class="tab active" type="button" data-tab="chat" aria-label="安家助手"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5h16v11H9l-5 3v-14Z"/></svg><span>安家助手</span></button>
+      <button class="tab" type="button" data-tab="calendar" aria-label="计划日历"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M7 3v4M17 3v4M3 10h18M8 15l2.5 2.5L16 12"/></svg><span>计划</span></button>
+      <button class="tab" type="button" data-tab="profile" aria-label="我的"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4.5 21c.5-4 3-6 7.5-6s7 2 7.5 6"/></svg><span>我的</span></button>
+    </nav>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

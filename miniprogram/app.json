@@ -1,0 +1,10 @@
+{
+  "pages": ["pages/chat/chat"],
+  "window": {
+    "navigationBarTitleText": "移居上海助手",
+    "navigationBarBackgroundColor": "#F7FAF8",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#F7FAF8"
+  },
+  "style": "v2"
+}

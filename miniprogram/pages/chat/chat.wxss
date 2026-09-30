@@ -1,0 +1,20 @@
+.page { height: 100vh; display: flex; flex-direction: column; box-sizing: border-box; }
+.messages { flex: 1; height: 0; padding: 0 28rpx; box-sizing: border-box; }
+.hero { padding: 44rpx 8rpx 32rpx; }
+.eyebrow { color: #23836B; font-size: 24rpx; font-weight: 700; letter-spacing: 2rpx; }
+.title { margin-top: 10rpx; font-size: 48rpx; font-weight: 700; }
+.subtitle { margin-top: 14rpx; color: #66776F; font-size: 27rpx; line-height: 1.6; }
+.row { display: flex; margin: 22rpx 0; }
+.row.user { justify-content: flex-end; }
+.row.assistant { justify-content: flex-start; }
+.bubble { max-width: 88%; padding: 24rpx 28rpx; border-radius: 24rpx; font-size: 28rpx; line-height: 1.65; white-space: pre-wrap; word-break: break-all; box-sizing: border-box; }
+.bubble.assistant { background: #FFF; border: 1rpx solid #E3EBE6; border-top-left-radius: 6rpx; }
+.bubble.user { background: #DDF4E9; border-top-right-radius: 6rpx; }
+.bubble.error { background: #FFF2EF; color: #A24331; }
+.welcome { margin-bottom: 20rpx; }
+.pending { color: #66776F; }
+.composer { display: flex; align-items: flex-end; gap: 16rpx; padding: 18rpx 24rpx; background: #FFF; border-top: 1rpx solid #E8EEEA; }
+.input { flex: 1; min-height: 68rpx; max-height: 240rpx; padding: 14rpx 18rpx; background: #F3F7F4; border-radius: 16rpx; font-size: 28rpx; box-sizing: border-box; }
+.send { margin: 0; padding: 0 28rpx; height: 70rpx; line-height: 70rpx; border-radius: 16rpx; background: #23836B; color: #FFF; font-size: 27rpx; }
+.send[disabled] { background: #B9C9C1; color: #FFF; }
+.footnote { padding: 8rpx 24rpx 20rpx; background: #FFF; text-align: center; color: #91A198; font-size: 21rpx; }

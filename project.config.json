@@ -1,0 +1,8 @@
+{
+  "description": "移居上海就业 AI 聊天 MVP",
+  "miniprogramRoot": "miniprogram/",
+  "appid": "touristappid",
+  "projectname": "shanghai-relocation-chat-mvp",
+  "setting": { "urlCheck": false, "es6": true, "enhance": true },
+  "compileType": "miniprogram"
+}

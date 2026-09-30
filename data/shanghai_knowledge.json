@@ -1,0 +1,3099 @@
+{
+ "version": "v1.1",
+ "city": "上海市",
+ "collected_at": "2026-09-23",
+ "knowledge_entries": [
+  {
+   "id": "ke_health_001",
+   "city": "上海市",
+   "category": "入职体检",
+   "title": "上海普通入职体检：未见全市统一标准，以用人单位HR指定为准",
+   "summary": "未见上海市针对普通劳动者入职体检的全市统一标准或项目清单。核验路径：普通入职体检的机构、项目、费用承担均以用人单位HR指定的机构/套餐为准；用人单位未指定时，以HR认可的正规医疗机构为准。本条为检索结论（未见官方统一标准文件），不是对任何标准的确认。",
+   "applicability": "在上海就业的国内求职者（含跨城就业人群）",
+   "exclusions": [
+    "公务员录用体检执行《公务员录用体检通用标准（试行）》等国家统一标准，不适用本条；",
+    "食品、医疗、公共场所等特定行业从业人员健康检查按《食品安全法》《公共场所卫生管理条例》等专项法规执行，不适用本条；",
+    "在华工作/学习/居住1年以上的外籍人员须在海关指定机构（上海国际旅行卫生保健中心）完成健康检查，不适用本条。"
+   ],
+   "effective_from": "2026-09-23（调研结论日期；非政策生效日期）",
+   "preconditions": [],
+   "steps": [
+    "入职前向用人单位HR确认：是否指定体检机构、指定套餐/项目清单、体检费用承担方、报告提交方式与时限。",
+    "如用人单位未指定，优先选择HR认可的三甲医院体检中心或正规第三方体检机构（以HR认可为准）。",
+    "携带身份证原件，体检当日空腹前往；按机构要求提前预约。"
+   ],
+   "entry_ids": [
+    "entry_health_001"
+   ],
+   "evidence": [
+    {
+     "excerpt": "检索“上海入职体检 标准 要求 上海市”未发现上海市卫健委或市政府发布的普通入职体检统一标准/项目清单；检索到的政府公开信息仅涉及特定人群：外国人工作许可体检（须在海关指定的国际旅行卫生保健中心完成）、公务员/事业单位体检（国家统一标准）等。",
+     "published_at": "未见发布（为检索结论，非引文）",
+     "source_name": "上海市人民政府英文门户（english.shanghai.gov.cn）及公开网页检索",
+     "url": "https://english.shanghai.gov.cn/en-WorkPermit-Hongqiao/20231213/a88687f2d8094fbebe38b1a667530ed1.html",
+     "verified_at": "2026-09-23"
+    }
+   ],
+   "collected_at": "2026-09-23",
+   "status": "verified",
+   "reviewer": "待人工审核"
+  },
+  {
+   "id": "ke_health_002",
+   "city": "上海市",
+   "category": "入职体检",
+   "title": "外籍人员在沪就业/居留体检：须在上海国际旅行卫生保健中心完成",
+   "summary": "外籍人员如计划在上海工作/学习/居住1年及以上，需在上海国际旅行卫生保健中心完成健康检查（上海市政府英文门户公示）。预约方式：微信公众号“上海国际旅行卫生保健中心”→“预约 Booking”；地址：长宁区金榜路15号；接待时间：周一至周五 8:00–11:00。",
+   "applicability": "计划在上海工作、学习、居住1年及以上的外籍人员（含申请工作许可/居留许可者）",
+   "exclusions": [
+    "不适用于国内求职者；",
+    "不适用于短期（不足1年）在沪停留的外籍人员。"
+   ],
+   "effective_from": "2026-09-23（调研结论日期；非政策生效日期）",
+   "preconditions": [],
+   "steps": [
+    "通过微信公众号“上海国际旅行卫生保健中心”服务菜单“预约 Booking”至少提前两周预约。",
+    "准备：护照原件及复印件（照片页、签证页）、近6个月内2寸免冠彩色照片3张、预约后打印的申请表与知情同意书。",
+    "按预约时间前往上海市长宁区金榜路15号完成体检；咨询热线 021-6268-8851。"
+   ],
+   "entry_ids": [
+    "entry_health_001"
+   ],
+   "evidence": [
+    {
+     "excerpt": "\"If you're planning to live, work or study in Shanghai for a year or more, you'll need to complete a health check at the International Travel Healthcare Center.... Search for the WeChat official account '上海国际旅行卫生保健中心' and tap '预约 Booking' under 'Services'... Address: No 15 Jinbang Road in Changning district. Reception hours: 8am–11am, Monday to Friday.\"",
+     "published_at": "约2026-07-14（页面标注更新日期）",
+     "source_name": "上海市人民政府英文门户 - Welcome to Shanghai: A guide to your health check",
+     "url": "https://english.shanghai.gov.cn/en-ArrivalChecklist/20240830/e0c6ab8837044b75a4c2c568abb7589c.html",
+     "verified_at": "2026-09-23"
+    },
+    {
+     "excerpt": "\"Applicant's certificate of physical examination: A certificate of verification on physical examination for foreigners issued within six months, or a certificate of health examination for foreigners issued within six months, by China's inspection and quarantine authority.\"",
+     "published_at": "2023-12-13",
+     "source_name": "上海市人民政府英文门户 - Foreigner's Work Permit 办事指南",
+     "url": "https://english.shanghai.gov.cn/en-WorkPermit-Hongqiao/20231213/a88687f2d8094fbebe38b1a667530ed1.html",
+     "verified_at": "2026-09-23"
+    }
+   ],
+   "collected_at": "2026-09-23",
+   "status": "verified",
+   "reviewer": "待人工审核"
+  },
+  {
+   "id": "ke_health_003",
+   "city": "上海市",
+   "category": "入职体检",
+   "title": "第三方体检机构上海预约入口：爱康国宾、美年大健康",
+   "summary": "爱康国宾官方预约/报告渠道（据其2025年度体检须知）：爱康 APP、微信小程序“爱康国宾健康服务”（可预约并查询下载电子报告）；企业客户使用单位发放的专属预约链接/二维码。美年大健康上海预约渠道（据2024年体检方案）：微信公众号“上海美年大健康”-预约体检、客服热线 4006808855、网上预约 b.meinian.cn/idyy/PCView。以上证据来自第三方单位文件引用的机构官方渠道，官网通用入口页面尚未完成 browser.open 直接验证。",
+   "applicability": "用人单位HR认可的、可自行选择体检机构的在沪求职者",
+   "exclusions": [
+    "本条不评价两家机构的医疗质量或服务优劣；",
+    "本条不推荐具体体检项目或套餐；",
+    "用人单位指定其他机构时，以HR指定为准。"
+   ],
+   "effective_from": "2026-09-23（调研结论日期；非政策生效日期）",
+   "preconditions": [],
+   "steps": [
+    "向HR确认是否指定爱康国宾/美年大健康及对应套餐；未指定则按自身需求选择。",
+    "爱康国宾：通过爱康 APP 或微信小程序“爱康国宾健康服务”预约、查报告（企业客户另有专属预约链接/二维码，由单位提供）。",
+    "美年大健康：通过微信公众号“上海美年大健康”-预约体检，或拨打 4006808855，或网上预约 b.meinian.cn/idyy/PCView。"
+   ],
+   "entry_ids": [
+    "entry_health_002",
+    "entry_health_003"
+   ],
+   "evidence": [
+    {
+     "excerpt": "“爱康国宾健康体检须知 2025年度”：线上预约可通过手机微信扫专属二维码或电脑端/手机端打开专属预约网页（如 xxgcdx.ee.ikang.com）；报告查询：下载爱康 APP 或微信搜索“爱康国宾健康服务”可查询并下载电子报告。",
+     "published_at": "2025年度（文件标题标注）",
+     "source_name": "南京信息工程大学官网发布的爱康国宾2025年度体检须知",
+     "url": "https://webs.nuist.edu.cn/_upload/article/files/c2/b0/cd9935614f83b15197b573678052/4a67c02e-517d-4fe3-9a30-5b66dd23406b.pdf",
+     "verified_at": "2026-09-23"
+    },
+    {
+     "excerpt": "“2024年美年体检方案”：预约方式：电话预约热线 4006808855（周一至周日7:00–21:00）；手机预约：“上海美年大健康”微信公众号-预约体检；网上预约：http://b.meinian.cn/idyy/PCView 预约。",
+     "published_at": "2024年（文件标题标注）",
+     "source_name": "上海应用技术大学信息公开发布的2024年美年体检方案",
+     "url": "https://xxgk.sitsh.edu.cn/_upload/article/files/cc/b0/3388f8b8427299e03c83ffaf8f5b/5a85adf9-ee68-4005-a9b8-bcbf1dfa3ad45.pdf",
+     "verified_at": "2026-09-23"
+    },
+    {
+     "excerpt": "2026-09-23 第二轮核验：尝试 browser.open 打开爱康国宾官网 www.ikang.com、美年大健康官网 www.meinianone.com、美年通用域名 www.health-100.cn 及美年在线预约页 b.meinian.cn/idyy/PCView，均未能返回可读页面内容（疑似站点反爬/WAF 拦截）。华东师范大学体检通知文件同时印证“体检完成48小时后，可通过登录美年官网 www.health-100.cn 查询电子报告”；EqualOcean 公司档案将 health-100.cn 列为 Meinian Onehealth 官网。结论：官网通用入口页面级验证仍未完成，本条维持 pending。",
+     "published_at": "2026-09-23（核验记录日期）",
+     "source_name": "第二轮核验记录 + 华东师范大学体检通知单（shnu.edu.cn）+ EqualOcean 美年公司档案",
+     "url": "http://www.shnu.edu.cn/_upload/article/files/87/d6/7625347845f1bdf0bac60274f289/8dc92ba4-bd19-42c6-9b7e8c8f5a1f41b660.pdf",
+     "verified_at": "2026-09-23"
+    }
+   ],
+   "collected_at": "2026-09-23",
+   "status": "pending_verification",
+   "reviewer": "待人工审核"
+  },
+  {
+   "id": "ke_health_004",
+   "city": "上海市",
+   "category": "入职体检",
+   "title": "三甲医院体检中心官方预约入口：待页面级验证",
+   "summary": "三甲医院（中山医院、华山医院、华东医院等）体检中心一般通过医院官方微信公众号或官网的健康管理（体检）中心栏目提供预约。2026-09-23 第二轮核验：尝试 browser.open 打开复旦大学附属华山医院官网（www.huashan.org.cn、hs.fudan.edu.cn）及上海交通大学医学院附属瑞金医院官网（www.rjh.com.cn，含 http 变体），均未能返回可读页面内容（疑似站点反爬/WAF 拦截）。huashan.org.cn、www.rjh.com.cn 两域名经 Wikipedia 医院词条与第三方医院目录交叉确认为官方域名，但官网体检中心页面级验证仍未完成。本条维持 pending，暂不作为已验证入口上线。",
+   "applicability": "用人单位HR指定或认可三甲医院体检中心的在沪求职者",
+   "exclusions": [
+    "本条不评价各医院体检中心优劣；",
+    "本条不推荐具体体检项目或套餐；",
+    "本条所列官网预约入口尚未完成页面级验证，需 browser.open 复核后再上线。"
+   ],
+   "effective_from": "2026-09-23（调研结论日期；非政策生效日期）",
+   "preconditions": [],
+   "steps": [
+    "向HR确认指定的三甲医院及体检中心。",
+    "通过该医院官方微信公众号/官网的“健康管理中心/体检中心”栏目预约（以医院官方发布为准）。",
+    "携带身份证原件、按预约时间段空腹前往。"
+   ],
+   "entry_ids": [],
+   "evidence": [
+    {
+     "excerpt": "中山医院体检方案文件载明体检地点为“中山医院东院区17号楼1楼健康管理中心体检部”，该文件由单位发布并引用中山医院健康管理中心体检须知；中山医院官网域名为 www.zs-hospital.sh.cn（第三方百科记载，官网页面未完成 browser.open 验证）。",
+     "published_at": "2024年（文件内容标注）",
+     "source_name": "上海应用技术大学信息公开 - 中山医院体检方案PDF（引用中山医院健康管理中心文件）",
+     "url": "https://xxgk.sitsh.edu.cn/_upload/article/files/cc/b0/3388f8b8427299e03c83ffaf8f5b/8838e379-2b95-4dac-82e9-069c636f89da.pdf",
+     "verified_at": "2026-09-23"
+    },
+    {
+     "excerpt": "2026-09-23 第二轮核验记录：browser.open 依次尝试 https://www.huashan.org.cn/、https://hs.fudan.edu.cn/、https://www.rjh.com.cn/、http://www.rjh.com.cn/ 及华山医院官网 PDF 页面，均未能返回可读内容。Wikipedia 华山医院/瑞金医院词条分别将 huashan.org.cn、www.rjh.com.cn 列为官方网站（Website 字段）。结论：三甲医院官方在线预约入口仍待人工在真实浏览器中复核。",
+     "published_at": "2026-09-23（核验记录日期）",
+     "source_name": "第二轮核验记录 + Wikipedia Huashan Hospital / Ruijin Hospital 词条（Website 字段）",
+     "url": "https://en.wikipedia.org/wiki/Huashan_Hospital",
+     "verified_at": "2026-09-23"
+    }
+   ],
+   "collected_at": "2026-09-23",
+   "status": "pending_verification",
+   "reviewer": "待人工审核"
+  },
+  {
+   "id": "ke_health_005",
+   "city": "上海市",
+   "category": "入职体检",
+   "title": "体检报告领取方式：以电子报告为主（经验类）",
+   "summary": "体检报告一般以电子报告为主：爱康国宾可通过爱康 APP 或微信小程序“爱康国宾健康服务”查询并下载电子报告，纸质报告由项目经理统一返至单位（据爱康2025年度体检须知）；瑞慈体检为检后7–10个工作日可网上查询（据单位体检通知）。三甲医院体检中心官方发布的报告领取说明未见，需复核。产品层面仅提供“报告领取方式说明”，不解读报告内容。",
+   "applicability": "在上海完成入职体检的求职者",
+   "exclusions": [
+    "本条不解读体检结果；",
+    "不同机构、不同套餐的报告出具时限可能不同，以体检机构告知为准。"
+   ],
+   "effective_from": "2026-09-23（调研结论日期；非政策生效日期）",
+   "preconditions": [],
+   "steps": [
+    "体检完成后向机构确认报告出具时限与领取方式。",
+    "电子报告一般可在机构官方 APP/公众号/小程序查询下载；纸质报告按机构安排领取或由单位统一发放。"
+   ],
+   "entry_ids": [
+    "entry_health_002"
+   ],
+   "evidence": [
+    {
+     "excerpt": "爱康国宾2025年度体检须知：电子报告——下载爱康 APP 或者微信搜索“爱康国宾健康服务”，可查询并下载电子报告；纸质报告——体检结束后，由爱康项目经理统一返至单位。",
+     "published_at": "2025年度（文件标题标注）",
+     "source_name": "南京信息工程大学官网发布的爱康国宾2025年度体检须知",
+     "url": "https://webs.nuist.edu.cn/_upload/article/files/c2/b0/cd9935614f83b15197b573678052/4a67c02e-517d-4fe3-9a30-5b66dd23406b.pdf",
+     "verified_at": "2026-09-23"
+    }
+   ],
+   "collected_at": "2026-09-23",
+   "status": "pending_verification",
+   "reviewer": "待人工审核"
+  },
+  {
+   "id": "moving-huolala-001",
+   "city": null,
+   "category": "搬家",
+   "title": null,
+   "summary": "货拉拉为上海用户可用的全国性搬家/货运官方平台。官方入口包括：货拉拉官网（huolala.cn）、“货拉拉”APP、微信公众号等（来源：《货拉拉无忧搬家信息服务协议》）。官方计费方式：官网表述为“按照里程、车型计费，收费有标准”；协议列明计费结构为：基本搬运费用为基础套餐费，另可能产生超里程费、楼层费、平地搬运费、高速费、停车费、晚间操作附加费、跨市费、多地装卸附加费、等候费、特殊物品搬运费、拆装打包费等。协议第5.3条明确用户可通过货拉拉软件查看收费标准及规则。实际价格以APP/小程序下单页展示为准，本条目不承诺具体金额；本轮未在官网找到可公开抓取的上海城市具体价目表，不引用第三方价目。",
+   "applicability": "上海适用（全国性平台，上海城市/车型可用性需在APP/小程序内查询确认）",
+   "exclusions": null,
+   "effective_from": null,
+   "preconditions": null,
+   "steps": null,
+   "entry_ids": null,
+   "evidence": null,
+   "collected_at": null,
+   "status": "verified",
+   "reviewer": null
+  },
+  {
+   "id": "moving-ziroom-001",
+   "city": null,
+   "category": "搬家",
+   "title": null,
+   "summary": "自如官方域名 ziroom.com 已于2026-09-23实际打开验证，页面为自如官方业务内容，官方入口包括自如APP、官网、“自如管家”微信。第三方行业研究报告（戴德梁行《中国住房租赁市场研究报告》）摘录显示：自如的自有家政品牌内容延伸至保洁、搬家和维修等生活服务，均可通过自如APP一站式下单实现。本条目为示例参考（sample_reference）：自如搬家/家政服务的存在性与官方入口已核验，但自如官网的搬家专页与官方计价页未在本轮公开抓取中直接打开核验，官方计费方式未见，实际价格以下单页展示为准，不做价格承诺。",
+   "applicability": "上海适用（自如在上海有业务；搬家/家政的具体服务范围需在自如APP内确认）",
+   "exclusions": null,
+   "effective_from": null,
+   "preconditions": null,
+   "steps": null,
+   "entry_ids": null,
+   "evidence": null,
+   "collected_at": null,
+   "status": "sample_reference",
+   "reviewer": null
+  },
+  {
+   "id": "moving-secondhand-001",
+   "city": null,
+   "category": "二手",
+   "title": null,
+   "summary": "闲鱼官方网站为 goofish.com（页面标题“闲鱼-闲不住？上闲鱼！”），为二手闲置交易官方入口，上海用户可通过该站或“闲鱼”APP/小程序使用。本轮仅确认官方入口及二手交易用途，未登录状态下的完整功能范围未验证。",
+   "applicability": "上海适用（全国性平台）",
+   "exclusions": null,
+   "effective_from": null,
+   "preconditions": null,
+   "steps": null,
+   "entry_ids": null,
+   "evidence": null,
+   "collected_at": null,
+   "status": "verified",
+   "reviewer": null
+  },
+  {
+   "id": "hotline-12345-001",
+   "city": null,
+   "category": "生活服务热线",
+   "title": null,
+   "summary": "上海市民服务热线：12345。上海市政府国际服务门户官方页面确认该热线为24小时服务（“This 24-hour service hotline”），可用于城市治理建议、对政府部门的投诉或关切。该页面同时提供在线渠道及微信小程序链接。",
+   "applicability": "上海适用",
+   "exclusions": null,
+   "effective_from": null,
+   "preconditions": null,
+   "steps": null,
+   "entry_ids": null,
+   "evidence": null,
+   "collected_at": null,
+   "status": "verified",
+   "reviewer": null
+  },
+  {
+   "id": "hotline-electricity-001",
+   "city": null,
+   "category": "生活服务热线",
+   "title": null,
+   "summary": "上海供电服务热线：95598（24小时）。上海市政府国际服务门户官方页面原文为“24-hour electricity supply service hotline: 95598”。注意：该页面中水、气热线明确带有“021-”前缀，而电力热线仅列“95598”，因此按上海官方页面公布形式，拨打95598无需加区号。",
+   "applicability": "上海适用",
+   "exclusions": null,
+   "effective_from": null,
+   "preconditions": null,
+   "steps": null,
+   "entry_ids": null,
+   "evidence": null,
+   "collected_at": null,
+   "status": "verified",
+   "reviewer": null
+  },
+  {
+   "id": "hotline-water-001",
+   "city": null,
+   "category": "生活服务热线",
+   "title": null,
+   "summary": "上海供水服务热线：021-962740（24小时）。上海市政府国际服务门户官方页面原文为“24-hour water supply service hotline: 021-962740”。适用范围提示：请按水费账单核对具体供水企业后再拨打；上海市水务局白皮书搜索摘录显示以“上海城投水务（集团）有限公司用户”为例可拨打962740直接投诉（该PDF未在本轮实际打开，仅作参考）。",
+   "applicability": "上海适用（具体供水企业以水费账单为准）",
+   "exclusions": null,
+   "effective_from": null,
+   "preconditions": null,
+   "steps": null,
+   "entry_ids": null,
+   "evidence": null,
+   "collected_at": null,
+   "status": "verified",
+   "reviewer": null
+  },
+  {
+   "id": "hotline-gas-001",
+   "city": null,
+   "category": "生活服务热线",
+   "title": null,
+   "summary": "上海燃气服务热线：021-962777（24小时）。上海市政府国际服务门户官方页面原文为“24-hour natural gas supply service hotline: 021-962777”，受理燃气相关咨询与服务诉求。",
+   "applicability": "上海适用",
+   "exclusions": null,
+   "effective_from": null,
+   "preconditions": null,
+   "steps": null,
+   "entry_ids": null,
+   "evidence": null,
+   "collected_at": null,
+   "status": "verified",
+   "reviewer": null
+  },
+  {
+   "id": "hotline-property-001",
+   "city": null,
+   "category": "生活服务热线",
+   "title": null,
+   "summary": "上海设有全市统一的物业服务热线：962121。上海市政府国际服务门户“Public service hotlines in Shanghai”官方页面列表中明确标注“Property management | 962121”（页面更新于2026-06-02），可受理住宅小区物业相关的投诉、咨询与报修诉求。具体小区的日常室内报修（如门禁、电梯、楼道公共设施、室内维修等），建议优先联系所在小区物业服务台或管家；各物业企业自己的内部报修电话不统一，需以小区公示为准。两者不冲突：962121是官方统一受理渠道，小区物业是日常报修的第一联系人。",
+   "applicability": "上海适用",
+   "exclusions": null,
+   "effective_from": null,
+   "preconditions": null,
+   "steps": null,
+   "entry_ids": null,
+   "evidence": null,
+   "collected_at": null,
+   "status": "verified",
+   "reviewer": null
+  },
+  {
+   "id": "ke_pet_001",
+   "city": "上海市",
+   "category": "宠物",
+   "title": "上海养犬登记办证（犬证）办理指南",
+   "summary": "在上海饲养犬只必须办理养犬登记并取得《养犬登记证》（犬证）。办理条件：养犬人须具有完全民事行为能力（年满18周岁），在本市有固定居住场所；犬龄满3个月；犬只须先到指定免疫点完成狂犬病免疫接种并植入电子芯片，取得《免疫证明》，并确认犬只非禁养品种（详见 ke_pet_002）。办理材料：个人身份证明、本市房产证明或租赁证明、犬只免疫证明（已绝育的提供绝育手术证明）。办理渠道：线上通过随申办微信小程序内搜索“文明养犬一件事”→“进入办事大厅”选择服务；线下到居住地所属派出所或区级“一门式”养犬登记受理点办理（以虹口区为例：线上申请由属地派出所养犬管理责任民警在5个工作日内审核，线下材料齐全可当场办结）。费用：内环线以内核心区域每犬每年500元，内环线以外每犬每年300元，农村地区免收。年审：须在犬证有效期届满前30日内办理年检，提交有效免疫证明并缴纳年度管理费。未登记、未年检的，由公安部门责令限期改正；逾期不改正的，个人处200元以上1000元以下罚款，逾期仍不办的收容犬只（《上海市养犬管理条例》第四十二条）。",
+   "applicability": "养犬用户（含计划在上海长期居住并养犬的新落户/跨城搬家用户）",
+   "exclusions": "禁养犬只目录内品种不得登记；一户一犬（城镇地区每户限养一只，详见 ke_pet_003）",
+   "effective_from": "未知（《上海市养犬管理条例》2011年5月15日起施行，一户一犬政策同日实施）",
+   "preconditions": [
+    "养犬人具有完全民事行为能力，在本市有固定居住场所",
+    "犬龄满3个月",
+    "犬只已完成狂犬病免疫接种并植入电子芯片，取得《免疫证明》",
+    "犬只不在禁养犬目录内",
+    "城镇地区一户限养一只犬"
+   ],
+   "steps": [
+    "前往指定免疫点为犬只注射狂犬疫苗、植入芯片，领取《免疫证明》",
+    "确认犬只非禁养品种",
+    "线上：打开随申办微信小程序→底部“办事”→搜索“文明养犬一件事”→“进入办事大厅”→选择对应服务并上传材料；或线下携带材料到居住地所属派出所/区级一门式受理点办理",
+    "缴纳年度犬只管理费（内环以内500元/犬/年，内环以外300元/犬/年，农村地区免费）",
+    "领取《养犬登记证》和犬牌",
+    "在犬证有效期届满前30日内完成年度审验（更新免疫证明+缴费）"
+   ],
+   "entry_ids": [
+    "ent_pet_001",
+    "ent_pet_006"
+   ],
+   "evidence": [
+    {
+     "excerpt": "In Shanghai, dog owners are obligated to obtain a license for their pets... Materials required: 1. Personal identification certificate; 2. Property ownership certificate or proof of a property lease agreement; 3. Dog's immunization certificate; 4. Certificate of Shanghai Dog Neutering Operation if neutered. Annual fee: 500 yuan in core areas within the Inner Ring Road, 300 yuan in other areas, no charges in rural areas. Online registration: WeChat mini-program Suishenban → '办事' → '文明养犬一件事' → '进入办事大厅'. Annual review within 30 days before validity period.",
+     "published_at": "页面标注 Updated July 21, 2026；来源：Government Online-Offline Shanghai（一网通办）、shine.cn",
+     "source_name": "上海市人民政府英文门户（english.shanghai.gov.cn）- How to get a dog license",
+     "url": "https://english.shanghai.gov.cn/en-KeepingAPetInShanghai/20231221/83150016258f4b96848c4402fa14a12f.html",
+     "verified_at": "2026-09-23"
+    },
+    {
+     "excerpt": "饲养犬龄满三个月的犬只，养犬人应当办理养犬登记。线上申请由属地派出所养犬管理责任民警在5个工作日内作出审核决定。违反《上海市养犬管理条例》第十一条规定饲养未登记、年检犬只的，由公安部门责令限期改正；逾期不改正的，对个人处二百元以上一千元以下罚款；逾期仍不登记、年检的，收容犬只。",
+     "published_at": "2026-07-08",
+     "source_name": "上海市虹口区人民政府 - 虹口区依法养宠办事指南",
+     "url": "https://www.shhk.gov.cn/xwzx/002014/20260708/60e1677e-8cc5-4bc0-95f1-f262352829cf.html",
+     "verified_at": "2026-09-23"
+    }
+   ],
+   "collected_at": "2026-09-23",
+   "status": "verified",
+   "reviewer": "待人工审核"
+  },
+  {
+   "id": "ke_pet_002",
+   "city": "上海市",
+   "category": "宠物",
+   "title": "上海禁养犬（烈性犬）目录（24个品种）",
+   "summary": "上海市不允许个人饲养以下24个品种的犬只：藏獒、獒犬、罗威纳犬、拿波里獒犬、法国波尔多獒犬、斗牛獒犬、西班牙獒犬、高加索牧羊犬、比利牛斯獒犬、巴西非勒、阿根廷杜高、丹麦布罗荷马獒犬、法国狼犬、昆明狼犬、德国牧羊犬、英国斗牛犬、英国老式斗牛犬、美国斗牛犬、土佐犬、牛头㹴、杜宾犬、美国斯塔福㹴、恶霸犬、美国比特犬。跨城搬家前须先确认所养犬种不在此目录内，否则无法在上海办理养犬登记。",
+   "applicability": "养犬用户（办证前必查）",
+   "exclusions": "导盲犬、搜救犬等工作犬适用特殊规定，详见条例原文（本次未核验原文，见数据缺口）",
+   "effective_from": "未见（页面未标注名录生效日期）",
+   "preconditions": [],
+   "steps": [
+    "对照目录确认犬只品种",
+    "名录内品种：不得在上海饲养，不予办理养犬登记",
+    "品种存疑：办证前咨询属地派出所或养犬登记点"
+   ],
+   "entry_ids": [
+    "ent_pet_002"
+   ],
+   "evidence": [
+    {
+     "excerpt": "The following dog breeds are not allowed to be kept in Shanghai. 1. 藏獒 (Tibetan Mastiff) 2. 獒犬 (Mastiff) 3. 罗威纳犬 (Rottweiler) 4. 拿波里獒犬 (Neapolitan Mastiff) 5. 法国波尔多獒犬 (Dogue de Bordeaux) 6. 斗牛獒犬 (Bullmastiff) 7. 西班牙獒犬 (Spanish Mastiff) 8. 高加索牧羊犬 (Caucasian Shepherd Dog) 9. 比利牛斯獒犬 (Pyrenean Mastiff) 10. 巴西非勒 (Fila Brasileiro) 11. 阿根廷杜高 (Dogo Argentino) 12. 丹麦布罗荷马獒犬 (Danish Broholmer) 13. 法国狼犬 (Beauceron Wolfdog) 14. 昆明狼犬 (Kunming Wolfdog) 15. 德国牧羊犬 (German Shepherd) 16. 英国斗牛犬 (English Bulldog) 17. 英国老式斗牛犬 (Old English Bulldog) 18. 美国斗牛犬 (American Bulldog) 19. 土佐犬 (Tosa) 20. 牛头㹴 (Bull Terrier) 21. 杜宾犬 (Doberman Pinscher) 22. 美国斯塔福㹴 (American Staffordshire Terrier) 23. 恶霸犬 (Bully Pitbull) 24. 美国比特犬 (American Pit Bull Terrier)",
+     "published_at": "页面标注 Updated April 1, 2024；来源：上海市农业农村委员会（Shanghai Municipal Commission of Agriculture and Rural Affairs）",
+     "source_name": "上海市人民政府英文门户（english.shanghai.gov.cn）- Dog breeds prohibited in Shanghai",
+     "url": "https://english.shanghai.gov.cn/en-Pets/20240115/75e2df0e65c84182a034f33de439dbdf.html",
+     "verified_at": "2026-09-23"
+    }
+   ],
+   "collected_at": "2026-09-23",
+   "status": "verified",
+   "reviewer": "待人工审核"
+  },
+  {
+   "id": "ke_pet_003",
+   "city": "上海市",
+   "category": "宠物",
+   "title": "上海文明养犬日常规范：一户一犬、强制免疫与外出约束",
+   "summary": "城镇地区每户限养一只犬（一户一犬，户指一套住宅物业）。养犬人必须依法对犬只实施狂犬病强制免疫：犬只满3个月即送至兽医主管部门指定地点接种并植入电子标识。携带犬只外出须遵守：束牵引带（长度不超过2米，拥挤场合收紧）、大型犬戴嘴套、即时清除犬只粪便。犬吠影响他人正常生活的，养犬人应制止；违反的公安部门处警告，警告后不改的处200元以上500元以下罚款。外出未束牵引绳的，公安部门责令改正，可处20元以上200元以下罚款；未清除粪便的，城管执法部门责令改正，拒不改正的处20元以上200元以下罚款。犬只伤害他人的，养犬人应立即送被伤害人就医并先行支付医疗费用。犬只死亡的，须按动物防疫规定送至指定无害化处理场所，不得自行掩埋或乱扔。",
+   "applicability": "养犬用户（日常饲养行为规范）",
+   "exclusions": "农村地区限养数量等口径以条例原文及属地执行为准（本次未核验条例原文）",
+   "effective_from": "未知（一户一犬政策自2011年5月起实施，来自第三方百科，未核验）",
+   "preconditions": [],
+   "steps": [],
+   "entry_ids": [
+    "ent_pet_006"
+   ],
+   "evidence": [
+    {
+     "excerpt": "《上海市养犬管理条例》第十条第一款：本市依法对饲养的犬只实施狂犬病强制免疫。犬只出生满三个月的，养犬人应当将饲养的犬只送至兽医主管部门指定地点接受狂犬病免疫接种，植入电子标识。第二十二条：携带犬只外出应当：为犬只束牵引带，牵引带长度不得超过两米；为大型犬只戴嘴套；即时清除犬只排泄的粪便。第二十四条、第四十五条：犬吠影响他人正常生活的，养犬人应当制止；违反规定的，由公安部门处警告；警告后不改正的，处200元以上500元以下罚款。第四十三条：携带犬只外出未束牵引绳，由公安部门责令改正，可以处20元以上200元以下罚款。第二十五条：犬只伤害他人的，养犬人应当立即将被伤害人送至医疗机构诊治，并先行支付医疗费用。第二十九条、第四十九条：犬只死亡须送至指定的无害化处理场所，不得自行掩埋或乱扔。",
+     "published_at": "2026-07-08",
+     "source_name": "上海市虹口区人民政府 - 虹口区依法养宠办事指南",
+     "url": "https://www.shhk.gov.cn/xwzx/002014/20260708/60e1677e-8cc5-4bc0-95f1-f262352829cf.html",
+     "verified_at": "2026-09-23"
+    },
+    {
+     "excerpt": "According to Shanghai's regulations on dog management, each household is permitted to keep only one dog in urban areas. The term 'household' refers to a 'residential property', meaning that one property may have only one registered dog. You must either transfer the extra dog to another person or organization that meets the conditions specified in the regulations, or send it to an approved dog shelter.",
+     "published_at": "页面标注 Last Updated 约2025-11-04（检索摘要显示）；来源：上海市公安局（Shanghai Municipal Bureau of Public Security）",
+     "source_name": "上海市人民政府英文门户（english.shanghai.gov.cn）- What to do if I want to keep two dogs?",
+     "url": "https://english.shanghai.gov.cn/en-Pets2/20251104/d51a2c45f05544b28b2254684ba0d93f.html",
+     "verified_at": "2026-09-23"
+    }
+   ],
+   "collected_at": "2026-09-23",
+   "status": "verified",
+   "reviewer": "待人工审核"
+  },
+  {
+   "id": "ke_pet_004",
+   "city": "上海市",
+   "category": "宠物",
+   "title": "跨城搬家带犬/猫来沪：动物检疫合格证明与随行材料",
+   "summary": "从外地带犬或猫进入上海（及乘飞机/火车/轮船出行）须持有有效期仅5天的《动物检疫合格证明》（由官方动物卫生监督机构签发，须在出行前卡好时间办理）。外地犬来沪所需材料：主人身份证件和在沪临时居住证明、原城市官方免疫点出具的有效狂犬疫苗证明、有效的狂犬病抗体检测报告、出发地签发的《动物检疫合格证明》（须在入沪前办好）。外地猫来沪：主人身份证件和在沪临时居住证明、官方免疫点出具的有效狂犬疫苗证明（接种满21天以上）、出发地签发的《动物检疫合格证明》。注意：犬只还须有公安部门核发的有效养犬登记证（本地登记犬）；狂犬病抗体检测约需10-14天，须提前规划；上海目前有4家官方认可的狂犬病抗体检测实验室。",
+   "applicability": "跨城搬家带宠物（犬/猫）来沪的用户；本地养犬用户带犬离沪出行同样适用",
+   "exclusions": "国际入境（境外带宠物入境中国）适用海关检疫另一套流程，本条目不覆盖",
+   "effective_from": "未见",
+   "preconditions": [
+    "宠物临床健康，无疫病",
+    "犬只：狂犬疫苗有效 + 狂犬病抗体检测报告（部分区县如参加最新狂犬病流行病学调查可豁免，以属地口径为准）",
+    "猫：狂犬疫苗接种满21天以上",
+    "检疫证明仅5天有效，须在出行前办妥"
+   ],
+   "steps": [
+    "提前10-14天完成狂犬病抗体检测（如为犬只且属地要求）",
+    "出行前联系属地区动物卫生监督机构预约（部分区支持线上预申请，如浦东可通过“浦东城管综合执法”微信公众号）",
+    "携带宠物本人到场，接受临床检查并提交材料",
+    "取得《动物检疫合格证明》（有效期5天），按出行时间安排行程",
+    "抵达上海后：犬只须按 ke_pet_001 办理/变更养犬登记；猫无需养犬登记"
+   ],
+   "entry_ids": [
+    "ent_pet_004"
+   ],
+   "evidence": [
+    {
+     "excerpt": "The Animal Quarantine Certificate (动物检疫合格证明)... must be issued by an official animal health supervision office, and the certificate is only valid for five days. For Dogs From Other Cities Coming to Shanghai: ID and proof of temporary residence; valid rabies vaccination certificate from an official vaccination site in the original city; valid rabies antibody test report; Animal Quarantine Certificate from the place of origin (must be issued before entering Shanghai). For Cats From Other Cities: ID and proof of temporary residence; valid rabies vaccination certificate (at least 21 days before application); Animal Quarantine Certificate from the place of origin. Rabies antibody testing takes 10 to 14 days. Shanghai has four approved rabies antibody testing labs.",
+     "published_at": "约2025年3月（页面图片时间为2025-03-10；Last Updated约562天前）",
+     "source_name": "City News Service（上海市政府新闻办官方英文媒体）- Animal Quarantine Certificate: Pet travel made easy",
+     "url": "https://www.citynewsservice.cn/articles/cns/shanghai-living/animal-quarantine-certificate-pet-travel-made-easy-xm5g6r4k",
+     "verified_at": "2026-09-23"
+    }
+   ],
+   "collected_at": "2026-09-23",
+   "status": "verified",
+   "reviewer": "待人工审核"
+  },
+  {
+   "id": "ke_pet_005",
+   "city": "上海市",
+   "category": "宠物",
+   "title": "航空带宠物进出上海：托运/进客舱方式与证件要求",
+   "summary": "多家航司提供宠物托运服务：有氧货舱托运（国航、南航、东航、海航、山航、川航等）；部分航司提供宠物进客舱服务（海航、南航、东航、吉祥、深航等），宠物须装入符合尺寸的航空箱置于座椅下方（东航/山航/海航要求箱体不大于35×28×24cm，吉祥允许最大58×37×35cm且宠物10kg以下）。证件：航司一般要求狂犬疫苗证明和官方兽医/动物检疫机构签发的动物健康证明（Animal Health Certificate），可能还需签署宠物运输申请书。费用：多数按重量计收，为经济舱票价1.5%/kg（宠物+箱合计），南航等采用按航程和重量的固定费率；具体以订票时向航司确认为准，须提前预订（舱位有限）。注意：东航规定中转地气温低于-12℃或高于30℃时货舱可能拒运；国航每位旅客限带1只宠物，不接受怀孕或新生宠物。各航司细则差异大，出行前务必向具体航司确认。",
+   "applicability": "乘飞机带宠物（犬/猫）进出上海的用户",
+   "exclusions": "短鼻犬、烈性犬等部分航司拒运品种以各航司官方规定为准（本次未逐一核验航司官网）",
+   "effective_from": "未见",
+   "preconditions": [
+    "狂犬疫苗在有效期内",
+    "持有官方签发的动物健康证明/检疫证明",
+    "提前向航司预订宠物舱位（名额有限，旺季更需提前）"
+   ],
+   "steps": [
+    "确认所乘航司的宠物运输政策（是否提供进客舱/货舱托运、品种与体重限制）",
+    "准备狂犬疫苗证明、动物健康证明等文件",
+    "提前预订宠物舱位并确认费用",
+    "按航司要求准备符合尺寸的航空箱（进客舱一般需能放入座椅下方）"
+   ],
+   "entry_ids": [
+    "ent_pet_003"
+   ],
+   "evidence": [
+    {
+     "excerpt": "Airlines such as Hainan Airlines, China Southern Airlines, China Eastern Airlines, Air China, Shandong Airlines, and Sichuan Airlines have introduced pet cargo services with oxygenated compartments. In-cabin: Hainan, China Southern, China Eastern, Juneyao, Shenzhen Airlines. China Eastern/Shandong/Hainan carriers ≤35×28×24cm; Juneyao ≤58×37×35cm for pets under 10kg. Cargo: containers up to 90×60×66cm, total ≤32kg, comply with IATA Live Animals Regulations. Airlines typically require proof of rabies vaccination and an Animal Health Certificate. Fees: mostly 1.5% of economy-class ticket price per kg; China Southern uses fixed rates. Air China: one pet per passenger; pregnant or newborn pets not accepted. China Eastern: cargo may be refused if transit temperature below -12C or above 30C.",
+     "published_at": "页面标注 Updated July 21, 2026；来源：所列航司官方信息",
+     "source_name": "上海市人民政府英文门户（english.shanghai.gov.cn）- Flying with pets",
+     "url": "https://english.shanghai.gov.cn/en-KeepingAPetInShanghai/20250512/f909afaad3494aef91b64c5655db556e.html",
+     "verified_at": "2026-09-23"
+    }
+   ],
+   "collected_at": "2026-09-23",
+   "status": "verified",
+   "reviewer": "待人工审核"
+  },
+  {
+   "id": "ke_pet_006",
+   "city": "上海市",
+   "category": "宠物",
+   "title": "高铁宠物托运试点：12306“宠”字车次与办理要点",
+   "summary": "铁路部门高铁宠物托运服务处于试点扩大阶段：截至2026年1月28日第四次扩大试点，可办理车站达110个、高铁列车170趟，上海相关车站已纳入试点（具体线路车次通过铁路12306客户端查询）。办理方式：购买标有“宠”字标识车票的旅客，可通过12306客户端“宠物托运”功能线上预约（每日12时前最早可约次日仓位，12时及以后最早可约第三日仓位），每人最多托运2只健康宠物；未购票的旅客须提前2-5天通过“中铁快运”微信小程序预约，最多托运1只。托运人须在开车前至少2小时，携带宠物、本人身份证件及有效期内的《动物检疫合格证明》，到高铁站中铁快运营业部办理手续。运费按运输里程梯次计价，宠物抵达后1小时内中铁快运以短信或电话通知领取。详情咨询铁路12306或中铁快运95572。试点服务范围与细则可能继续调整，出行前以12306客户端实时查询为准。",
+   "applicability": "乘高铁带宠物（犬/猫）进出上海的用户",
+   "exclusions": "普通旅客列车（非高铁）宠物托运、国家规定的烈性犬不在本服务范围内（据第三方报道：单只宠物限重、限肩高等条件，本次未核验官方细则）",
+   "effective_from": "2026-01-28（第四次扩大试点）",
+   "preconditions": [
+    "所乘车次在12306标注“宠”字标识",
+    "持有有效期内的《动物检疫合格证明》",
+    "按要求提前完成线上预约"
+   ],
+   "steps": [
+    "在12306购票时选择带“宠”字标识的车次",
+    "通过12306客户端“宠物托运”功能线上预约仓位（或非购票旅客提前2-5天经中铁快运小程序预约）",
+    "开车前至少2小时，携带宠物、身份证件、《动物检疫合格证明》到车站中铁快运营业部办理托运",
+    "抵达后凭中铁快运短信/电话通知领取宠物"
+   ],
+   "entry_ids": [],
+   "evidence": [
+    {
+     "excerpt": "今天(28日)起，铁路部门第四次扩大高铁宠物托运服务试点范围，具体线路和车次可通过铁路12306客户端查询。此次新增哈尔滨、沈阳、太原等67个车站，办理此项业务的高铁站总数达110个，高铁列车由54趟增至170趟。购买标有“宠”字标识车票的旅客，可通过12306客户端“宠物托运”功能线上预约，12时前最早约次日仓位，12时(含)后最早约第三日仓位，最多托运2只健康宠物；非购票旅客需提前2至5天通过“中铁快运”微信小程序预约，最多托运1只宠物。托运人需在开车前至少2小时，携宠物、身份证件及有效期内《动物检疫合格证明》，到高铁站中铁快运营业部办理手续。运费按里程梯次计价。宠物抵达后1小时内，中铁快运将短信或电话通知领取。",
+     "published_at": "2026-01-28 18:11",
+     "source_name": "中国新闻网（转引央视新闻客户端）- 高铁宠物托运服务今起扩大试点范围",
+     "url": "https://www.chinanews.com.cn/sh/2026/01-28/10560826.shtml",
+     "verified_at": "2026-09-23"
+    }
+   ],
+   "collected_at": "2026-09-23",
+   "status": "verified",
+   "reviewer": "待人工审核"
+  },
+  {
+   "id": "ke_pet_007",
+   "city": "上海市",
+   "category": "宠物",
+   "title": "上海养猫说明：无养犬式登记要求，出行需检疫证明（经验类）",
+   "summary": "上海市目前未见针对家猫的强制登记/办证制度（未见官方要求家猫办理类似犬证的登记）。但跨城搬家或乘飞机/高铁带猫出行，仍需：官方免疫点出具的有效狂犬疫苗证明（接种满21天以上）、官方动物卫生监督机构签发的有效期5天的《动物检疫合格证明》。租房带猫同样建议与出租方书面确认养宠约定（见 ke_pet_008）。",
+   "applicability": "养猫用户（如画像B陈女士带一只猫来沪）",
+   "exclusions": "本条目中“猫无需登记”为未见官方依据的经验类结论，已标注，须人工进一步核验",
+   "effective_from": "未见",
+   "preconditions": [],
+   "steps": [
+    "出发前确认狂犬疫苗有效且接种满21天",
+    "出行前5天内到出发地动物卫生监督机构办理《动物检疫合格证明》",
+    "按所选交通方式（航空/高铁）提前确认宠物舱位与费用"
+   ],
+   "entry_ids": [
+    "ent_pet_004"
+   ],
+   "evidence": [
+    {
+     "excerpt": "For Locally Registered Cats: ID and proof of residence; valid rabies vaccination certificate (administered at least 21 days before application). For Cats From Other Cities Coming to Shanghai: ID and proof of temporary residence; valid rabies vaccination certificate from an official vaccination site (at least 21 days before application); Animal Quarantine Certificate from the place of origin. Certificate valid for five days.",
+     "published_at": "约2025年3月",
+     "source_name": "City News Service - Animal Quarantine Certificate: Pet travel made easy",
+     "url": "https://www.citynewsservice.cn/articles/cns/shanghai-living/animal-quarantine-certificate-pet-travel-made-easy-xm5g6r4k",
+     "verified_at": "2026-09-23"
+    }
+   ],
+   "collected_at": "2026-09-23",
+   "status": "pending_verification",
+   "reviewer": "待人工审核"
+  },
+  {
+   "id": "ke_pet_008",
+   "city": "上海市",
+   "category": "宠物",
+   "title": "租房养宠约定检查项（经验类）",
+   "summary": "上海养犬登记要求提供房产证明或租赁证明，且官方指南明确提示：因一户一犬政策，租客在养犬并以租住地址登记前须征得房东同意。建议在签约前与出租方书面确认并留存以下约定：是否允许养宠（犬/猫）、允许的宠物品种与数量、宠物造成房屋损坏的维修赔偿责任、因宠物扰民被投诉时的处理方式、退租时宠物相关清洁/修复标准。约定建议写入租赁合同补充条款或单独签署书面协议，双方签字留存。",
+   "applicability": "租房且养宠（犬/猫）的用户",
+   "exclusions": "本条目为经验类建议，非法规结论；具体权利义务以租赁合同及现行法律法规为准",
+   "effective_from": "未见",
+   "preconditions": [],
+   "steps": [
+    "看房/签约前向房东或中介明确是否允许养宠",
+    "将养宠约定写入租赁合同补充条款或单独书面协议（含品种、数量、损坏赔偿、扰民处理、退租清洁标准）",
+    "双方签字后各自留存",
+    "养犬用户：以租住地址办理养犬登记时提供租赁证明"
+   ],
+   "entry_ids": [
+    "ent_pet_001"
+   ],
+   "evidence": [
+    {
+     "excerpt": "Due to the city's one-dog-per-home policy, tenants must seek approval from their landlord before owning a dog and registering it at their residential address. Materials required include: Property ownership certificate or proof of a property lease agreement.",
+     "published_at": "页面标注 Updated July 21, 2026",
+     "source_name": "上海市人民政府英文门户（english.shanghai.gov.cn）- How to get a dog license",
+     "url": "https://english.shanghai.gov.cn/en-KeepingAPetInShanghai/20231221/83150016258f4b96848c4402fa14a12f.html",
+     "verified_at": "2026-09-23"
+    }
+   ],
+   "collected_at": "2026-09-23",
+   "status": "pending_verification",
+   "reviewer": "待人工审核"
+  },
+  {
+   "id": "ke_points_001",
+   "city": "上海市",
+   "category": "居住证积分",
+   "title": "《上海市居住证积分管理办法》与120分标准分值",
+   "summary": "《上海市居住证积分管理办法》2022年12月29日印发（2022版）。政策结论：①《居住证》积分指标体系由基础指标、加分指标、减分指标和一票否决指标组成；②《居住证》总积分标准分值为120分（第十二条）；③适用对象为在本市工作、居住、持有《上海市居住证》并参加本市职工社会保险满6个月的境内来沪人员；④积分达到标准分值的，可以享受相应的公共服务待遇；⑤市人力资源社会保障局负责全市积分管理工作。",
+   "applicability": "持有《上海市居住证》、在本市工作居住且参加本市职工社会保险满6个月的境内来沪人员。",
+   "exclusions": "不含落户资格判断；积分制度与居转户是两条并行的通道，120分积分不等同于落户条件。",
+   "effective_from": "2022-12-29（印发日期）",
+   "preconditions": [
+    "持有有效期内的《上海市居住证》",
+    "参加本市职工社会保险满6个月"
+   ],
+   "steps": [],
+   "entry_ids": [
+    "entry_points_system"
+   ],
+   "evidence": [
+    {
+     "excerpt": "《居住证》总积分标准分值为120分（第十二条）。适用对象：在本市工作、居住，持有《上海市居住证》，并参加本市职工社会保险满6个月的境内来沪人员。积分达到标准分值的，可以享受相应的公共服务待遇。市人力资源社会保障局负责《居住证》积分管理工作。",
+     "published_at": "2022-12-29",
+     "source_name": "《上海市居住证积分管理办法》全文（第三方转发的官方公文PDF）",
+     "url": "http://wza.xa.gov.cn:9000/xadrcxa_wza/web_files/xadrc/file/2023/02/02/202302021611029012871.pdf",
+     "verified_at": "2026-09-23"
+    }
+   ],
+   "collected_at": "2026-09-23",
+   "status": "pending_verification",
+   "reviewer": "待人工审核"
+  },
+  {
+   "id": "ke_points_002",
+   "city": "上海市",
+   "category": "居住证积分",
+   "title": "居住证积分申请流程与官方办理入口",
+   "summary": "政策结论：①持证人需要申请积分的，可通过互联网登录上海市居住证积分管理信息系统，进行网上模拟估分；②达到标准分值的，向用人单位提出申请，委托用人单位向注册地区人才服务中心申请积分（《管理办法》第十三条）；③人才服务中心受理后按流动人员档案管理有关规定调阅人事档案并审核材料；④积分申请材料审核属实的，由人力资源社会保障部门在20个工作日内按指标体系核定积分并告知持证人（第十七条）。配套实施细则为《上海市居住证积分管理办法实施细则》（沪人社规〔2022〕41号，2022年12月30日印发），明确在线填写《上海市居住证积分申请表》、基本材料清单（居住证、申请表、身份证明及户籍证明、劳动（聘用）合同、单位营业执照等）以及能够通过电子证照、数据共享核验的材料可免于提交纸质材料。",
+   "applicability": "积分模拟估分达120分标准的持证人。",
+   "exclusions": "不含分值计算承诺；具体分值以人社部门核定为准。",
+   "effective_from": "2022-12-29",
+   "preconditions": [
+    "网上模拟估分达到120分标准分值",
+    "向所在用人单位提出申请并委托其办理"
+   ],
+   "steps": [
+    "登录上海市居住证积分管理信息系统进行网上模拟估分",
+    "达到标准分值后向用人单位提出申请，委托其向注册（登记）地区人才服务中心申请积分",
+    "用人单位在线填写并提交《上海市居住证积分申请表》及相关材料",
+    "人才服务中心受理、调阅人事档案、审核材料",
+    "人力资源社会保障部门在20个工作日内完成积分核定并告知持证人"
+   ],
+   "entry_ids": [
+    "entry_points_system",
+    "entry_rc_service_center"
+   ],
+   "evidence": [
+    {
+     "excerpt": "持证人需要申请积分的，可通过互联网登录上海市居住证积分管理信息系统，进行网上模拟估分。达到标准分值的，向用人单位提出申请，委托用人单位向注册地区人才服务中心申请积分。……积分申请材料审核属实的，由人力资源社会保障部门在20个工作日内，按照《居住证》积分指标体系进行积分核定，并告知持证人积分情况。",
+     "published_at": "2022-12-29",
+     "source_name": "《上海市居住证积分管理办法》第十三条、第十七条（第三方转发的官方公文PDF）",
+     "url": "http://wza.xa.gov.cn:9000/xadrcxa_wza/web_files/xadrc/file/2023/02/02/202302021611029012871.pdf",
+     "verified_at": "2026-09-23"
+    },
+    {
+     "excerpt": "上海市人力资源和社会保障局关于印发《上海市居住证积分管理办法实施细则》的通知，沪人社规〔2022〕41号，2022年12月30日。持证人可通过互联网登录上海市居住证积分管理信息系统进行网上模拟估分，达到标准分值的，持证人向用人单位提出申请，在线填写《上海市居住证积分申请表》，委托用人单位向注册或登记地区人才服务中心申请积分。",
+     "published_at": "2022-12-30",
+     "source_name": "《上海市居住证积分管理办法实施细则》（沪人社规〔2022〕41号，第三方转发扫描件）",
+     "url": "https://static.ciicbj.cn/hrlib/kb/template/2023/05/09/8b20b8d361d346008d99b8ddaed601b8.pdf",
+     "verified_at": "2026-09-23"
+    }
+   ],
+   "collected_at": "2026-09-23",
+   "status": "pending_verification",
+   "reviewer": "待人工审核"
+  },
+  {
+   "id": "ke_hukou_001",
+   "city": "上海市",
+   "category": "落户",
+   "title": "居转户现行实施细则（沪人才规〔2025〕4号）：申请入口、材料口径与办理时限",
+   "summary": "政策结论（来自官方已验证页面）：①现行居转户实施细则为《关于印发〈持有〈上海市居住证〉人员申办本市常住户口办法实施细则〉的通知》（沪人才规〔2025〕4号），由上海市人才工作局等8部门2025年11月27日印发，自2025年12月1日起施行，有效期至2030年11月30日，同时废止沪人才规〔2025〕1号；②上位依据为沪府规〔2025〕8号《上海市引进人才申办本市常住户口办法》《持有〈上海市居住证〉人员申办本市常住户口办法》；③官方申请入口：用人单位通过本市“一网通办”平台提交申请，用人单位不得委托任何中介机构或其他单位、个人代理申报；④办理时限：区人才工作部门现场受理后15个工作日内完成初审，市人才工作部门在20个工作日内完成审核，审核通过后网上公示5天；⑤材料口径（实施细则第五部分）：有效身份凭证、区以上税务机关出具的2019年及以后的个人所得税完税凭证、专业技术职务/职业资格凭证（中级及以上职称证书及《专业技术职务聘任表》，或国家职业资格工作网/本市职业技能鉴定网可查的二级及以上职业资格或技能等级证书）、房屋相关产权证书或租用居住公房凭证（本人房屋/单位集体户/在沪直系亲属房屋/实际居住地社区公共户四种情形）、激励条件对应材料（获奖证书、高级职称证书等）；⑥家属随迁：16周岁以下未成年子女及16周岁以上在普通高中就读的子女可随迁（提供《出生医学证明》，高中生另需学籍信息）；符合激励条件第（一）款第1项的居转户人员，其配偶在本市有稳定工作、缴纳本市职工社保并已办理《上海市居住证》的，可同时申办。",
+   "applicability": "在本市行政区域内注册、正常经营且依法纳税的用人单位及其符合条件的持证人员。",
+   "exclusions": "本条目不做任何“是否符合居转户条件”的资格判断；7年年限、社保缴费等申办条件的判定以人社部门审核为准。已有研究已覆盖居转户年限结论，本条目仅补充入口与材料清单。",
+   "effective_from": "2025-12-01",
+   "preconditions": [
+    "符合条件的持证人员向用人单位提出申办申请并提供个人材料",
+    "用人单位核实备齐材料后通过一网通办平台提交"
+   ],
+   "steps": [
+    "持证人员向用人单位提出申办本市常住户口的申请，并提供应由个人提供的材料",
+    "用人单位核实并备齐材料后，通过本市“一网通办”平台提交申请",
+    "区人才工作部门通过一网通办平台收到材料：不齐全的告知补齐；齐全有效的现场受理，并在15个工作日内完成初审，初审合格报市人才工作部门",
+    "市人才工作部门在20个工作日内完成审核",
+    "审核通过的，网上公示5天接受社会监督",
+    "公示无异议的，市人才工作部门通过数据共享将审批信息发送至市公安部门"
+   ],
+   "entry_ids": [
+    "entry_ywtb",
+    "entry_juzhuan_policy_pdf"
+   ],
+   "evidence": [
+    {
+     "excerpt": "沪人才规〔2025〕4号，上海市人才工作局、发展和改革委员会、教育委员会、公安局、人力资源和社会保障局、农业农村委员会、卫生健康委员会、数据局联合印发，2025年11月27日。本实施细则自2025年12月1日起施行，有效期至2030年11月30日。用人单位核实并备齐材料后，通过本市“一网通办”平台提交申请。区人才工作部门现场受理后15个工作日内完成初审；市人才工作部门在20个工作日内完成审核；审核通过的进行为期5天的网上公示。",
+     "published_at": "2025-11-27",
+     "source_name": "上海市人才工作局等8部门《关于印发〈持有〈上海市居住证〉人员申办本市常住户口办法实施细则〉的通知》（沪人才规〔2025〕4号，上海市人民政府官网公文PDF）",
+     "url": "http://www.shanghai.gov.cn/cmsres/d7/d78c35fa05c94506889c0a36aba92155/b020ee114c576fe975d935ac441eddc2.pdf",
+     "verified_at": "2026-09-23"
+    }
+   ],
+   "collected_at": "2026-09-23",
+   "status": "verified",
+   "reviewer": "待人工审核"
+  },
+  {
+   "id": "ke_hukou_002",
+   "city": "上海市",
+   "category": "落户",
+   "title": "人才引进落户：现行政策依据与官方办理入口",
+   "summary": "政策结论：①现行人才引进落户的上位依据为沪府规〔2025〕8号《上海市引进人才申办本市常住户口办法》（与居转户办法同批印发），该文号已在官方居转户实施细则（沪人才规〔2025〕4号）中明确引用并经 browser.open 验证为真实页面；②办理入口沿用“一网通办”平台：本市经办机构通过“一网通办”系统收到申办材料后进行预审，材料齐全有效的予以预审通过并告知用人单位现场递交书面材料；市人社部门或经授权的相关部门现场受理后5个工作日内完成初审，对初审通过材料在10个工作日内完成审核，审核通过的网上公示5天（该流程来自市人社局官网发布的旧版《上海市引进人才申办本市常住户口办法实施细则》，2020年11月26日印发、有效期至2025年11月30日，已过期，仅作流程参考）；③配套新版人才引进实施细则官方文本在本次检索中未见（见 data_gaps）。",
+   "applicability": "本市用人单位引进的符合《上海市引进人才申办本市常住户口办法》条件的人才。",
+   "exclusions": "不做任何“是否符合人才引进落户条件”的资格判断；人才类别与标准以人社部门认定为准。",
+   "effective_from": "待核验（沪府规〔2025〕8号印发日期未见）",
+   "preconditions": [
+    "用人单位为申请人向本市经办机构提出申请"
+   ],
+   "steps": [
+    "用人单位通过一网通办系统提交申办材料，经办机构预审",
+    "预审通过的，用人单位按通知现场递交书面材料",
+    "市人力资源社会保障部门或经授权的相关部门完成初审与审核",
+    "审核通过的网上公示5天，公示无异议后通过数据共享发送至公安部门办理户口迁移"
+   ],
+   "entry_ids": [
+    "entry_ywtb",
+    "entry_talent_old_xize_pdf"
+   ],
+   "evidence": [
+    {
+     "excerpt": "根据上海市人民政府关于印发《上海市引进人才申办本市常住户口办法》《持有〈上海市居住证〉人员申办本市常住户口办法》的通知（沪府规〔2025〕8号）规定，现将《持有〈上海市居住证〉人员申办本市常住户口办法实施细则》印发给你们，请遵照执行。",
+     "published_at": "2025-11-27",
+     "source_name": "沪人才规〔2025〕4号居转户实施细则（引用沪府规〔2025〕8号作为上位依据，官网公文PDF已验证打开）",
+     "url": "http://www.shanghai.gov.cn/cmsres/d7/d78c35fa05c94506889c0a36aba92155/b020ee114c576fe975d935ac441eddc2.pdf",
+     "verified_at": "2026-09-23"
+    },
+    {
+     "excerpt": "引进人才申办本市常住户口，按以下程序办理：（一）本市经办机构通过“一网通办”系统收到申办材料后，对材料进行预审……（二）市人力资源社会保障部门或经授权的相关部门在现场受理后的5个工作日内完成初审……（三）对初审通过的材料在10个工作日内完成审核……进行5天公示。本实施细则自2020年12月1日起施行，有效期至2025年11月30日。",
+     "published_at": "2020-11-26",
+     "source_name": "市人社局官网《上海市引进人才申办本市常住户口办法实施细则》（2020年11月26日印发，已过期）",
+     "url": "https://rsj.sh.gov.cn/cmsres/07/0725f3022bbd4438b7d76a114c5dbc6b/ad09259ef24a69eae0f681d6b664230f.pdf",
+     "verified_at": "2026-09-23"
+    }
+   ],
+   "collected_at": "2026-09-23",
+   "status": "pending_verification",
+   "reviewer": "待人工审核"
+  },
+  {
+   "id": "ke_hukou_003",
+   "city": "上海市",
+   "category": "落户",
+   "title": "留学回国人员落户：历史政策文本与现行政策缺口",
+   "summary": "政策结论（有限证据）：①历史依据《留学回国人员申办上海常住户口实施细则》（沪人社外发〔2015〕49号）规定：留学回国人员申办上海常住户口须由单位提出申请；单位需提交介绍信、申请报告、营业执照、《留学回国人员申办上海常住户口申请表》、劳动（聘用）合同等；个人需提交教育部《国外学历学位认证书》、国（境）外毕业证书成绩单、护照签证及出入境记录、在沪落户地址证明、社保个税证明等；申请单位先在网上注册并填写信息，然后到受理部门（上海市人才服务中心）现场申报（该细则年代久远，仅作历史参考，不得作为现行依据）；②英文官方渠道（english.shanghai.gov.cn 市政府英文公告）确认：来沪工作或创业的留学回国人员可按市政府规定向市人社局申请本市常住户口；③现行政策（沪人社规〔2020〕22号）官方文本本次检索未见，记为数据缺口（见 data_gaps）。",
+   "applicability": "来沪工作或创业的留学回国人员（具体条件以现行政策为准，本次未获官方文本）。",
+   "exclusions": "不做任何“是否符合留学生落户条件”的资格判断；2015版细则已过期，不得作为依据引用。",
+   "effective_from": "待核验",
+   "preconditions": [
+    "由用人单位提出申请（历史口径）"
+   ],
+   "steps": [],
+   "entry_ids": [],
+   "evidence": [
+    {
+     "excerpt": "留学回国人员申办上海常住户口，须由单位提出申请。单位需提交申请单位介绍信、申请报告、法人营业执照、《留学回国人员申办上海常住户口申请表》、劳动（聘用）合同等；个人需提交教育部出具的《国外学历学位认证书》、国（境）外毕业证书成绩单、护照签证及所有出入境记录、在沪落户地址证明、在本市正常缴纳社保和个税的证明等。",
+     "published_at": "2015（转发时间2019-03-13）",
+     "source_name": "《留学回国人员申办上海常住户口实施细则》（沪人社外发〔2015〕49号，第三方转发）",
+     "url": "http://www.31012333.com/user/site25011/file/20190313/20190313093170677067.pdf",
+     "verified_at": "2026-09-23"
+    },
+    {
+     "excerpt": "Overseas returnees who come to Shanghai to work or start a business and their spouses, and their children under 16 years of age or who are studying in middle schools in China, may apply to SMHRSS for permanent household registration in Shanghai according to regulations of Shanghai Municipal Government.",
+     "published_at": "2024-09-23",
+     "source_name": "上海市人民政府英文官网公告《鼓励留学人员来上海工作和创业的若干规定》（官方）",
+     "url": "https://english.shanghai.gov.cn/en-Bulletin/20240923/1784bf36ea7040acae96a11077de2269.html",
+     "verified_at": "2026-09-23"
+    }
+   ],
+   "collected_at": "2026-09-23",
+   "status": "sample_reference",
+   "reviewer": "待人工审核"
+  },
+  {
+   "id": "ke_grad_001",
+   "city": "上海市",
+   "category": "落户",
+   "title": "2026年非上海生源应届毕业生进沪就业（落户）通知：官方文本未获，记为P0数据缺口",
+   "summary": "未找到官方文本。检索发现的间接证据：某高校就业材料模板中引用的承诺书提及“沪教委学13号《上海市教育委员会 上海市发展和改革委员会 上海市人力资源和社会保障局 上海市公安局关于做好2026年非上海生源应届普通高校毕业生进沪就业工作的通知》”，表明2026年度通知已印发，但该引用来源为可疑第三方域名（zubcbet.com），不可作为依据；上海市教委官网与上海学生就业创业服务网（firstjob.com.cn）的官方文本本次检索未见。按任务要求，不得用往年政策冒充当年政策，本条目标记为数据缺口P0（见 data_gaps dg_grad_001），不收录任何要点结论。",
+   "applicability": "2026年非上海生源应届普通高校毕业生（待官方文本确认）。",
+   "exclusions": "不得引用2025年及以前年度通知的评分标准、申请时间等内容冒充2026年政策。",
+   "effective_from": "未见",
+   "preconditions": [],
+   "steps": [],
+   "entry_ids": [],
+   "evidence": [],
+   "collected_at": "2026-09-23",
+   "status": "pending_verification",
+   "reviewer": "待人工审核"
+  },
+  {
+   "id": "ke_ssc_001",
+   "city": "上海市",
+   "category": "社保卡",
+   "title": "上海社保卡申领法定规则（对象/渠道/时限/费用）",
+   "summary": "上海社保卡申领对象为本市户籍人员以及依法参加本市社会保险的境内来沪人员；可在社区受理网点、银行受理网点、网上服务平台三类渠道申领；公安/人社/医保3个工作日内完成核验，制卡发放时限为核验通过之日起30日；申领、补领、换领免收工本费。管理办法2025年9月修正版明确\"加载交通联合一卡通功能的社保卡\"可用于乘坐公交、轨道交通、轮渡。",
+   "applicability": "到上海就业、本市户籍或已依法参加本市社保的境内来沪人员",
+   "exclusions": [
+    "外籍人员、港澳台人员参照本办法执行（第29条），具体以经办口径为准"
+   ],
+   "effective_from": "2019-12-01（2025年9月修正版）",
+   "preconditions": [
+    "属于本市户籍人员，或已依法参加本市社会保险的境内来沪人员（即单位已为其参保）"
+   ],
+   "steps": [
+    "线上：到银行受理网点或网上服务平台（随申办\"社保卡专题服务\"）提交申领",
+    "线下：携带有效身份证件到社区事务受理服务中心（社区受理网点），现场核对姓名、国籍、民族、性别、相片等信息并提供通讯地址",
+    "公安、人社、医保部门在收到申领信息后3个工作日内完成信息核验",
+    "核验通过后，市社保卡服务机构制卡，核验通过之日起30日内完成制作和发放",
+    "领卡后开通社保功能（社区/银行网点/网上服务平台/社保卡服务电话）",
+    "如需金融功能，自愿选择服务银行开通（现金存取、转账、消费）"
+   ],
+   "entry_ids": [
+    "ent_001"
+   ],
+   "evidence": [
+    {
+     "excerpt": "第八条（申领对象）本市户籍人员以及依法参加本市社会保险的境内来沪人员，可以申领社会保障卡。第九条（申领方式）申请人可以到社区受理网点申领社会保障卡……申请人也可以到银行受理网点或者在网上服务平台办理社会保障卡申领手续。",
+     "published_at": "2019年公布，2025年9月修正",
+     "source_name": "《上海市社会保障卡管理办法》",
+     "url": "https://cdn.shanghai.gov.cn/cmsres/a8/a801f842ac244d16a57d1be0279795f5/39f47e77e807fae0525553c9fd5dc533.pdf",
+     "verified_at": "2026-09-23"
+    }
+   ],
+   "collected_at": "2026-09-23",
+   "status": "verified",
+   "reviewer": "待人工审核"
+  },
+  {
+   "id": "ke_ssc_002",
+   "city": "上海市",
+   "category": "社保卡",
+   "title": "上海社保卡线上申领/激活/挂失补换实操流程（随申办入口）",
+   "summary": "上海社保卡线上申领统一入口为随申办市民云（APP/支付宝小程序/微信小程序）的\"社保卡专题服务\"→\"社保卡申领\"，办理时间为每日8:00-19:00；激活分社保功能（可线上开通）和金融功能（须到开户行柜台）；遗失后12333可办5日有效的临时挂失，补换线上走快递、线下部分网点即时可取。",
+   "applicability": "首次到上海就业需申领社保卡、或社保卡遗失/损坏需挂失补换的人员",
+   "exclusions": [],
+   "effective_from": "2025-03-12（指南发布日期）",
+   "preconditions": [
+    "随申办已完成实名认证；线上申领需系统中有可调用的办证照片"
+   ],
+   "steps": [
+    "打开随申办市民云（APP/支付宝小程序/微信小程序），首页搜索\"社保卡\"进入\"社保卡专题服务\"",
+    "选择\"社保卡申领\"（办理时间每日8:00-19:00），完成身份证核验后选择人员类别、开户银行",
+    "无照片提示则前往社区受理网点拍照申领；也可直接带有效身份证件到就近社区事务服务中心线下办理",
+    "进度查询：\"社保卡办理进度查询\"（照片审核约5个工作日、制卡约7个工作日、邮政投递约5个工作日）",
+    "领卡后激活：社保功能可在随申办\"新版社保卡服务\"→\"社保功能开通\"线上开通（需上传身份证正反面）；金融功能需带身份证和社保卡到对应开户行柜台激活",
+    "遗失挂失：先拨打12333办理临时挂失（社保功能暂停5日），再通过线上平台或社区网点办正式挂失+补换申请；线上补办通过快递邮寄，线下具备条件的网点可即时补换立等可取"
+   ],
+   "entry_ids": [
+    "ent_002"
+   ],
+   "evidence": [
+    {
+     "excerpt": "步骤①：打开\"随申办市民云\"(支付宝小程序、APP、微信小程序)；步骤②：首页搜索\"社保卡\"→点击进入\"社保卡专题服务\"→选择\"社保卡申领\"；步骤③：完成身份证核验后，选择人员类别、开户银行。PS：办理时间段为每日8:00至19:00，申领过程中系统提示\"无可调用的办证照片\"的，需前往社区受理网点拍照申领。",
+     "published_at": "2025-03-12",
+     "source_name": "上海社保卡服务中心《上海社保卡申领、激活、丢失补办全攻略》",
+     "url": "https://www.shsmu.edu.cn/__local/9/18/A7/D52057AE8C157E91F5DFC40111D_0B524BEC_2F70A.pdf",
+     "verified_at": "2026-09-23"
+    }
+   ],
+   "collected_at": "2026-09-23",
+   "status": "verified",
+   "reviewer": "待人工审核"
+  },
+  {
+   "id": "ke_ssc_003",
+   "city": "上海市",
+   "category": "社保卡",
+   "title": "电子社保卡申领政策依据（上海本地渠道待核验）",
+   "summary": "《上海市社会保障卡管理办法》第三十一条规定，电子社保卡的申领、使用按照国家有关规定执行。上海本地电子社保卡领取的具体官方渠道清单未找到经browser.open核验的上海官方页面，按宁缺毋滥原则标记为待核验。",
+   "applicability": "希望用手机替代实体社保卡就医结算、查询社保的人员",
+   "exclusions": [],
+   "effective_from": "2019-12-01",
+   "preconditions": [
+    "已持有状态正常的实体社保卡"
+   ],
+   "steps": [
+    "通过官方渠道（电子社保卡APP/微信或支付宝内\"电子社保卡\"服务）领取",
+    "完成实名认证与人脸核验后授权领取"
+   ],
+   "entry_ids": [
+    "ent_001"
+   ],
+   "evidence": [
+    {
+     "excerpt": "第三十一条（电子社会保障卡）电子社会保障卡的申领、使用按照国家有关规定执行。",
+     "published_at": "2019年公布，2025年9月修正",
+     "source_name": "《上海市社会保障卡管理办法》",
+     "url": "https://cdn.shanghai.gov.cn/cmsres/a8/a801f842ac244d16a57d1be0279795f5/39f47e77e807fae0525553c9fd5dc533.pdf",
+     "verified_at": "2026-09-23"
+    }
+   ],
+   "collected_at": "2026-09-23",
+   "status": "pending_verification",
+   "reviewer": "待人工审核"
+  },
+  {
+   "id": "ke_med_001",
+   "city": "上海市",
+   "category": "医疗挂号",
+   "title": "上海医院预约挂号官方渠道说明（待核验）",
+   "summary": "经验类。上海各大医院普遍实行分时段预约就诊；常见官方预约方式为各医院官方微信公众号/APP/官网自助挂号。随申办APP内设有\"预约挂号\"服务作为市级统一入口的说法广为流传，但未找到可通过browser.open核验的官方说明页面（见gap_002），产品中引用时须标注\"待核验\"。上海申康\"医联\"门诊预约电话021-96886/4008203137引自维基百科，未核验，仅作经验参考。",
+   "applicability": "到上海后需要预约医院门诊的人员",
+   "exclusions": [],
+   "effective_from": "未见",
+   "preconditions": [],
+   "steps": [],
+   "entry_ids": [],
+   "evidence": [],
+   "collected_at": "2026-09-23",
+   "status": "pending_verification",
+   "reviewer": "待人工审核"
+  },
+  {
+   "id": "ke_waste_001",
+   "city": "上海市",
+   "category": "垃圾分类",
+   "title": "上海垃圾分类四分法标准（可回收物/有害垃圾/湿垃圾/干垃圾）",
+   "summary": "上海自2019年7月1日起依法实行生活垃圾四分类：可回收物（废纸张/废塑料/废玻璃/废金属/废织物等）、有害垃圾（废电池/废灯管/废药品/废油漆及其容器等）、湿垃圾（即易腐垃圾：食材废料/剩菜剩饭/过期食品/瓜皮果核/花卉绿植/中药药渣等）、干垃圾（除前三类以外的其他生活垃圾）。个人混投最高可罚200元，单位混装混运最高可罚5万元。",
+   "applicability": "在上海居住、需履行垃圾分类投放义务的全体居民",
+   "exclusions": [
+    "大件垃圾（沙发、床垫等）需预约回收或送至指定点；建筑垃圾需袋装送至指定处置点；大型家电可预约正规电子废弃物回收企业"
+   ],
+   "effective_from": "2019-07-01",
+   "preconditions": [],
+   "steps": [],
+   "entry_ids": [
+    "ent_003",
+    "ent_004"
+   ],
+   "evidence": [
+    {
+     "excerpt": "Shanghai implements a four-category classification system for household waste — recyclable, hazardous, wet and dry waste. Recyclable waste: paper, plastics, glass, scrap metal, textiles... Hazardous waste: nickel-cadmium batteries and mercury batteries, fluorescent tubes, medicines and packaging, paint/solvents... Wet waste: food, leftover, expired food, fruit and vegetable waste, flowers and plants. Dry waste: other household waste excluding recyclable, hazardous and wet waste. Source: Shanghai Landscaping & City Appearance Administrative Bureau",
+     "published_at": "2023-12-12",
+     "source_name": "上海市绿化市容局《A guide to waste classification》（上海市政府英文官网发布）",
+     "url": "https://english.shanghai.gov.cn/en-WasteDisposal/20231212/15dc5685586b44b3ad419639b102687c.html",
+     "verified_at": "2026-09-23"
+    },
+    {
+     "excerpt": "Since July 1st, 2019, citizens have been required by law to sort garbage in Shanghai... individuals who mix and dispose of garbage improperly can be fined up to 200 yuan, while organizations that mix and transport garbage improperly can be fined up to 50,000 yuan. Source: zwdt.sh.gov.cn",
+     "published_at": "2023-12-13",
+     "source_name": "上海市政府英文官网《Community》",
+     "url": "https://english.shanghai.gov.cn/en-Community/20231213/4d01af34ad254b83a60eafe4e9d95007.html",
+     "verified_at": "2026-09-23"
+    }
+   ],
+   "collected_at": "2026-09-23",
+   "status": "verified",
+   "reviewer": "待人工审核"
+  },
+  {
+   "id": "ke_waste_002",
+   "city": "上海市",
+   "category": "垃圾分类",
+   "title": "上海垃圾分类投放要求与常见易错品类",
+   "summary": "官方投放要求：湿垃圾沥干去包装、可回收物洁净干燥压扁、有害垃圾轻拿轻放并包裹易碎品、干垃圾尽量沥干，无法判断类别时按干垃圾投放。易错口诀：可回收物看\"玻、金、塑、纸、衣\"，有害看\"药、油、电（池）\"，湿垃圾看\"易腐易碎\"，其余归干垃圾。",
+   "applicability": "在上海居住、需履行垃圾分类投放义务的全体居民",
+   "exclusions": [],
+   "effective_from": "2019-07-01",
+   "preconditions": [],
+   "steps": [
+    "湿垃圾：尽量沥干水分再投放；带包装的先去除包装（包装按材质另行分类）；纯液体（如牛奶）直接倒入水槽",
+    "可回收物：保持洁净干燥；立体包装倒空内容物、清洗后压扁投放；易碎或带锐利边角的先包裹",
+    "有害垃圾：轻拿轻放；易碎品和过期药品连同包装或单独包裹后投放；压力容器先排空；挥发性物品密封后再投放",
+    "干垃圾：尽量沥干；拿不准类别时按干垃圾投放",
+    "易错项：小龙虾壳=湿垃圾；椰子壳/榴莲壳/核桃壳/玉米衣/甘蔗皮=干垃圾；大多数化妆品=干垃圾；指甲油/洗甲水=有害垃圾；未喝完的奶茶/酸奶分三步：倒掉液体→珍珠果肉等残渣=湿垃圾→杯子吸管=干垃圾"
+   ],
+   "entry_ids": [
+    "ent_003",
+    "ent_004"
+   ],
+   "evidence": [
+    {
+     "excerpt": "Recyclable: keep it clean and dry... empty the contents of all packaging, clean it and then press it flat. Hazardous: handle with care; easily breakable items and expired medicines should be disposed of together with their packaging or wrapped separately. Wet waste: drain off the water before disposal; remove packaging before disposal. Dry waste: dispose in dry waste collection containers... Remove as much water as possible. If it's difficult to determine the category, dispose of it as general garbage.",
+     "published_at": "2023-12-12",
+     "source_name": "上海市绿化市容局《A guide to waste classification》",
+     "url": "https://english.shanghai.gov.cn/en-WasteDisposal/20231212/15dc5685586b44b3ad419639b102687c.html",
+     "verified_at": "2026-09-23"
+    },
+    {
+     "excerpt": "Both small and large crayfish shells are wet garbage. Hard fruit shells, such as coconut shells, durian shells, walnut shells, corn husks, sugarcane peels... are classified as dry garbage. Most cosmetics are considered dry garbage... nail polish and nail polish remover are hazardous garbage. Unfinished milk tea or yogurt: Step 1 pour into the sink; Step 2 residues as wet garbage; Step 3 cup and straw as dry garbage.",
+     "published_at": "2023-12-13",
+     "source_name": "上海市政府英文官网《Community》（来源zwdt.sh.gov.cn）",
+     "url": "https://english.shanghai.gov.cn/en-Community/20231213/4d01af34ad254b83a60eafe4e9d95007.html",
+     "verified_at": "2026-09-23"
+    }
+   ],
+   "collected_at": "2026-09-23",
+   "status": "verified",
+   "reviewer": "待人工审核"
+  },
+  {
+   "id": "ke_metro_001",
+   "city": "上海市",
+   "category": "交通出行",
+   "title": "Metro大都会APP官方入口与乘车码互联互通",
+   "summary": "Metro大都会是上海地铁官方APP（上海市政府英文官网表述为\"乘坐地铁最便捷的方式\"），支持支付宝/微信支付，另可在微信/支付宝/云闪付通过\"上海地铁 Metro大都会乘车码\"小程序使用；截至2026年4月其乘车二维码已与全国22座城市轨道交通互联互通（含长三角各城市及北京、广州、武汉等），客服热线021-64370000。",
+   "applicability": "在上海乘坐地铁通勤的人员",
+   "exclusions": [],
+   "effective_from": "未见（APP持续运营）",
+   "preconditions": [
+    "手机开启蓝牙（乘车码过闸依赖蓝牙）；绑定支付宝/微信支付或银联等支付方式"
+   ],
+   "steps": [
+    "在应用市场搜索\"Metro大都会\"下载APP（上海地铁官方APP），或在微信/支付宝/云闪付搜索\"上海地铁 Metro大都会乘车码\"小程序",
+    "开通乘车码并绑定支付方式，进出站时出示二维码扫码过闸",
+    "异地出行：乘车码左上角切换城市，可开通异地乘车码（已覆盖全国22座城市轨道交通，优惠按\"本地化\"原则）",
+    "遇到问题可拨打Metro大都会客服热线021-64370000，或寻求车站服务中心帮助"
+   ],
+   "entry_ids": [
+    "ent_005"
+   ],
+   "evidence": [
+    {
+     "excerpt": "1. Metro Daduhui app — Using the Shanghai Metro Daduhui app is the most convenient way to take the metro. If you have an Alipay or WeChat Pay account, you can download the Shanghai Metro Daduhui which supports Alipay and WeChat Pay or simply open the Shanghai Metro online service on Alipay and WeChat, then you can take the metro by simply scanning the QR code. Source: Shanghai Metro website",
+     "published_at": "2023-12-14",
+     "source_name": "上海地铁《How to take metro in Shanghai》（上海市政府英文官网发布）",
+     "url": "https://english.shanghai.gov.cn/en-Transportation/20231214/c727f5e15eff4b8c9340651dd95f3f7c.html",
+     "verified_at": "2026-09-23"
+    },
+    {
+     "excerpt": "4月29日起，上海地铁与南通轨道交通乘车二维码正式实现互联互通……至此，使用上海地铁\"Metro大都会\"乘车二维码可以乘坐全国22座城市的轨道交通……其中，上海（Metro大都会App）热线：021-64370000。乘客可通过微信、支付宝、云闪付等App搜索\"上海地铁 Metro大都会乘车码\"小程序，或通过微信、支付宝检索\"随申行（上海城市出行码）\"小程序及\"上海公共交通乘车码\"小程序，均可实现一码通行，无需线下购票。",
+     "published_at": "2026-04-28",
+     "source_name": "新民晨报（上海报业集团）《\"上海南通\"轨道交通乘车二维码明起互联互通》",
+     "url": "http://ep.shxwcb.com/2026/04/28/img/010428.pdf",
+     "verified_at": "2026-09-23"
+    }
+   ],
+   "collected_at": "2026-09-23",
+   "status": "verified",
+   "reviewer": "待人工审核"
+  },
+  {
+   "id": "ke_metro_002",
+   "city": "上海市",
+   "category": "交通出行",
+   "title": "随申行（SH MaaS）官方一站式出行APP",
+   "summary": "随申行（SH MaaS）是上海市交通委推出的出行即服务（MaaS）官方平台，覆盖公交、地铁、市域线、磁悬浮、轮渡、出租车、共享单车、智慧停车，提供\"一码通行\"（随申码，支持添加至多2名同行人）和联程日票，支持Visa/Mastercard等国际银行卡绑定。",
+   "applicability": "在上海乘坐公交/地铁/轮渡/市域线等多种公共交通的人员",
+   "exclusions": [],
+   "effective_from": "2022-10-10（APP上线）",
+   "preconditions": [
+    "需注册登录（支持国内/境外手机号或第三方授权登录）"
+   ],
+   "steps": [
+    "在中文应用市场搜索\"随申行/Suishenxing\"下载（海外应用市场搜索\"SH MaaS\"）",
+    "注册登录后开通\"随申码\"（一码通行），可乘坐公交、地铁、轮渡等",
+    "可在APP内购买联程日票（一日票/三日票/七日票），在规定时间内不限次乘坐地铁、公交、轮渡"
+   ],
+   "entry_ids": [
+    "ent_006"
+   ],
+   "evidence": [
+    {
+     "excerpt": "Shanghai has once again updated the English version of Suishenxing, also known as SH MaaS... according to the Shanghai Municipal Commission of Transport. The latest update expands the app's coverage to nearly all forms of transportation in Shanghai, including buses, metro, suburban railways, maglev trains, ferry lines, taxis, shared bikes, and smart parking. For Chinese app stores: Search for \"随申行/Suishenxing.\" For overseas app stores: Search for \"SH MaaS.\" Source: Shanghai Municipal Commission of Transport",
+     "published_at": "2025-01-28",
+     "source_name": "上海市交通委《Shanghai updates English version of all-in-one transport app》（上海市政府英文官网发布）",
+     "url": "https://english.shanghai.gov.cn/en-Latest-WhatsNew/20250128/fb9efae118334c7b896d23e92cce3552.html",
+     "verified_at": "2026-09-23"
+    }
+   ],
+   "collected_at": "2026-09-23",
+   "status": "verified",
+   "reviewer": "待人工审核"
+  },
+  {
+   "id": "ke_metro_003",
+   "city": "上海市",
+   "category": "交通出行",
+   "title": "上海交通卡官方使用渠道（APP/NFC/小程序）",
+   "summary": "上海公共交通卡由上海公共交通卡股份有限公司发行，官方使用渠道包括：上海交通卡APP（可开通NFC手机交通卡，先乘后付）、微信小程序、支付宝内的上海公共交通乘车码，以及实体卡（地铁站CVM自助机充值）。官网域名未通过browser.open核验（见gap_003），暂不收录。",
+   "applicability": "在上海乘坐公交/地铁/轮渡并希望享受换乘优惠的人员",
+   "exclusions": [],
+   "effective_from": "未见",
+   "preconditions": [],
+   "steps": [
+    "下载\"上海交通卡\"APP开通NFC手机交通卡（支持Apple/Huawei/Xiaomi等NFC手机及穿戴设备），或使用微信小程序/支付宝内的上海公共交通乘车码",
+    "实体卡可在地铁站CVM自助机充值"
+   ],
+   "entry_ids": [
+    "ent_007"
+   ],
+   "evidence": [
+    {
+     "excerpt": "Shanghai public transport is accessible by the Shanghai Public Transport QR Code, NFC mobile transport card, and physical transport cards. The Shanghai Public Transport QR Code... is accessed through the WeChat mini-program, the Shanghai Public Transport app, and Alipay. The NFC mobile transport card can be used via the Shanghai Public Transport app. For physical transport cards, recharging is available at offline CVM machines. According to the Shanghai Public Transport Card Company...",
+     "published_at": "2024-04-22",
+     "source_name": "上海公共交通卡股份有限公司（经上海市政府英文官网、澎湃新闻发布）",
+     "url": "https://english.shanghai.gov.cn/en-Latest-WhatsNew/20240422/5251c321845b4a488723bb51dd23adc2.html",
+     "verified_at": "2026-09-23"
+    }
+   ],
+   "collected_at": "2026-09-23",
+   "status": "verified",
+   "reviewer": "待人工审核"
+  },
+  {
+   "id": "ke_metro_004",
+   "city": "上海市",
+   "category": "交通出行",
+   "title": "上海地铁票价与持卡优惠规则",
+   "summary": "上海地铁按里程计价：0-6公里3元，之后每10公里加收1元。优惠：持卡在公交刷卡后120分钟内进地铁站优惠1元；持公共交通卡当月地铁消费满70元后当月剩余乘次享9折。票种：地铁一日票18元（首次进站起24小时内无限次乘坐，磁悬浮除外）、三日票45元（72小时内）。",
+   "applicability": "在上海乘坐地铁/公交通勤，需了解票价与优惠的人员",
+   "exclusions": [],
+   "effective_from": "未见",
+   "preconditions": [],
+   "steps": [],
+   "entry_ids": [
+    "ent_005"
+   ],
+   "evidence": [
+    {
+     "excerpt": "The Shanghai Metro employs a distance-based fare system and the ticket fares range from 3 yuan for distances of less than 6 kilometers, with an extra 1 yuan for each additional 10 km. Concessions: Passengers can enjoy a 1-yuan discount when entering a metro station within 120 minutes of swiping their cards on a bus. Holders of Public Transportation Cards can enjoy a 10 percent discount if they have spent over 70 yuan on taking the metro over a calendar month. One-Day pass costs 18 yuan; Three-Day Pass is sold for 45 yuan. Source: Shanghai Metro website",
+     "published_at": "2023-12-14",
+     "source_name": "上海地铁《How to take metro in Shanghai》（上海市政府英文官网发布）",
+     "url": "https://english.shanghai.gov.cn/en-Transportation/20231214/c727f5e15eff4b8c9340651dd95f3f7c.html",
+     "verified_at": "2026-09-23"
+    }
+   ],
+   "collected_at": "2026-09-23",
+   "status": "verified",
+   "reviewer": "待人工审核"
+  },
+  {
+   "id": "ke_broadband_001",
+   "city": "上海市",
+   "category": "宽带",
+   "title": "上海移动官方宽带套餐：暂无可公开核验的官方来源",
+   "summary": "上海移动官方宽带套餐（与既有上海电信套餐同口径：月费/年费、带宽、安装费、是否需绑定手机号）本次未能获得可公开核验的官方来源。上海移动官网（sh.10086.cn）经browser.open实际打开验证失败（疑反爬/JS渲染）；公开搜索引擎未返回上海移动官网宽带资费深层页面。按“宁缺毋滥”原则记为缺口，不编造价格。用户可拨打10086或前往上海移动营业厅获取上海地区现行单宽带/融合套餐资费，注意确认安装调测费、协议期与违约金条款。",
+   "applicability": "适用于需要了解上海移动/联通宽带官方资费的跨城就业用户；结论为“暂无可核验官方数据”，产品中不得展示具体套餐价格。",
+   "exclusions": "不含第三方社区/代理商报价（如V2EX帖、194988.com企业宽带PDF），此类信息非官方来源，不作为政策结论。",
+   "effective_from": "未见",
+   "preconditions": "无",
+   "steps": [],
+   "entry_ids": [
+    "entry_broadband_001"
+   ],
+   "evidence": [
+    {
+     "excerpt": "browser-service could not fetch the requested page（browser_open failed）",
+     "published_at": "未见",
+     "source_name": "browser.open实际抓取尝试记录（sh.10086.cn）",
+     "url": "https://sh.10086.cn",
+     "verified_at": "2026-09-23"
+    }
+   ],
+   "collected_at": "2026-09-23",
+   "status": "pending_verification",
+   "reviewer": "待人工审核"
+  },
+  {
+   "id": "ke_broadband_002",
+   "city": "上海市",
+   "category": "宽带",
+   "title": "上海联通官方宽带套餐：暂无可公开核验的官方来源",
+   "summary": "上海联通官方宽带套餐（同口径：月费/年费、带宽、安装费、是否需绑定手机号）本次未能获得可公开核验的官方来源。上海联通官网（sh.10010.com）经browser.open实际打开验证失败；公开搜索引擎未返回上海联通官网宽带资费深层页面。记为缺口，不编造价格。用户可拨打10010或前往上海联通营业厅获取现行资费，注意确认安装费、IPTV费用与合约期条款。",
+   "applicability": "适用于需要了解上海联通宽带官方资费的跨城就业用户；结论为“暂无可核验官方数据”，产品中不得展示具体套餐价格。",
+   "exclusions": "V2EX社区帖所述五月特惠套餐内容（59/64/139元档、安装费100元/路等）为非官方信息，仅作缺口背景说明，不作为政策结论收录。",
+   "effective_from": "未见",
+   "preconditions": "无",
+   "steps": [],
+   "entry_ids": [
+    "entry_broadband_002"
+   ],
+   "evidence": [
+    {
+     "excerpt": "browser-service could not fetch the requested page（browser_open failed）",
+     "published_at": "未见",
+     "source_name": "browser.open实际抓取尝试记录（sh.10010.com）",
+     "url": "https://sh.10010.com",
+     "verified_at": "2026-09-23"
+    },
+    {
+     "excerpt": "套餐1：月租59元…300兆家庭宽带（每月加10元提速1000兆）…所有套餐宽带安装费100元/路…shunicom021 绿色联系",
+     "published_at": "约2026年7月（帖内标注57 days ago，2026-09-23检索）",
+     "source_name": "V2EX社区帖《上海联通五月特惠套餐办理业务指南》（第三方，未采用）",
+     "url": "https://www.v2ex.com/t/1210073",
+     "verified_at": "2026-09-23"
+    }
+   ],
+   "collected_at": "2026-09-23",
+   "status": "pending_verification",
+   "reviewer": "待人工审核"
+  },
+  {
+   "id": "ke_gasprice_001",
+   "city": "上海市",
+   "category": "燃气",
+   "title": "居民管道燃气阶梯价：缺2024年后官方直接确认",
+   "summary": "上海居民管道燃气阶梯价格缺少2024年之后（含2024年）的官方直接确认文件。既有库中第一档0-310立方米/年3.00元、第二档311-520立方米/年3.30元、第三档520立方米以上/年4.20元引自2023-12-09英文政务页（legacy_corroborated），按任务要求不用旧文件凑数。本次检索到的2026年市发改委燃气价格文件均为非居民天然气与瓶装液化石油气口径，不能作为居民管道燃气阶梯价依据。记为P1缺口。",
+   "applicability": "适用于估算上海居民管道燃气费用；产品中引用阶梯价时必须标注“2024年后官方直接确认缺失，沿用2023年口径，待核验”。",
+   "exclusions": "不含瓶装液化石油气基准价（发改委2026年文件针对14.5kg瓶装规格，与管道天然气无关）；不含非居民天然气销售基准价。",
+   "effective_from": "未见",
+   "preconditions": "无",
+   "steps": [],
+   "entry_ids": [],
+   "evidence": [
+    {
+     "excerpt": "Natural Gas — Household Tier-1 0-310 3.00; Tier-2 311-520 3.30; Tier-3 >520 4.20. Sources: shanghaiwater.com, Shanghai Foreign Investment Guide 2023",
+     "published_at": "2023-12-09",
+     "source_name": "上海市英文政务页价表（既有库已收录的交叉印证来源）",
+     "url": "https://english.shanghai.gov.cn/en-EstablishaCompany/20231209/941408eab4d04397ba21064971e9385d.html",
+     "verified_at": "2026-09-23"
+    },
+    {
+     "excerpt": "根据市发展改革委《关于调整本市非居民天然气销售基准价格的通知》（沪发改价管〔2026〕8号），2026年3月1日起，本市一般非居民用户天然气销售基准价格下调0.1元/立方米——该文件仅涉及非居民用户，不含居民阶梯价",
+     "published_at": "2026-03-01（文件执行日）",
+     "source_name": "上海市发改委非居民天然气调价文件（检索命中，仅作排除性证据）",
+     "url": "https://www.shanghai.gov.cn/cmsres/14/14c9486ed6534f4d94e6b982c9a91f4b/19f2a2154cabcb300318ea0db9a7f420.pdf",
+     "verified_at": "2026-09-23"
+    }
+   ],
+   "collected_at": "2026-09-23",
+   "status": "pending_verification",
+   "reviewer": "待人工审核"
+  },
+  {
+   "id": "ke_transfer_001",
+   "city": "上海市",
+   "category": "水电过户",
+   "title": "水电气网“一件事”仅覆盖工程报装：居民水电气过户无全市统一线上入口",
+   "summary": "经browser.open验证的上海市政务服务网官方办事指南确认：上海“一网通办”中水电气网领域的“一件事”是“水电气网联合报装”，仅面向总投资额100万元及以上的新建/改建/扩建工程建设项目、服务对象为企业法人，由市住房城乡建设管理委牵头，市电力公司（国网上海电力）、燃气集团、城投水务/各区供排水公司、网络运营商配合。居民日常的水、电、燃气户名过户（随二手房交易或租房）不在该“一件事”覆盖范围内，全市无统一的居民水电气过户线上入口，需分别向各专营公司办理。二手房交房前建议与原房主/物业结清水电气燃气欠费，避免欠费卡住过户。",
+   "applicability": "适用于向跨城就业用户解释为何水电气过户不能“一键联办”；产品中不得承诺存在统一的居民水电气过户线上入口。",
+   "exclusions": "该“一件事”仅覆盖工程建设项目联合报装，不适用于居民二手房/租房的水电气户名过户；不含宽带移机/过户细则。",
+   "effective_from": "未见",
+   "preconditions": "无",
+   "steps": [],
+   "entry_ids": [
+    "entry_gov_001"
+   ],
+   "evidence": [
+    {
+     "excerpt": "“水电气网联合报装”一件事，将办理供水、排水、供电、燃气、网络联合报装等5个“单事项”集成为“一件事”。实施范围：总投资额100万元及以上的新建、改建、扩建工程建设项目。服务对象：企业法人。牵头部门：市住房城乡建设管理委；配合部门：市经济信息化委、市电力公司、燃气集团、各区燃气公司、市水务局及城投水务、各区供排水公司及部门、市通信管理局及网络运营商。办理时限：具备接入条件后…自接入启动之日起6个工作日内完成接入服务。",
+     "published_at": "未见明确发布日期（页面未标注）",
+     "source_name": "上海市政务服务网《水电气网联合报装“一件事”集成服务办事指南》",
+     "url": "https://zwdt.sh.gov.cn/group1/M00/B6/80/rBJ9JmlZwvuAQ3BMAAePYsuIgbw798.pdf",
+     "verified_at": "2026-09-23"
+    }
+   ],
+   "collected_at": "2026-09-23",
+   "status": "verified",
+   "reviewer": "待人工审核"
+  },
+  {
+   "id": "ke_transfer_002",
+   "city": "上海市",
+   "category": "水电过户",
+   "title": "国网上海电力：变更业务官方渠道与销户流程（过户版待核验）",
+   "summary": "经browser.open验证的国网上海市电力公司官方《用电业务办理告知书（销户）》（2026-03-31，GZS23-2025-V2.1）确认：上海电力变更业务官方渠道为供电营业厅与“网上国网App”（另有国网上海电力微信公众号、95598热线），实行“容缺受理、现场收资”。所需材料：用电主体资格证明（自然人：身份证/军人证/护照/港澳台居民居住证等有效身份证明原件；法人：营业执照/统一社会信用代码证书等），委托办理另需经办人身份证明与授权委托书，退费需提供银行账户信息。流程为申请受理→现场勘查→拆表清算三步。注意：此为销户版告知书；过户版上海告知书未找到，过户材料清单待核验（安徽版同系列过户告知书显示还需新老户主双方主体资格证明与用电地址物权证明，仅作参考）。",
+   "applicability": "适用于上海居民办理用电销户；过户业务办理渠道与本告知书一致（营业厅/网上国网App），但过户专用材料清单以上海版过户告知书为准（待核验）。",
+   "exclusions": "本告知书为“销户”专用；“过户”版上海告知书未找到，安徽版同系列过户告知书仅作流程参考样本，不作为上海政策结论。",
+   "effective_from": "2026-03-31",
+   "preconditions": "申请人具备用电主体资格证明；委托办理需授权委托书。",
+   "steps": [
+    "申请受理：前往国网上海市电力公司供电营业厅，或通过“网上国网App”线上提交申请；资料暂不齐可“容缺受理”（先提供用电主体资格证明，其余客户经理上门时补交）",
+    "现场勘查：供电公司预约上门，勘查设备停电、计量装置拆除等事宜并抄录电表示数",
+    "拆表清算：结清底度电费；如有预收电费余额，可选择“退费”或“预收互转（余额结转）”；办结后解除供用电关系"
+   ],
+   "entry_ids": [
+    "entry_power_001",
+    "entry_power_002",
+    "entry_power_003",
+    "entry_power_004"
+   ],
+   "evidence": [
+    {
+     "excerpt": "欢迎您到国网上海市电力公司办理变更用电业务！我公司为您提供供电营业厅、“网上国网App”等业务办理渠道…我们提供“容缺受理、现场收资”服务…您需提供以下申请资料：★用电主体资格证明：自然人需提供有效身份证明原件（包括身份证、军人证、外籍人士护照、港澳台居民居住证等）；法人或非法人组织需提供主体资格证明原件（包括营业执照、统一社会信用代码证书等）。如委托他人办理，需同时提供经办人有效身份证明原件和授权委托书…业务办理流程：①申请受理 ②现场勘查 ③拆表清算…（文档编号GZS23-2025-V2.1）",
+     "published_at": "2026-03-31（URL路径日期；文档编号GZS23-2025-V2.1）",
+     "source_name": "国网上海市电力公司《用电业务办理告知书（销户）》",
+     "url": "http://www.sh.sgcc.com.cn/html/files/2026-03/31/20260331164825760986110.pdf",
+     "verified_at": "2026-09-23"
+    }
+   ],
+   "collected_at": "2026-09-23",
+   "status": "verified",
+   "reviewer": "待人工审核"
+  },
+  {
+   "id": "ke_transfer_003",
+   "city": "上海市",
+   "category": "水电过户",
+   "title": "上海水电气专营格局：电力/燃气/供水分属不同专营公司，分别办理",
+   "summary": "经官方办事指南验证的上海水电气专营格局：供电为国网上海市电力公司（市电力公司），管道燃气为燃气集团（上海燃气有限公司，申能集团旗下）及各区燃气公司，供水为市水务局及城投水务、各区供排水公司。居民水电气过户/开户需分别向上述对应专营公司申请，各公司办理渠道一般包括线下营业厅、自有App/微信公众号与客服热线（电力侧已验证：营业厅/网上国网App/微信公众号/95598；燃气、供水侧官方流程页待核验，记为缺口）。",
+   "applicability": "适用于理解上海水电气专营格局；产品中可用于解释“分别向各专营公司办理”的依据。",
+   "exclusions": "各区具体供水/燃气公司的分工边界未在本次调研中逐一核验。",
+   "effective_from": "未见",
+   "preconditions": "无",
+   "steps": [],
+   "entry_ids": [],
+   "evidence": [
+    {
+     "excerpt": "配合部门：市经济信息化委、市电力公司、燃气集团、各区燃气公司、市水务局及城投水务、各区供排水公司及部门、市通信管理局及网络运营商",
+     "published_at": "未见明确发布日期（页面未标注）",
+     "source_name": "上海市政务服务网《水电气网联合报装“一件事”集成服务办事指南》",
+     "url": "https://zwdt.sh.gov.cn/group1/M00/B6/80/rBJ9JmlZwvuAQ3BMAAePYsuIgbw798.pdf",
+     "verified_at": "2026-09-23"
+    }
+   ],
+   "collected_at": "2026-09-23",
+   "status": "verified",
+   "reviewer": "待人工审核"
+  },
+  {
+   "id": "ke_rent_001",
+   "city": "上海市",
+   "category": "租房",
+   "title": "上海住房租赁合同网签备案：适用范围（全市住房租赁活动均应备案）",
+   "summary": "《关于印发〈关于进一步整顿规范本市住房租赁市场秩序的实施意见〉的通知》（沪建房管联〔2021〕18号，上海市住房和城乡建设管理委员会等十部门共同制定，2021年1月27日落款、2021年2月1日印发）第三部分“三、加强住房租赁合同网签备案管理”之（一）“强化合同网签备案”明确：“本市行政区域内的住房租赁活动，均应按规定进行合同网签备案。”该文件同时要求住房租赁经营机构、房地产经纪机构主动办理市住房租赁公共服务平台用户认证，取得租赁平台用户操作权限，并按规定为租赁当事人提供合同网签备案服务。“按规定”指按《上海市住房租赁条例》及《上海市住房租赁合同网签备案操作规定》（沪房规范〔2024〕8号）等现行规定执行。原文已逐字打开核验。",
+   "applicability": "上海市住房租赁相关",
+   "exclusions": "该意见表述为“按规定”备案：个人房东自行成交是否构成强制备案义务、未备案的直接法律后果，需结合《上海市住房租赁条例》全文进一步核验。2011年《居住房屋租赁管理办法》第三十三条的罚则（责令限期改正前置；逾期不改，个人处1000元以下、单位处1000元以上1万元以下罚款）见本库ke_rent_004条目。",
+   "effective_from": "2021-01-27（通知落款日期；2021-02-01印发）",
+   "preconditions": "",
+   "steps": [],
+   "entry_ids": [
+    "entry_rent_001",
+    "entry_rent_003"
+   ],
+   "evidence": [
+    {
+     "source_name": "上海市房屋管理局《关于印发〈关于进一步整顿规范本市住房租赁市场秩序的实施意见〉的通知》（沪建房管联〔2021〕18号）PDF",
+     "url": "https://fgj.sh.gov.cn/cmsres/a1/a1820d956c1445f1a4ca90eeb0901da9/46d8117ed90128af21bbf95cec969373.pdf",
+     "published_at": "2021-01-27（通知落款；市住房和城乡建设管理委员会办公室2021年2月1日印发）",
+     "verified_at": "2026-09-23",
+     "excerpt": "（一）强化合同网签备案。本市行政区域内的住房租赁活动，均应按规定进行合同网签备案。住房租赁经营机构、房地产经纪机构应当主动办理上海市住房租赁公共服务平台用户认证，取得租赁平台用户操作权限，并按规定为租赁当事人提供合同网签备案服务。"
+    }
+   ],
+   "collected_at": "2026-09-23",
+   "status": "verified",
+   "reviewer": "待人工审核"
+  },
+  {
+   "id": "ke_rent_002",
+   "city": "上海市",
+   "category": "租房",
+   "title": "上海住房租赁合同网签备案：线上办理入口（随申办/一网通办）与线下办理点",
+   "summary": "《关于印发〈上海市住房租赁合同网签备案操作规定〉的通知》（沪房规范〔2024〕8号，2024年10月31日发布）印发的《上海市住房租赁合同网签备案操作规定》明确网签备案三种办理方式（第六条）：①通过线下服务窗口办理——区房地产交易中心（区住房租赁管理事务中心，简称区租赁中心）、街道（镇）社区事务受理服务中心（简称社区受理中心）提供线下网签备案服务；②通过线上“一网通办”办理——租赁当事人自行成交的，本市“一网通办”门户网站、“随申办”移动端提供线上网签备案服务；③通过住房租赁服务单位办理。第九条明确：租赁当事人自行成交的，可通过“一网通办”门户网站、“随申办”移动端“我要租房”和“不见面办理”专栏办理网签备案，办事材料可通过数据共享、电子证照调取等方式实现免于提交。办理网签备案后取得住房租赁合同备案通知书，租赁当事人可通过“随申办”移动端下载电子证照（第十条）。区租赁中心、社区受理中心提供网签备案全市通办服务，对符合条件的提供当场办结服务（第十六条）。本规定自2024年12月1日起施行，有效期至2029年6月30日（第十八条）。原文已逐字打开核验；此前摘要口径中的文件正式标题“管理规定”有误，实际为“操作规定”。",
+   "applicability": "上海市住房租赁相关",
+   "exclusions": "“一网通办”门户的具体事项深层链接未找到（线上实测需登录账号）；随申办APP内“我要租房”为操作规定第九条逐字确认的现行栏目名；上海市住房租赁公共服务平台官方URL已确认为https://zfzl.fgj.sh.gov.cn/（已打开验证）。",
+   "effective_from": "2024-12-01（施行日期；有效期至2029-06-30）",
+   "preconditions": "",
+   "steps": [],
+   "entry_ids": [
+    "entry_rent_001",
+    "entry_rent_002",
+    "entry_rent_004"
+   ],
+   "evidence": [
+    {
+     "source_name": "上海市人民政府网站《关于印发〈上海市住房租赁合同网签备案操作规定〉的通知》（沪房规范〔2024〕8号）PDF",
+     "url": "https://www.shanghai.gov.cn/cmsres/32/326e8eab30f24080812520d89c60fcfc/490f639805a2e0f5190f7b62f7f7b45a.pdf",
+     "published_at": "2024-10-31（上海市房屋管理局办公室2024年11月5日印发；自2024年12月1日起施行，有效期至2029年6月30日）",
+     "verified_at": "2026-09-23",
+     "excerpt": "第九条（线上办理和免于提交）租赁当事人自行成交的，可通过“一网通办”门户网站、“随申办”移动端“我要租房”和“不见面办理”专栏办理网签备案，办事材料可通过数据共享、电子证照调取等方式，实现免于提交。第十条（住房租赁合同备案通知书）租赁当事人可以通过“随申办”移动端下载住房租赁合同备案通知书电子证照。第十六条（办理要求）区租赁中心、社区受理中心为租赁当事人提供网签备案的全市通办服务，对符合网签备案条件的，提供当场办结服务。第十八条（施行日期）本规定自2024年12月1日起施行，有效期至2029年6月30日。"
+    }
+   ],
+   "collected_at": "2026-09-23",
+   "status": "verified",
+   "reviewer": "待人工审核"
+  },
+  {
+   "id": "ke_rent_003",
+   "city": "上海市",
+   "category": "租房",
+   "title": "上海住房租赁合同网签备案：线下办理所需材料",
+   "summary": "《上海市住房租赁合同网签备案操作规定》（沪房规范〔2024〕8号，2024年10月31日发布，2024年12月1日起施行，有效期至2029年6月30日）第七条明确线下办理网签备案分两种情形：①通过区租赁中心、社区受理中心办理网签备案的，由租赁双方当事人提交：租赁合同网签（备案）申请书（当场填写）、身份证明材料（核验原件）、房屋权属证明材料（核验原件）；②租赁当事人通过住房租赁服务单位完成网上签约后办理登记备案的，可由任意一方租赁当事人向区租赁中心、社区受理中心提交：租赁合同备案申请书（住房租赁服务单位提供）、身份证明材料（核验原件）。第十一条明确：网签备案需有明确的起止日期，备案的有效期超过3年的，需重新备案；同一房屋或部位出租，备案间隔少于2个月的，应当至区租赁中心或社区受理中心办理，并说明情况。原文已逐字打开核验。",
+   "applicability": "上海市住房租赁相关",
+   "exclusions": "无。",
+   "effective_from": "2024-12-01（施行日期；有效期至2029-06-30）",
+   "preconditions": "",
+   "steps": [],
+   "entry_ids": [
+    "entry_rent_001",
+    "entry_rent_002",
+    "entry_rent_004"
+   ],
+   "evidence": [
+    {
+     "source_name": "上海市人民政府网站《关于印发〈上海市住房租赁合同网签备案操作规定〉的通知》（沪房规范〔2024〕8号）PDF",
+     "url": "https://www.shanghai.gov.cn/cmsres/32/326e8eab30f24080812520d89c60fcfc/490f639805a2e0f5190f7b62f7f7b45a.pdf",
+     "published_at": "2024-10-31（自2024年12月1日起施行，有效期至2029年6月30日）",
+     "verified_at": "2026-09-23",
+     "excerpt": "第七条（线下办理网签备案）（一）通过区租赁中心、社区受理中心办理网签备案的，由租赁双方当事人提交以下材料：1.租赁合同网签（备案）申请书（当场填写，详见附件1）；2.身份证明材料（核验原件）；3.房屋权属证明材料（核验原件）。（二）租赁当事人通过住房租赁服务单位完成网上签约后，办理登记备案的，可由任意一方租赁当事人向区租赁中心、社区受理中心提交以下材料：1.租赁合同备案申请书（住房租赁服务单位提供，详见附件2）；2.身份证明材料（核验原件）。第十一条（网签备案期限要求）网签备案需有明确的起止日期，备案的有效期超过3年的，需重新备案。同一房屋或部位出租，备案间隔少于2个月的，应当至区租赁中心或社区受理中心办理，并说明情况。"
+    }
+   ],
+   "collected_at": "2026-09-23",
+   "status": "verified",
+   "reviewer": "待人工审核"
+  },
+  {
+   "id": "ke_rent_004",
+   "city": "上海市",
+   "category": "租房",
+   "title": "上海住房租赁合同登记备案：逾期不备案的处罚（2011年办法第三十三条）",
+   "summary": "《上海市居住房屋租赁管理办法》第三十三条（对租赁当事人未按规定登记备案的处理）：“违反本办法第十三条规定，租赁当事人未在期限内办理租赁合同登记备案手续的，由区房屋行政管理部门责令限期改正；逾期不改正的，对个人处以1000元以下罚款，对单位处以1000元以上1万元以下罚款。”另第三十四条：房地产经纪机构违反第十三条第一款未办理登记备案的，责令限期改正，逾期不改正处3000元以上3万元以下罚款。注意：该办法自2011年10月1日起施行，其第十三条（备案期限条款）原文及该办法在《上海市住房租赁条例》施行后的继续适用范围尚未逐字核验，引用时需说明此局限。",
+   "applicability": "上海市住房租赁相关",
+   "exclusions": "该办法可能受2023年《上海市住房租赁条例》（新条例）影响；新条例全文未找到，旧办法现行效力与第十三条期限条款待核验，不能单独据此认定现行统一备案期限。",
+   "effective_from": "2011-10-01（施行日期）",
+   "preconditions": "",
+   "steps": [],
+   "entry_ids": [],
+   "evidence": [
+    {
+     "source_name": "《上海市居住房屋租赁管理办法》（上海市人民政府令，2011年10月1日起施行；闵行区政府网站刊载PDF）",
+     "url": "https://www.shyp.gov.cn/zhengwu/cgzfj-xzcfsx/2025/219/76f3ac1823d03bcbefa3dd0b65e997bc/20ae99d67e9a4d378e38d826ce492f59.pdf",
+     "published_at": "2011-10-01（施行日期）",
+     "verified_at": "2026-09-23",
+     "excerpt": "《上海市居住房屋租赁管理办法》第三十三条（对租赁当事人未按规定登记备案的处理）：“违反本办法第十三条规定，租赁当事人未在期限内办理租赁合同登记备案手续的，由区房屋行政管理部门责令限期改正；逾期不改正的，对个人处以1000元以下罚款，对单位处以1000元以上1万元以下罚款。”另第三十四条：房地产经纪机构违反第十三条第一款未办理登记备案的，责令限期改正，逾期不改正处3000元以上3万元以下罚款。注意：该办法自2011年10月1日起施行，其第十三条（备案期限条款）原文及该办法在《上海市住房租赁条例》施行后的继续适用范围尚未逐字核验，引用时需说明此局限。"
+    }
+   ],
+   "collected_at": "2026-09-23",
+   "status": "pending_verification",
+   "reviewer": "待人工审核"
+  },
+  {
+   "applicability": "上海市住房租赁相关",
+   "category": "租房",
+   "city": "上海市",
+   "collected_at": "2026-09-23",
+   "effective_from": "未见（业务指南发布/更新日期未见）",
+   "entry_ids": [],
+   "evidence": [
+    {
+     "excerpt": "一、适用范围：申请人租赁本市市场租赁住房，租赁合同经本市住房租赁公共服务平台办理网签备案，符合下列条件的，可以申请提取本人及配偶住房公积金账户内的存储余额，用于支付房屋租赁费用：（一）申请人在本市连续缴存住房公积金满3个月；（二）申请人及配偶目前在本市无自有住房且租赁住房的；（三）申请人及配偶在本市无住房公积金贷款、无委托提取住房公积金归还住房贷款等生效中提取业务；（四）申请人及配偶仅可提取住房公积金支付一套房屋的租赁费用；（五）申请人的租赁行为应当符合本市房屋租赁相关规定，租赁合同通过租赁平台办理网签备案；（六）无配偶关系的2名及以上的个人共同参与租赁，同一时间段内仅允许其中一个申请人及配偶提取住房公积金支付房屋租赁费用。",
+     "published_at": "未见",
+     "source_name": "上海住房公积金网《业务指南》PDF（搜索引擎抓取正文；本轮未直接打开PDF原文）",
+     "url": "https://www.shzfgjj.cn/images/ywzlb.pdf",
+     "verified_at": "2026-09-23"
+    }
+   ],
+   "exclusions": "①本轮browser.open直接打开官网业务指南PDF（https://www.shzfgjj.cn/images/ywzlb.pdf）再次失败（tool_failure），上一轮同样未能打开；上述6项条件为搜索引擎对该官网PDF的抓取正文，excerpt为抓取正文真实引用，未逐字打开PDF原文核对，待人工直接打开复核后可转verified；②2014年旧版《上海市提取住房公积金支付房屋租赁费用实施细则》操作细则口径（累计缴存满6个月、月提取最高2000元）与现行指南口径（连续缴存满3个月、2024年11月1日起月限额4000元）冲突，旧口径疑似已被替代，引用以现行业务指南为准；本轮未在官网找到该旧细则的废止/替代说明，不做废止断言。",
+   "id": "ke_rent_005",
+   "preconditions": "",
+   "reviewer": "待人工审核",
+   "status": "pending_verification",
+   "steps": [],
+   "summary": "据上海住房公积金网《业务指南》“支付房屋租赁费用—租赁市场租赁住房提取住房公积金支付房租（网签备案）”章节“一、适用范围”（搜索引擎对该官网PDF的抓取正文，本轮未能直接打开PDF复核）：申请人租赁本市市场租赁住房、租赁合同经本市住房租赁公共服务平台办理网签备案，符合下列条件的，可申请提取本人及配偶住房公积金账户内的存储余额用于支付房屋租赁费用：（一）申请人在本市连续缴存住房公积金满3个月；（二）申请人及配偶目前在本市无自有住房且租赁住房的；（三）申请人及配偶在本市无住房公积金贷款、无委托提取住房公积金归还住房贷款等生效中提取业务；（四）申请人及配偶仅可提取住房公积金支付一套房屋的租赁费用；（五）申请人的租赁行为应当符合本市房屋租赁相关规定，租赁合同通过租赁平台办理网签备案；（六）无配偶关系的2名及以上的个人共同参与租赁，同一时间段内仅允许其中一个申请人及配偶提取住房公积金支付房屋租赁费用。上一轮被截断的“无配偶关系多人合租”规则本轮已补全，见第（六）项。",
+   "title": "上海租房提取公积金：申请条件（市场租赁住房，业务指南口径）"
+  },
+  {
+   "applicability": "上海市住房租赁相关",
+   "category": "租房",
+   "city": "上海市",
+   "collected_at": "2026-09-23",
+   "effective_from": "2024-11-01（月提取限额由3000元提高为4000元的生效日期；指南本身发布日期未见）",
+   "entry_ids": [],
+   "evidence": [
+    {
+     "excerpt": "2.每户家庭（申请人及配偶）月提取金额不超过当月实际房租支出，最高月提取限额为3000元，且不超过申请人住房公积金账户内的存储余额（须保留1分以上余额）；单次提取金额不超过三个月的提取限额；3.申请人提取住房公积金支付房屋租赁费用，应当在房屋租赁期内提出，申请提取时间段应当在租赁登记备案时间段内；",
+     "published_at": "未见",
+     "source_name": "上海住房公积金网《业务指南》PDF（搜索引擎抓取正文；本轮未直接打开PDF原文）",
+     "url": "https://www.shzfgjj.cn/images/ywzlb.pdf",
+     "verified_at": "2026-09-23"
+    },
+    {
+     "excerpt": "三、服务方式：（一）委托逐月提取：申请人委托市公积金中心，按照申报的提取信息，每月自动提取住房公积金账户余额转入本人银行卡账户。申请人本人可在房屋租赁合同网签备案有效期内通过官方线上渠道（“随申办”）提交申请信息或前往市公积金中心区管理部提交申请材料。（二）单笔提取：申请人租赁合同已终止，已实际支付的房租中部分月份尚未申请提取的，可以一次性申请提取住房公积金转入本人银行卡账户。申请人应当在房屋租赁合同终止后的六个月内前往市公积金中心区管理部提交申请。四、办理时限：申请人提供申请资料或信息齐全的，市公积金中心应当自受理申请之日起三个工作日内（对申请人住房持有状况、住房租赁信息、婚姻信息进行核验所需的时间不计算在内），做出准予提取或者不准提取的决定，并通知申请人。",
+     "published_at": "未见",
+     "source_name": "上海住房公积金网《业务指南》PDF（搜索引擎抓取正文；本轮未直接打开PDF原文）",
+     "url": "https://www.shzfgjj.cn/images/ywzlb.pdf",
+     "verified_at": "2026-09-23"
+    },
+    {
+     "excerpt": "五、注意事项：（一）配偶参与申请提取住房公积金支付房租的，应一次性集中办理提取手续。（二）每户家庭（含单身家庭）月提取金额不超过实际房租支出。2024年11月1日起月提取限额由3000元提高为4000元。（三）申请人租赁住房不属于本市租赁网签备案范围的，应当承诺如申请提取住房公积金支付房租业务后，因租赁的住房发生变动，且属于本市住房租赁网签备案范围时，将及时终止当前租赁提取业务，办理网签备案后重新申请。（四）申请人提取住房公积金支付房屋租赁费用，应当在房屋租赁期内提出，审核通过的，提取资金将按月支付……1.首次提取时间：每月15日前（含15日）完成受理的，审核通过后提取资金在当月25日自动从申请人住房公积金账户转入本人银行卡账户内；每月15日后（不含15日）完成受理的，审核通过后当月不予提取，次月25日提取资金自动从申请人住房公积金账户转入本人银行卡账户内。……3.提取转账发起时，申请人住房公积金账户余额（截止当月24日的账户余额，下同）小于当月应提取金额时，自动按账户余额提取（保留一分余额）。未足额提取金额在业务生效期间逐月累计，并在每月25日自动补提。",
+     "published_at": "未见",
+     "source_name": "上海住房公积金网《业务指南》PDF（搜索引擎抓取正文；本轮未直接打开PDF原文）",
+     "url": "https://www.shzfgjj.cn/images/ywzlb.pdf",
+     "verified_at": "2026-09-23"
+    }
+   ],
+   "exclusions": "①本轮browser.open直接打开官网业务指南PDF再次失败（tool_failure），上文额度/办理规则为搜索引擎对该官网PDF的抓取正文，excerpt为抓取正文真实引用，未逐字打开PDF原文，待人工复核后可转verified；②缺口gap_rent_002本轮已解决：指南“五、注意事项（三）”明确未备案情形走承诺制（详见新条目ke_rent_015），且3000元上限为历史口径、2024年11月1日起已提高为4000元；③2014年旧细则操作细则口径（2000元/月）与现行口径冲突，旧口径疑似已被替代，以现行业务指南为准；本轮未在官网找到该旧细则的废止/替代说明，不做废止断言。",
+   "id": "ke_rent_006",
+   "preconditions": "",
+   "reviewer": "待人工审核",
+   "status": "pending_verification",
+   "steps": [],
+   "summary": "据上海住房公积金网《业务指南》“支付房屋租赁费用”章节（搜索引擎对该官网PDF的抓取正文，本轮未能直接打开PDF复核），网签备案模式额度与办理规则如下：每户家庭（申请人及配偶）月提取金额不超过当月实际房租支出，且不超过申请人住房公积金账户内的存储余额（须保留1分以上余额）；单次提取金额不超过三个月的提取限额。月提取限额：2024年11月1日起由3000元提高为4000元（指南“五、注意事项（二）”原文：“每户家庭（含单身家庭）月提取金额不超过实际房租支出。2024年11月1日起月提取限额由3000元提高为4000元”）。时间要求：申请应在房屋租赁期内提出，申请提取时间段应在租赁登记备案时间段内。服务方式：①委托逐月提取——委托市公积金中心按申报信息每月自动将账户余额转入本人银行卡，网签备案有效期内可通过“随申办”等官方线上渠道或前往区管理部申请；审核通过后按月支付，每月15日前（含）受理的当月25日到账，15日后受理的次月25日到账；账户余额不足时自动按余额提取（保留一分），未足额部分在业务生效期间逐月累计、每月25日自动补提；②单笔提取——租赁合同已终止且有未提取月份的，可一次性申请，须在合同终止后6个月内前往区管理部提交申请（仅限已实际支付的房租，不含预付房租）。办理时限：申请资料/信息齐全的，市公积金中心自受理之日起3个工作日内作出准予/不准予提取的决定并通知申请人（住房持有状况、租赁信息、婚姻信息核验时间不计入）。配偶同时参与提取的，应一次性集中办理提取手续。",
+   "title": "上海租房提取公积金：网签备案模式的额度与办理规则（业务指南口径，2024-11-01起月限额4000元）"
+  },
+  {
+   "applicability": "上海市住房租赁相关",
+   "category": "租房",
+   "city": "上海市",
+   "collected_at": "2026-09-23",
+   "effective_from": "2011-10-01（施行日期；2021-05-08修正重新发布，时效性：现行有效）",
+   "evidence": [
+    {
+     "access_note": "该URL本轮browser.open直接打开两次均失败；条文为搜索引擎对闵行区政府网站该官方页面抓取的全文，逐字引用。待可直接打开该页面时再升级为verified。",
+     "excerpt": "第九条（最小出租单位） 出租居住房屋，应当以一间原始设计为居住空间的房间为最小出租单位，不得分隔搭建后出租，不得按照床位出租。原始设计为厨房、卫生间、阳台和地下储藏室等其他空间的，不得出租供人员居住。 第十条（最低人均承租面积和居住人数限制） 出租居住房屋，每个房间的居住人数不得超过2人（有法定赡养、抚养、扶养义务关系的除外），且居住使用人的人均居住面积不得低于5平方米。前款所称居住面积，是指原始设计为居住空间的房间的使用面积。",
+     "published_at": "2021-05-08（修正重新发布；页面标注时效性：现行有效）",
+     "source_name": "《上海市居住房屋租赁管理办法》（2021年修正版；闵行区政府网站刊载PDF）",
+     "url": "https://www.shyp.gov.cn/zhengwu/cgzfj-xzcfsx/2025/219/76f3ac1823d03bcbefa3dd0b65e997bc/20ae99d67e9a4d378e38d826ce492f59.pdf",
+     "verified_at": "2026-09-23"
+    }
+   ],
+   "exclusions": "“群租房”在现行法规中是否有正式定义未查到（仍列入缺口gap_rent_004）；该PDF本轮未能直接打开，第九条、第十条原文来自官方页面抓取全文，逐字内容已核验。",
+   "id": "ke_rent_007",
+   "preconditions": "",
+   "reviewer": "待人工审核",
+   "status": "pending_verification",
+   "steps": [],
+   "summary": "《上海市居住房屋租赁管理办法》（2021年修正版，现行有效；2011年7月7日市政府令第68号公布，2014年、2021年两次修正）第九条、第十条第一款规定：以原始设计为居住空间的房间为最小出租单位，不得分割搭建后出租，不得按床位出租；原始设计为厨房、卫生间、阳台和地下储藏室等其他空间的，不得出租供人员居住；每个房间居住人数不得超过2人（有法定赡养、抚养、扶养义务关系的除外）；人均居住面积不得低于5平方米。违反上述规定的处罚见第三十二条条目（责令限期改正，逾期不改处1万元以上10万元以下罚款）。",
+   "title": "上海群租管理：最小出租单位、居住人数与人均面积限制（2011年办法第九条、第十条）"
+  },
+  {
+   "applicability": "上海市住房租赁相关",
+   "category": "租房",
+   "city": "上海市",
+   "collected_at": "2026-09-23",
+   "effective_from": "2011-10-01（施行日期；2021-05-08修正重新发布，时效性：现行有效）",
+   "evidence": [
+    {
+     "access_note": "该URL本轮browser.open直接打开两次均失败；条文为搜索引擎对闵行区政府网站该官方页面抓取的全文，逐字引用。待可直接打开该页面时再升级为verified。",
+     "excerpt": "第三十一条（对违反治安、消防及居住登记等规定的处理） 违反本办法第八条第一款规定，出租房屋不符合治安、消防等标准和要求的，由公安部门责令改正，并可处以1000元以上3万元以下罚款。 第三十二条（对违反最小出租单位、居住人数限制和最低承租面积的处理） 违反本办法第九条、第十条第一款规定，不符合最小出租单位、居住人数限制和最低人均承租面积规定的，由区房屋行政管理部门责令责任人限期改正；逾期不改正的，可处以1万元以上10万元以下罚款。",
+     "published_at": "2021-05-08（修正重新发布；页面标注时效性：现行有效）",
+     "source_name": "《上海市居住房屋租赁管理办法》（2021年修正版；闵行区政府网站刊载PDF）",
+     "url": "https://www.shyp.gov.cn/zhengwu/cgzfj-xzcfsx/2025/219/76f3ac1823d03bcbefa3dd0b65e997bc/20ae99d67e9a4d378e38d826ce492f59.pdf",
+     "verified_at": "2026-09-23"
+    }
+   ],
+   "exclusions": "该PDF本轮未能直接打开，第三十一条、第三十二条原文来自官方页面抓取全文，逐字内容已核验；2011年办法未被废止，现行有效。",
+   "id": "ke_rent_008",
+   "preconditions": "",
+   "reviewer": "待人工审核",
+   "status": "pending_verification",
+   "steps": [],
+   "summary": "《上海市居住房屋租赁管理办法》（2021年修正版，现行有效）第三十二条：“违反本办法第九条、第十条第一款规定，不符合最小出租单位、居住人数限制和最低人均承租面积规定的，由区房屋行政管理部门责令责任人限期改正；逾期不改正的，可处以1万元以上10万元以下罚款。”另第三十一条：违反第八条第一款，出租房屋不符合治安、消防等标准和要求的，由公安部门责令改正，并可处1000元以上3万元以下罚款。",
+   "title": "上海群租管理：违反最小出租单位/人数/面积限制的处罚（2011年办法第三十二条）"
+  },
+  {
+   "applicability": "上海市住房租赁相关",
+   "category": "租房",
+   "city": "上海市",
+   "collected_at": "2026-09-23",
+   "effective_from": "2025-10-23（印发日期）",
+   "evidence": [
+    {
+     "excerpt": "《关于加强本市住宅物业管理与城管执法群租治理联动工作的通知》（沪房市场〔2025〕179号，市房屋管理局、市城管执法局，2025年10月23日印发）：“物业服务企业发现或者接到居民反映，住房租赁当事人在租赁期间有群租行为线索的，应当自发现或者接到居民反映24小时内，通过上海物业APP（企业端）或者上海市物业管理监管与服务信息平台，报送群租行为发生地的街镇城管执法中队，做到‘应报尽报’。街镇城管执法中队接到物业服务企业报告后，应当在2个工作日内，派执法队员到现场调查处置……”落款：上海市房屋管理局办公室，2025年10月23日印发。",
+     "published_at": "2025-10-23",
+     "source_name": "《关于加强本市住宅物业管理与城管执法群租治理联动工作的通知》（沪房市场〔2025〕179号；市房屋管理局网站刊载PDF，已直接打开全文）",
+     "url": "https://fgj.sh.gov.cn/cmsres/72/7244776d9fb6498a83a6ecea1d7af328/f64e2ed6eb77c4581e3f8b3d2675a49b.pdf",
+     "verified_at": "2026-09-23"
+    }
+   ],
+   "exclusions": "该机制为执法协同安排，不替代群租的认定标准；通知另设零报告制度（物业企业每月10日前向街镇城管执法中队零报告）等配套要求，详见原文。",
+   "id": "ke_rent_009",
+   "preconditions": "",
+   "reviewer": "待人工审核",
+   "status": "verified",
+   "steps": [],
+   "summary": "市房屋管理局、市城管执法局联合印发《关于加强本市住宅物业管理与城管执法群租治理联动工作的通知》（沪房市场〔2025〕179号，2025年10月23日印发）：物业服务企业发现或接到居民反映住房租赁当事人有群租行为线索的，应当自发现或接到反映24小时内，通过上海物业APP（企业端）或上海市物业管理监管与服务信息平台，报送群租行为发生地的街镇城管执法中队；街镇城管执法中队接到报告后应当在2个工作日内派执法队员到现场调查处置。",
+   "title": "上海群租治理：物业发现线索24小时报告、城管2个工作日现场调查（沪房市场〔2025〕179号）"
+  },
+  {
+   "applicability": "上海市住房租赁相关",
+   "category": "租房",
+   "city": "上海市",
+   "collected_at": "2026-09-23",
+   "effective_from": "2011-10-01（施行日期；2021-05-08修正重新发布，时效性：现行有效）",
+   "evidence": [
+    {
+     "access_note": "该URL本轮browser.open直接打开两次均失败；条文为搜索引擎对闵行区政府网站该官方页面抓取的全文，逐字引用。待可直接打开该页面时再升级为verified。",
+     "excerpt": "第十五条（租金） 居住房屋租赁的租金标准，由租赁当事人在租赁合同中约定。承租人应当根据租赁合同约定，按时支付租金。居住房屋租赁期限为1年或者1年以下的，租赁当事人应当在租赁合同中一次性约定租金标准；租赁期限为1年以上的，每年只能调整一次租金标准。但租赁合同中对租金标准调整另有约定的，从其约定。租赁合同期间，出租人不得单方面提高租金标准。出租人根据承租人的要求装修房屋或者增设附属设施、设备的，双方可以协商调整租金标准。",
+     "published_at": "2021-05-08（修正重新发布；页面标注时效性：现行有效）",
+     "source_name": "《上海市居住房屋租赁管理办法》（2021年修正版；闵行区政府网站刊载PDF）",
+     "url": "https://www.shyp.gov.cn/zhengwu/cgzfj-xzcfsx/2025/219/76f3ac1823d03bcbefa3dd0b65e997bc/20ae99d67e9a4d378e38d826ce492f59.pdf",
+     "verified_at": "2026-09-23"
+    }
+   ],
+   "exclusions": "该PDF本轮未能直接打开，第十五条原文来自官方页面抓取全文，逐字内容已核验；2011年办法未被废止，现行有效。",
+   "id": "ke_rent_010",
+   "preconditions": "",
+   "reviewer": "待人工审核",
+   "status": "pending_verification",
+   "steps": [],
+   "summary": "《上海市居住房屋租赁管理办法》（2021年修正版，现行有效）第十五条（租金）：“居住房屋租赁的租金标准，由租赁当事人在租赁合同中约定。承租人应当根据租赁合同约定，按时支付租金。居住房屋租赁期限为1年或者1年以下的，租赁当事人应当在租赁合同中一次性约定租金标准；租赁期限为1年以上的，每年只能调整一次租金标准。但租赁合同中对租金标准调整另有约定的，从其约定。租赁合同期间，出租人不得单方面提高租金标准。”另：出租人根据承租人的要求装修房屋或增设附属设施、设备的，双方可以协商调整租金标准。",
+   "title": "上海居住房屋租赁：租金约定与调整规则（2011年办法第十五条）"
+  },
+  {
+   "applicability": "上海市住房租赁相关",
+   "category": "租房",
+   "city": "上海市",
+   "collected_at": "2026-09-23",
+   "effective_from": "2011-10-01（施行日期；2021-05-08修正重新发布，时效性：现行有效）",
+   "evidence": [
+    {
+     "access_note": "该URL本轮browser.open直接打开两次均失败；条文为搜索引擎对闵行区政府网站该官方页面抓取的全文，逐字引用。待可直接打开该页面时再升级为verified。",
+     "excerpt": "第十六条（租赁保证金） 出租人可以按照租赁合同约定的数额，向承租人收取租赁保证金；未约定数额的，租赁保证金不得超过2个月的租金。",
+     "published_at": "2021-05-08（修正重新发布；页面标注时效性：现行有效）",
+     "source_name": "《上海市居住房屋租赁管理办法》（2021年修正版；闵行区政府网站刊载PDF）",
+     "url": "https://www.shyp.gov.cn/zhengwu/cgzfj-xzcfsx/2025/219/76f3ac1823d03bcbefa3dd0b65e997bc/20ae99d67e9a4d378e38d826ce492f59.pdf",
+     "verified_at": "2026-09-23"
+    }
+   ],
+   "exclusions": "该PDF本轮未能直接打开，第十六条原文来自官方页面抓取全文，逐字内容已核验；2011年办法未被废止，现行有效。",
+   "id": "ke_rent_011",
+   "preconditions": "",
+   "reviewer": "待人工审核",
+   "status": "pending_verification",
+   "steps": [],
+   "summary": "《上海市居住房屋租赁管理办法》（2021年修正版，现行有效）第十六条（租赁保证金）：“出租人可以按照租赁合同约定的数额，向承租人收取租赁保证金；未约定数额的，租赁保证金不得超过2个月的租金。”",
+   "title": "上海居住房屋租赁：租赁保证金（押金）上限（2011年办法第十六条）"
+  },
+  {
+   "applicability": "上海市住房租赁相关",
+   "category": "租房",
+   "city": "上海市",
+   "collected_at": "2026-09-23",
+   "effective_from": "2011-10-01（施行日期；2021-05-08修正重新发布，时效性：现行有效）",
+   "evidence": [
+    {
+     "access_note": "该URL本轮browser.open直接打开两次均失败；条文为搜索引擎对闵行区政府网站该官方页面抓取的全文，逐字引用。待可直接打开该页面时再升级为verified。",
+     "excerpt": "第十七条（转租） 承租人可以按照租赁合同的约定转租房屋；未约定的，承租人转租房屋应当事先征得出租人的书面同意。居住房屋转租应当符合本办法第八条、第九条、第十条的规定。转租人违反本条第一款、第二款规定的，出租人可以依法解除租赁合同，收回房屋并要求赔偿损失。居住房屋转租的，应当按照本办法第十二条、第十三条的规定订立租赁合同，并办理登记备案。居住房屋转租后，承租人不再居住使用的，可以与出租人协商解除租赁合同，由出租人与次承租人直接订立租赁合同。",
+     "published_at": "2021-05-08（修正重新发布；页面标注时效性：现行有效）",
+     "source_name": "《上海市居住房屋租赁管理办法》（2021年修正版；闵行区政府网站刊载PDF）",
+     "url": "https://www.shyp.gov.cn/zhengwu/cgzfj-xzcfsx/2025/219/76f3ac1823d03bcbefa3dd0b65e997bc/20ae99d67e9a4d378e38d826ce492f59.pdf",
+     "verified_at": "2026-09-23"
+    }
+   ],
+   "exclusions": "该PDF本轮未能直接打开，第十七条原文来自官方页面抓取全文，逐字内容已核验；2011年办法未被废止，现行有效。",
+   "id": "ke_rent_012",
+   "preconditions": "",
+   "reviewer": "待人工审核",
+   "status": "pending_verification",
+   "steps": [],
+   "summary": "《上海市居住房屋租赁管理办法》（2021年修正版，现行有效）第十七条（转租）：“承租人可以按照租赁合同的约定转租房屋；未约定的，承租人转租房屋应当事先征得出租人的书面同意。居住房屋转租应当符合本办法第八条、第九条、第十条的规定。”转租亦须按第十二条、第十三条规定订立租赁合同并办理登记备案。另第二十四条要求承租人增加居住使用人须征得出租人同意，且不得违反第十条第一款（人数/面积限制）。",
+   "title": "上海居住房屋租赁：转租规则（2011年办法第十七条）"
+  },
+  {
+   "id": "ke_rent_013",
+   "city": "上海市",
+   "category": "租房",
+   "title": "经验类：上海租房签约后及时办理网签备案并留存备案通知书",
+   "summary": "经验类建议（非政策原文；标题已修正：原“签约前”与正文“签约后”矛盾，网签备案是随合同签订/签订后办理的事项）：在上海租房签约后，建议通过随申办（“我要租房”/“不见面办理”专栏）或线下区租赁服务中心、社区事务受理服务中心办理租赁合同网签备案，并留存《住房租赁合同备案通知书》（随申办可下载电子证照）。官方依据：《上海市住房租赁合同网签备案操作规定》第十条明确“租赁当事人办理网签备案后，取得住房租赁合同备案通知书”，且“租赁当事人可以通过‘随申办’移动端下载住房租赁合同备案通知书电子证照”；第九条确认自行成交可通过随申办线上办理、材料免于提交。备案是否强制、备案期限等以政府文件为准（见本JSON政策条目），本条仅为操作经验。",
+   "applicability": "上海市住房租赁相关",
+   "exclusions": "经验类，非政策结论；“备案是居住登记/公积金提取前置条件、纠纷凭证”部分为经验推断，非文件原文表述。",
+   "effective_from": "未见",
+   "preconditions": "",
+   "steps": [],
+   "entry_ids": [
+    "entry_rent_001",
+    "entry_rent_002"
+   ],
+   "evidence": [
+    {
+     "source_name": "上海市人民政府网站《关于印发〈上海市住房租赁合同网签备案操作规定〉的通知》（沪房规范〔2024〕8号）PDF（官方依据，支撑本条经验建议）",
+     "url": "https://www.shanghai.gov.cn/cmsres/32/326e8eab30f24080812520d89c60fcfc/490f639805a2e0f5190f7b62f7f7b45a.pdf",
+     "published_at": "2024-10-31（自2024年12月1日起施行，有效期至2029年6月30日）",
+     "verified_at": "2026-09-23",
+     "excerpt": "第十条（住房租赁合同备案通知书）租赁当事人办理网签备案后，取得住房租赁合同备案通知书（详见附件4）。租赁当事人可以通过“随申办”移动端下载住房租赁合同备案通知书电子证照。第九条（线上办理和免于提交）租赁当事人自行成交的，可通过“一网通办”门户网站、“随申办”移动端“我要租房”和“不见面办理”专栏办理网签备案，办事材料可通过数据共享、电子证照调取等方式，实现免于提交。"
+    }
+   ],
+   "collected_at": "2026-09-23",
+   "status": "pending_verification",
+   "reviewer": "待人工审核"
+  },
+  {
+   "id": "ke_rent_014",
+   "city": "上海市",
+   "category": "租房",
+   "title": "经验类：通过平台找房时优先选择能提供网签备案服务的渠道",
+   "summary": "经验类建议（非政策原文）：政策要求住房租赁经营机构、房地产经纪机构为租赁当事人提供合同网签备案服务——《关于进一步整顿规范本市住房租赁市场秩序的实施意见》（沪建房管联〔2021〕18号）明确“住房租赁经营机构、房地产经纪机构应当主动办理上海市住房租赁公共服务平台用户认证，取得租赁平台用户操作权限，并按规定为租赁当事人提供合同网签备案服务”；《上海市住房租赁合同网签备案操作规定》（沪房规范〔2024〕8号）第六条、第十七条亦明确经纪机构/租赁企业通过住房租赁平台办理网签备案的责任。实际找房时，可优先选择明确承诺协助办理网签备案的平台或机构，并在签约前问清备案由谁办理、何时办结；个人房东直租的，可自行经随申办或社区事务受理服务中心办理。本条为操作经验，不评价任何平台房源优劣。",
+   "applicability": "上海市住房租赁相关",
+   "exclusions": "经验类，非政策结论；不涉及对平台房源质量的评价或比较。",
+   "effective_from": "未见",
+   "preconditions": "",
+   "steps": [],
+   "entry_ids": [
+    "entry_rent_001"
+   ],
+   "evidence": [
+    {
+     "source_name": "上海市房屋管理局《关于印发〈关于进一步整顿规范本市住房租赁市场秩序的实施意见〉的通知》（沪建房管联〔2021〕18号）PDF（官方依据，支撑本条经验建议）",
+     "url": "https://fgj.sh.gov.cn/cmsres/a1/a1820d956c1445f1a4ca90eeb0901da9/46d8117ed90128af21bbf95cec969373.pdf",
+     "published_at": "2021-01-27",
+     "verified_at": "2026-09-23",
+     "excerpt": "（一）强化合同网签备案。本市行政区域内的住房租赁活动，均应按规定进行合同网签备案。住房租赁经营机构、房地产经纪机构应当主动办理上海市住房租赁公共服务平台用户认证，取得租赁平台用户操作权限，并按规定为租赁当事人提供合同网签备案服务。"
+    }
+   ],
+   "collected_at": "2026-09-23",
+   "status": "pending_verification",
+   "reviewer": "待人工审核"
+  },
+  {
+   "applicability": "上海市住房租赁相关；租赁住房不属于本市住房租赁网签备案范围的情形",
+   "category": "租房",
+   "city": "上海市",
+   "collected_at": "2026-09-23",
+   "effective_from": "未见（业务指南发布/更新日期未见）",
+   "entry_ids": [],
+   "evidence": [
+    {
+     "excerpt": "（三）申请人租赁住房不属于本市租赁网签备案范围的，应当承诺如申请提取住房公积金支付房租业务后，因租赁的住房发生变动，且属于本市住房租赁网签备案范围时，将及时终止当前租赁提取业务，办理网签备案后重新申请。",
+     "published_at": "未见",
+     "source_name": "上海住房公积金网《业务指南》PDF（搜索引擎抓取正文；本轮未直接打开PDF原文）",
+     "url": "https://www.shzfgjj.cn/images/ywzlb.pdf",
+     "verified_at": "2026-09-23"
+    }
+   ],
+   "exclusions": "①本轮browser.open直接打开官网业务指南PDF再次失败（tool_failure），正文为搜索引擎对该官网PDF的抓取内容，待人工复核后可转verified；②未备案路径的额度未见单独标准，适用一般租赁提取额度规则（不超过实际房租支出，2024年11月1日起月限额4000元）；③“承诺”的具体提交方式（线上勾选/书面承诺书）抓取正文未见。",
+   "id": "ke_rent_015",
+   "preconditions": "",
+   "reviewer": "待人工审核",
+   "status": "pending_verification",
+   "steps": [],
+   "summary": "据上海住房公积金网《业务指南》“支付房屋租赁费用”章节“五、注意事项（三）”（搜索引擎对该官网PDF的抓取正文）：申请人租赁住房不属于本市租赁网签备案范围的，可以申请提取住房公积金支付房租，但应当承诺——如申请提取业务后，因租赁的住房发生变动且属于本市住房租赁网签备案范围时，将及时终止当前租赁提取业务，办理网签备案后重新申请。额度适用一般租赁提取规则：每户家庭（含单身家庭）月提取金额不超过实际房租支出；2024年11月1日起月提取限额由3000元提高为4000元。",
+   "title": "上海租房提取公积金：未办理网签备案情形的提取路径（承诺制）"
+  },
+  {
+   "applicability": "上海市住房租赁相关",
+   "category": "租房",
+   "city": "上海市",
+   "collected_at": "2026-09-23",
+   "effective_from": "2011-10-01（施行日期；2021-05-08修正重新发布，现行有效）",
+   "evidence": [
+    {
+     "access_note": "该URL本轮browser.open直接打开两次均失败；条文为搜索引擎对闵行区政府网站该官方页面抓取的全文，逐字引用。",
+     "excerpt": "第九条（最小出租单位） 出租居住房屋，应当以一间原始设计为居住空间的房间为最小出租单位，不得分隔搭建后出租，不得按照床位出租。原始设计为厨房、卫生间、阳台和地下储藏室等其他空间的，不得出租供人员居住。",
+     "published_at": "2021-05-08（修正重新发布；页面标注时效性：现行有效）",
+     "source_name": "《上海市居住房屋租赁管理办法》（2021年修正版；闵行区政府网站刊载PDF）",
+     "url": "https://www.shyp.gov.cn/zhengwu/cgzfj-xzcfsx/2025/219/76f3ac1823d03bcbefa3dd0b65e997bc/20ae99d67e9a4d378e38d826ce492f59.pdf",
+     "verified_at": "2026-09-23"
+    }
+   ],
+   "exclusions": "“群租房”在现行法规中是否有正式定义仍未查到；车库未在第九条单独列明（“等其他空间”表述涵盖范围以执法口径为准）；该PDF本轮未能直接打开，原文来自官方页面抓取全文。",
+   "id": "ke_rent_016",
+   "preconditions": "",
+   "reviewer": "待人工审核",
+   "status": "pending_verification",
+   "steps": [],
+   "summary": "《上海市居住房屋租赁管理办法》（2021年修正版，现行有效）第九条第二款：“原始设计为厨房、卫生间、阳台和地下储藏室等其他空间的，不得出租供人员居住。”即非居住空间（厨房、卫生间、阳台、地下储藏室等）不得出租供人员居住，违反者适用第三十二条处罚（区房屋行政管理部门责令限期改正，逾期不改处1万元以上10万元以下罚款）。",
+   "title": "上海群租管理：厨房/卫生间/阳台/地下储藏室等非居住空间不得出租居住（2011年办法第九条）"
+  }
+ ],
+ "entries": [
+  {
+   "id": "entry_health_001",
+   "service_name": "上海国际旅行卫生保健中心体检预约指南（外籍人员）",
+   "provider": "上海市人民政府英文门户（政府官网）",
+   "url": "https://english.shanghai.gov.cn/en-ArrivalChecklist/20240830/e0c6ab8837044b75a4c2c568abb7589c.html",
+   "region": "上海市",
+   "purpose": "指南",
+   "need_login": "未知",
+   "last_verified": "2026-09-23",
+   "fallback": "如链接无法访问，可通过随申办 APP/官网检索“国际旅行卫生保健中心”，或拨打咨询电话 021-6268-8851（上海市政府英文门户公示）。"
+  },
+  {
+   "id": "entry_health_002",
+   "service_name": "爱康国宾体检预约/电子报告查询渠道说明",
+   "provider": "南京信息工程大学发布的爱康国宾2025年度体检须知（第三方单位文件）",
+   "url": "https://webs.nuist.edu.cn/_upload/article/files/c2/b0/cd9935614f83b15197b573678052/4a67c02e-517d-4fe3-9a30-5b66dd23406b.pdf",
+   "region": "上海市",
+   "purpose": "指南",
+   "need_login": "未知",
+   "last_verified": "2026-09-23",
+   "fallback": "企业级子域名仅供对应单位员工使用；个人可通过爱康 APP 或微信小程序“爱康国宾健康服务”预约（据爱康国宾2025年度体检须知），官方网站通用入口待 browser.open 复核。"
+  },
+  {
+   "id": "entry_health_003",
+   "service_name": "美年大健康上海分院预约渠道说明",
+   "provider": "上海应用技术大学信息公开发布的2024年美年体检方案（第三方单位文件）",
+   "url": "https://xxgk.sitsh.edu.cn/_upload/article/files/cc/b0/3388f8b8427299e03c83ffaf8f5b/5a85adf9-ee68-4005-a9b8-bcbf1dfa3ad45.pdf",
+   "region": "上海市",
+   "purpose": "指南",
+   "need_login": "未知",
+   "last_verified": "2026-09-23",
+   "fallback": "该链接来自上海应用技术大学2024年美年体检方案文件；美年总部在上海（静安区），官方网站及微信公众号“上海美年大健康”为主要预约渠道（页面级验证待补）。"
+  },
+  {
+   "id": "entry-huolala-001",
+   "service_name": null,
+   "provider": null,
+   "url": "https://huolala.cn/",
+   "region": null,
+   "purpose": null,
+   "need_login": false,
+   "last_verified": null,
+   "fallback": null
+  },
+  {
+   "id": "entry-ziroom-001",
+   "service_name": null,
+   "provider": null,
+   "url": null,
+   "region": null,
+   "purpose": null,
+   "need_login": "未知",
+   "last_verified": null,
+   "fallback": null
+  },
+  {
+   "id": "entry-goofish-001",
+   "service_name": null,
+   "provider": null,
+   "url": "https://goofish.com/",
+   "region": null,
+   "purpose": null,
+   "need_login": "未知",
+   "last_verified": null,
+   "fallback": null
+  },
+  {
+   "id": "ent_pet_001",
+   "service_name": "上海养犬登记办理指南（How to get a dog license）",
+   "provider": "上海市人民政府（english.shanghai.gov.cn）",
+   "url": "https://english.shanghai.gov.cn/en-KeepingAPetInShanghai/20231221/83150016258f4b96848c4402fa14a12f.html",
+   "region": "上海市",
+   "purpose": "指南",
+   "need_login": false,
+   "last_verified": "2026-09-23",
+   "fallback": "线下到居住地所属派出所或区级一门式养犬登记受理点办理；中文线上入口为随申办微信小程序“文明养犬一件事”（本次未能打开中文官方页面核验，见数据缺口）"
+  },
+  {
+   "id": "ent_pet_002",
+   "service_name": "上海禁养犬品种名录（Dog breeds prohibited in Shanghai）",
+   "provider": "上海市人民政府（english.shanghai.gov.cn，来源：上海市农业农村委员会）",
+   "url": "https://english.shanghai.gov.cn/en-Pets/20240115/75e2df0e65c84182a034f33de439dbdf.html",
+   "region": "上海市",
+   "purpose": "查询",
+   "need_login": false,
+   "last_verified": "2026-09-23",
+   "fallback": "办证前向属地派出所或养犬登记点咨询品种认定口径"
+  },
+  {
+   "id": "ent_pet_003",
+   "service_name": "带宠物乘机指南（Flying with pets）",
+   "provider": "上海市人民政府（english.shanghai.gov.cn）",
+   "url": "https://english.shanghai.gov.cn/en-KeepingAPetInShanghai/20250512/f909afaad3494aef91b64c5655db556e.html",
+   "region": "上海市",
+   "purpose": "指南",
+   "need_login": false,
+   "last_verified": "2026-09-23",
+   "fallback": "出行前直接向所乘航司官方客服/官网确认宠物托运与进客舱细则（各航司差异大，本次未逐一核验航司官网）"
+  },
+  {
+   "id": "ent_pet_004",
+   "service_name": "动物检疫合格证明办理指南（Animal Quarantine Certificate）",
+   "provider": "City News Service（上海市政府新闻办官方英文媒体）",
+   "url": "https://www.citynewsservice.cn/articles/cns/shanghai-living/animal-quarantine-certificate-pet-travel-made-easy-xm5g6r4k",
+   "region": "上海市",
+   "purpose": "指南",
+   "need_login": false,
+   "last_verified": "2026-09-23",
+   "fallback": "致电或前往属地区动物卫生监督机构预约办理；部分区支持线上预申请（如浦东“浦东城管综合执法”微信公众号）"
+  },
+  {
+   "id": "ent_pet_005",
+   "service_name": "高铁宠物托运试点报道（12306“宠”字车次）",
+   "provider": "中国新闻网（转引央视新闻客户端）",
+   "url": "https://www.chinanews.com.cn/sh/2026/01-28/10560826.shtml",
+   "region": "上海市",
+   "purpose": "指南",
+   "need_login": false,
+   "last_verified": "2026-09-23",
+   "fallback": "在铁路12306客户端实时查询带“宠”字标识的车次与“宠物托运”预约功能；咨询铁路12306或中铁快运95572"
+  },
+  {
+   "id": "ent_pet_006",
+   "service_name": "虹口区依法养宠办事指南（含养犬登记、免疫、日常规范与罚则）",
+   "provider": "上海市虹口区人民政府",
+   "url": "https://www.shhk.gov.cn/xwzx/002014/20260708/60e1677e-8cc5-4bc0-95f1-f262352829cf.html",
+   "region": "上海市",
+   "purpose": "指南",
+   "need_login": false,
+   "last_verified": "2026-09-23",
+   "fallback": "其他区可参照本区指南口径，具体执行以居住地区公安/农业农村部门答复为准；《上海市养犬管理条例》原文直链本次未取得，见数据缺口"
+  },
+  {
+   "id": "entry_juzhuan_policy_pdf",
+   "service_name": "居转户实施细则官方公文（沪人才规〔2025〕4号）",
+   "provider": "上海市人民政府官网（shanghai.gov.cn）",
+   "url": "http://www.shanghai.gov.cn/cmsres/d7/d78c35fa05c94506889c0a36aba92155/b020ee114c576fe975d935ac441eddc2.pdf",
+   "region": "上海市",
+   "purpose": "指南",
+   "need_login": false,
+   "last_verified": "2026-09-23",
+   "fallback": "若PDF无法打开，可在 shanghai.gov.cn 站内搜索“持有《上海市居住证》人员申办本市常住户口办法实施细则 沪人才规〔2025〕4号”"
+  },
+  {
+   "id": "entry_ywtb",
+   "service_name": "一网通办（居转户/人才引进落户官方申报入口，政策文本中载明）",
+   "provider": "上海市大数据中心（一网通办平台）",
+   "url": "未见",
+   "region": "上海市",
+   "purpose": "办理",
+   "need_login": "未知",
+   "last_verified": "2026-09-23",
+   "fallback": "官方政策文本（沪人才规〔2025〕4号）载明“用人单位通过本市‘一网通办’平台提交申请”，但未给出URL；请人工在随申办APP或一网通办官网搜索“持有《上海市居住证》人员申办本市常住户口”核验具体办事链接"
+  },
+  {
+   "id": "entry_points_system",
+   "service_name": "上海市居住证积分管理信息系统（网上模拟估分）",
+   "provider": "上海市人力资源和社会保障局",
+   "url": "未见",
+   "region": "上海市",
+   "purpose": "查询",
+   "need_login": "未知",
+   "last_verified": "2026-09-23",
+   "fallback": "《管理办法》第十三条载明“可通过互联网登录上海市居住证积分管理信息系统，进行网上模拟估分”，但官方网址本次检索未见；请人工通过 rsj.sh.gov.cn 站内搜索或随申办APP核验官方入口"
+  },
+  {
+   "id": "entry_rc_service_center",
+   "service_name": "各区人才服务中心（积分受理机构）",
+   "provider": "各区人力资源社会保障部门",
+   "url": "未见",
+   "region": "上海市",
+   "purpose": "办理",
+   "need_login": false,
+   "last_verified": "2026-09-23",
+   "fallback": "《管理办法》第十三条规定委托用人单位向注册地区人才服务中心申请积分；具体地址与联系方式请人工通过各区政府官网或随申办查询"
+  },
+  {
+   "id": "entry_talent_old_xize_pdf",
+   "service_name": "人才引进落户实施细则（2020版，已过期，仅作流程参考）",
+   "provider": "上海市人力资源和社会保障局官网（rsj.sh.gov.cn）",
+   "url": "https://rsj.sh.gov.cn/cmsres/07/0725f3022bbd4438b7d76a114c5dbc6b/ad09259ef24a69eae0f681d6b664230f.pdf",
+   "region": "上海市",
+   "purpose": "指南",
+   "need_login": false,
+   "last_verified": "2026-09-23",
+   "fallback": "该细则有效期至2025年11月30日已过期；新版配套细则待市人社局/人才工作局官网发布后替换"
+  },
+  {
+   "id": "entry_firstjob",
+   "service_name": "上海学生就业创业服务网（应届生落户通知官方发布渠道）",
+   "provider": "上海市教育委员会",
+   "url": "未见",
+   "region": "上海市",
+   "purpose": "指南",
+   "need_login": "未知",
+   "last_verified": "2026-09-23",
+   "fallback": "历年《关于做好非上海生源应届普通高校毕业生进沪就业工作的通知》通过该网发布；2026年度通知官方文本本次检索未见，本次尝试打开其栏目页失败，需人工核验"
+  },
+  {
+   "id": "ent_001",
+   "service_name": "《上海市社会保障卡管理办法》（规章文本）",
+   "provider": "上海市人民政府",
+   "url": "https://cdn.shanghai.gov.cn/cmsres/a8/a801f842ac244d16a57d1be0279795f5/39f47e77e807fae0525553c9fd5dc533.pdf",
+   "region": "上海市",
+   "purpose": "指南",
+   "need_login": false,
+   "last_verified": "2026-09-23",
+   "fallback": "办理时间每日8:00-19:00；若提示\"无可调用的办证照片\"需去社区受理网点拍照申领"
+  },
+  {
+   "id": "ent_002",
+   "service_name": "上海社保卡申领、激活、丢失补办全攻略",
+   "provider": "上海社保卡服务中心",
+   "url": "https://www.shsmu.edu.cn/__local/9/18/A7/D52057AE8C157E91F5DFC40111D_0B524BEC_2F70A.pdf",
+   "region": "上海市",
+   "purpose": "指南",
+   "need_login": false,
+   "last_verified": "2026-09-23",
+   "fallback": "随申办APP/微信/支付宝小程序搜索\"社保卡\"进入专题服务（移动端入口）；社区事务受理服务中心线下办理"
+  },
+  {
+   "id": "ent_003",
+   "service_name": "上海市垃圾分类官方指南（四分类标准与投放要求）",
+   "provider": "上海市绿化市容局（上海市政府英文官网发布）",
+   "url": "https://english.shanghai.gov.cn/en-WasteDisposal/20231212/15dc5685586b44b3ad419639b102687c.html",
+   "region": "上海市",
+   "purpose": "指南",
+   "need_login": false,
+   "last_verified": "2026-09-23",
+   "fallback": "中文版细则见《上海市生活垃圾管理条例》（2019年1月31日通过，2019年7月1日施行）"
+  },
+  {
+   "id": "ent_004",
+   "service_name": "上海垃圾分类社区问答（含易错品类与罚则）",
+   "provider": "上海市人民政府英文官网",
+   "url": "https://english.shanghai.gov.cn/en-Community/20231213/4d01af34ad254b83a60eafe4e9d95007.html",
+   "region": "上海市",
+   "purpose": "指南",
+   "need_login": false,
+   "last_verified": "2026-09-23",
+   "fallback": "来源标注zwdt.sh.gov.cn（一网通办）"
+  },
+  {
+   "id": "ent_005",
+   "service_name": "上海地铁出行指南（Metro大都会下载指引）",
+   "provider": "上海地铁（上海市政府英文官网发布）",
+   "url": "https://english.shanghai.gov.cn/en-Transportation/20231214/c727f5e15eff4b8c9340651dd95f3f7c.html",
+   "region": "上海市",
+   "purpose": "指南",
+   "need_login": false,
+   "last_verified": "2026-09-23",
+   "fallback": "应用市场搜索\"Metro大都会\"下载APP；微信/支付宝/云闪付搜索\"上海地铁 Metro大都会乘车码\"小程序"
+  },
+  {
+   "id": "ent_006",
+   "service_name": "随申行（SH MaaS）一站式出行APP官方介绍",
+   "provider": "上海市交通委（上海市政府英文官网发布）",
+   "url": "https://english.shanghai.gov.cn/en-Latest-WhatsNew/20250128/fb9efae118334c7b896d23e92cce3552.html",
+   "region": "上海市",
+   "purpose": "指南",
+   "need_login": false,
+   "last_verified": "2026-09-23",
+   "fallback": "中文应用市场搜索\"随申行/Suishenxing\"，海外应用市场搜索\"SH MaaS\""
+  },
+  {
+   "id": "ent_007",
+   "service_name": "上海公共交通卡官方介绍（交通卡APP/NFC/微信小程序）",
+   "provider": "上海公共交通卡股份有限公司（上海市政府英文官网发布）",
+   "url": "https://english.shanghai.gov.cn/en-Latest-WhatsNew/20240422/5251c321845b4a488723bb51dd23adc2.html",
+   "region": "上海市",
+   "purpose": "指南",
+   "need_login": "未知",
+   "last_verified": "2026-09-23",
+   "fallback": "上海交通卡官网域名未核验（见gap_003）；实体卡充值可在地铁站CVM自助机办理"
+  },
+  {
+   "id": "entry_power_001",
+   "service_name": "国网上海市电力公司官网",
+   "provider": "国网上海市电力公司",
+   "url": "http://www.sh.sgcc.com.cn/html/files/2026-03/31/20260331164825760986110.pdf",
+   "region": "上海市",
+   "purpose": "指南",
+   "need_login": "未知",
+   "last_verified": "2026-09-23",
+   "fallback": "拨打95598（24小时供电服务热线）咨询，或前往国网上海市电力公司供电营业厅线下办理。"
+  },
+  {
+   "id": "entry_power_002",
+   "service_name": "网上国网App",
+   "provider": "国网上海市电力公司",
+   "url": "未见可直接验证的下载/深链（官方告知书内载明为业务办理渠道之一）",
+   "region": "上海市",
+   "purpose": "办理",
+   "need_login": true,
+   "last_verified": "2026-09-23",
+   "fallback": "前往供电营业厅线下办理，或拨打95598。"
+  },
+  {
+   "id": "entry_power_003",
+   "service_name": "国网上海电力微信公众号",
+   "provider": "国网上海市电力公司",
+   "url": "未见可直接验证的深链（官方告知书内载明为业务办理渠道之一）",
+   "region": "上海市",
+   "purpose": "办理",
+   "need_login": true,
+   "last_verified": "2026-09-23",
+   "fallback": "拨打95598。"
+  },
+  {
+   "id": "entry_power_004",
+   "service_name": "95598供电服务热线",
+   "provider": "国网上海市电力公司",
+   "url": "无（电话渠道）",
+   "region": "上海市",
+   "purpose": "指南",
+   "need_login": false,
+   "last_verified": "2026-09-23",
+   "fallback": "无"
+  },
+  {
+   "id": "entry_gov_001",
+   "service_name": "上海市政务服务网（一网通办）水电气网联合报装“一件事”",
+   "provider": "上海市住房城乡建设管理委（牵头）",
+   "url": "https://zwdt.sh.gov.cn/group1/M00/B6/80/rBJ9JmlZwvuAQ3BMAAePYsuIgbw798.pdf",
+   "region": "上海市",
+   "purpose": "办理",
+   "need_login": "未知",
+   "last_verified": "2026-09-23",
+   "fallback": "居民水电气过户请分别联系各专营公司（国网上海电力/上海燃气/城投水务及各区供排水公司）办理。"
+  },
+  {
+   "id": "entry_broadband_001",
+   "service_name": "上海移动官网",
+   "provider": "中国移动上海公司",
+   "url": "https://sh.10086.cn（2026-09-23经browser.open实际尝试无法抓取，未验证）",
+   "region": "上海市",
+   "purpose": "指南",
+   "need_login": "未知",
+   "last_verified": "2026-09-23",
+   "fallback": "拨打10086咨询上海地区宽带资费，或前往上海移动营业厅。"
+  },
+  {
+   "id": "entry_broadband_002",
+   "service_name": "上海联通官网",
+   "provider": "中国联通上海市分公司",
+   "url": "https://sh.10010.com（2026-09-23经browser.open实际尝试无法抓取，未验证）",
+   "region": "上海市",
+   "purpose": "指南",
+   "need_login": "未知",
+   "last_verified": "2026-09-23",
+   "fallback": "拨打10010咨询上海地区宽带资费，或前往上海联通营业厅。"
+  },
+  {
+   "id": "entry_rent_001",
+   "service_name": "上海市住房租赁公共服务平台（网签备案申请/合同查询/核验码验真）",
+   "provider": "上海市房屋管理局（官网服务区“租赁管理”直达）",
+   "url": "https://zfzl.fgj.sh.gov.cn/",
+   "region": "上海市",
+   "purpose": "办理",
+   "need_login": "未知",
+   "last_verified": "2026-09-23",
+   "fallback": "平台个人服务含“网签备案申请”“我的网签合同”“核验码验真”等功能；若网站无法打开，可通过随申办APP检索“住房租赁合同网签备案”（“我要租房”/“不见面办理”专栏），或前往任一区租赁服务中心/社区事务受理服务中心线下全市通办、当场办结（依据《上海市住房租赁合同网签备案操作规定》第十六条）。"
+  },
+  {
+   "id": "entry_rent_002",
+   "service_name": "《上海市住房租赁合同网签备案操作规定》官方原文（沪房规范〔2024〕8号，政策依据）",
+   "provider": "上海市人民政府网站（文件由上海市房屋管理局印发）",
+   "url": "https://www.shanghai.gov.cn/cmsres/32/326e8eab30f24080812520d89c60fcfc/490f639805a2e0f5190f7b62f7f7b45a.pdf",
+   "region": "上海市",
+   "purpose": "指南",
+   "need_login": "否",
+   "last_verified": "2026-09-23",
+   "fallback": "同一文件亦刊载于上海市房屋管理局网站（fgj.sh.gov.cn）政策文件栏目；市住房租赁公共服务平台“政策法规”栏亦收录该文件。"
+  },
+  {
+   "id": "entry_rent_003",
+   "service_name": "《关于进一步整顿规范本市住房租赁市场秩序的实施意见》官方原文（沪建房管联〔2021〕18号，政策依据）",
+   "provider": "上海市房屋管理局（上海市住房和城乡建设管理委员会等十部门）",
+   "url": "https://fgj.sh.gov.cn/cmsres/a1/a1820d956c1445f1a4ca90eeb0901da9/46d8117ed90128af21bbf95cec969373.pdf",
+   "region": "上海市",
+   "purpose": "指南",
+   "need_login": "否",
+   "last_verified": "2026-09-23",
+   "fallback": "可通过上海市房屋管理局网站（fgj.sh.gov.cn）政策文件栏目检索文号“沪建房管联〔2021〕18号”。"
+  },
+  {
+   "id": "entry_rent_004",
+   "service_name": "上海市房屋管理局官网（租赁服务导航：一网通办/租赁平台/业务受理窗口）",
+   "provider": "上海市房屋管理局",
+   "url": "https://fgj.sh.gov.cn/",
+   "region": "上海市",
+   "purpose": "指南",
+   "need_login": "否",
+   "last_verified": "2026-09-23",
+   "fallback": "官网首页服务区“租赁管理”直达上海市住房租赁公共服务平台；“便民查询”含业务受理窗口、各区住房保障房屋管理部门、房地产交易中心信息；“一网通办”图片链接通往一网通办门户（网签备案事项需在门户内检索）。"
+  },
+  {
+   "fallback": "房管局官网首页（已打开验证）：https://fgj.sh.gov.cn/ → 政府信息公开 → 规范性文件",
+   "id": "entry_rent_010",
+   "last_verified": "2026-09-23",
+   "need_login": "否",
+   "provider": "上海市房屋管理局（政府官网）",
+   "purpose": "查询市房管局现行规范性文件全文、文号、施行/失效日期（如群租治理、租赁管理类文件）",
+   "region": "上海市",
+   "service_name": "上海市房屋管理局官网—规范性文件（政策文件）",
+   "url": "https://fgj.sh.gov.cn/gfxwj/index.html"
+  },
+  {
+   "fallback": "直接拨打12345市民服务热线（24小时服务）；在线渠道网址 www.sh12345.gov.cn 本轮打开失败，待复验",
+   "id": "entry_rent_011",
+   "last_verified": "2026-09-23",
+   "need_login": "否",
+   "provider": "上海市人民政府英文门户（政府官网）",
+   "purpose": "群租/违法出租线索投诉举报入口说明：12345为24小时市民服务热线，受理对政府公共管理与公共服务的咨询、求助、投诉和建议，提供电话、在线及微信小程序渠道",
+   "region": "上海市",
+   "service_name": "上海12345市民服务热线（群租违法线索投诉举报渠道）",
+   "url": "https://english.shanghai.gov.cn/en/20231223/7b8359d283634bd99b4e7a2c5a89314c.html"
+  },
+  {
+   "id": "entry_rent_020",
+   "service_name": "贝壳找房上海官方网站（上海租房/二手房/新房查询）",
+   "provider": "贝壳找房（KE Holdings 旗下官方平台）",
+   "url": "https://sh.ke.com/",
+   "region": "上海市",
+   "purpose": "查询",
+   "need_login": "否",
+   "last_verified": "2026-09-23",
+   "fallback": "如页面无法访问，可通过贝壳找房 APP 或微信小程序“贝壳找房”切换至上海查看房源，或拨打贝壳官方客服咨询。"
+  },
+  {
+   "id": "entry_rent_021",
+   "service_name": "链家上海官方网站（上海租房/二手房/新房查询）",
+   "provider": "链家（贝壳控股旗下官方经纪品牌）",
+   "url": "https://sh.lianjia.com/",
+   "region": "上海市",
+   "purpose": "查询",
+   "need_login": "否",
+   "last_verified": "2026-09-23",
+   "fallback": "如页面无法访问，可通过链家 APP 或微信小程序“链家”切换至上海查看房源，或拨打链家官方客服咨询。"
+  },
+  {
+   "id": "entry_rent_022",
+   "service_name": "巴乐兔官方网站（合租/整租/品质公寓查询）",
+   "provider": "上海万间信息技术有限公司（巴乐兔官方运营主体）",
+   "url": "https://www.baletu.com/",
+   "region": "上海市",
+   "purpose": "查询",
+   "need_login": "否",
+   "last_verified": "2026-09-23",
+   "fallback": "如页面无法访问，可下载巴乐兔 APP 或关注微信公众号“巴乐兔”，在城市选择中切换至上海查看房源。"
+  }
+ ],
+ "cost_updates": [
+  {
+   "id": "cu_gas_001",
+   "category": null,
+   "provider": "上海燃气有限公司（申能集团）",
+   "details": {
+    "note": "2024年之后（含2024年）未找到上海市发改委、上海燃气/申能集团官网对居民管道燃气阶梯价的直接确认文件。检索到的2026年发改委文件均为非居民天然气（沪发改价管〔2026〕8号、〔2026〕18号）与居民瓶装液化石油气基准价（沪发改价管〔2026〕4号、〔2026〕13号），不适用于居民管道燃气阶梯价。",
+    "tier1_0_310_m3_per_year": "3.00 元/立方米（legacy，未获2024年后官方直接确认）",
+    "tier2_311_520_m3_per_year": "3.30 元/立方米（legacy，未获2024年后官方直接确认）",
+    "tier3_above_520_m3_per_year": "4.20 元/立方米（legacy，未获2024年后官方直接确认）",
+    "unit": "元/立方米"
+   },
+   "data_status": "pending_verification",
+   "evidence": [
+    {
+     "excerpt": "Natural Gas — Household Tier-1 0-310 3.00; Tier-2 311-520 3.30; Tier-3 >520 4.20. Sources: shanghaiwater.com, Shanghai Foreign Investment Guide 2023",
+     "published_at": "2023-12-09",
+     "source_name": "上海市英文政务页价表（交叉印证，既有库已收录）",
+     "url": "https://english.shanghai.gov.cn/en-EstablishaCompany/20231209/941408eab4d04397ba21064971e9385d.html",
+     "verified_at": "2026-09-23"
+    }
+   ]
+  },
+  {
+   "id": "cu_broadband_001",
+   "category": null,
+   "provider": "中国移动上海公司 / 中国联通上海市分公司",
+   "details": {
+    "note": "上海移动、上海联通官方宽带套餐均未获得可公开核验的官方来源。运营商官网（sh.10086.cn、sh.10010.com）经 browser.open 实际尝试均无法抓取（反爬/JS渲染），搜索引擎亦未返回两家上海公司官网的宽带资费深层页面；第三方社区帖（如V2EX上海联通五月特惠帖）非官方来源，不予收录为费用结论。",
+    "unit": "元"
+   },
+   "data_status": "pending_verification",
+   "evidence": []
+  }
+ ],
+ "data_gaps": [
+  {
+   "id": "gap_health_001",
+   "topic": "三甲医院体检中心官方预约页面未完成 browser.open 直接验证",
+   "description": "本轮调研中 browser.open 无法正常打开目标网页（如中山医院官网 https://www.zs-hospital.sh.cn 打开失败），未能完成对医院官网体检中心页面和第三方机构官网页面的直接页面级验证。",
+   "severity": "P1",
+   "suggested_next": "用具备浏览器能力的 Agent 复核中山医院/华山医院/瑞金医院官网健康管理（体检）中心预约页面，并用 browser.open 逐一验证。"
+  },
+  {
+   "id": "gap_health_002",
+   "topic": "爱康国宾、美年大健康官方网站通用预约 URL 待核验",
+   "description": "爱康国宾的企业级预约子域名（如 xxgcdx.ee.ikang.com）来自单位体检须知文件，仅为企业专属入口，不可作为通用官方入口。爱康/美年的官网通用预约 URL 未在本次调研中获得可直接验证的官方页面。",
+   "severity": "P1",
+   "suggested_next": "核验爱康国宾 ikang.com 官网、美年大健康官方网站的通用在线预约入口，并用 browser.open 验证。"
+  },
+  {
+   "id": "gap_health_003",
+   "topic": "随申办是否有体检预约服务未见官方说明",
+   "description": "未在本次检索中发现随申办官方发布“体检预约”服务说明或入口页面。",
+   "severity": "P1",
+   "suggested_next": "在随申办 APP/官网站内检索“健康体检”“预约挂号”类服务，或咨询随申办官方客服确认是否有体检预约服务。"
+  },
+  {
+   "id": "gap_health_004",
+   "topic": "三甲医院体检中心官方报告领取方式说明未见",
+   "description": "现有报告领取方式证据均来自单位体检须知等间接文件（雇主发布、引用体检机构信息），未找到三甲医院体检中心官方发布的报告领取方式说明页面。",
+   "severity": "P1",
+   "suggested_next": "用浏览器复核中山/华山/华东医院体检中心官方页面或公众号上的“报告查询/领取”说明。"
+  },
+  {
+   "id": "dg_pet_001",
+   "topic": "随申办“文明养犬一件事”中文官方办理页面直链",
+   "description": "市政府英文站确认线上办理入口为随申办微信小程序内搜索“文明养犬一件事”→“进入办事大厅”，但一网通办中文指南页面（zwdt.sh.gov.cn/smzy/shell_pc/personal/dog-keeping-guide?id=182852）本次抓取失败，未能打开核验真实URL与页面内容。线上办理步骤、所需上传材料清单以中文官方页面为准，当前依据英文转述。",
+   "severity": "P1",
+   "suggested_next": "人工在随申办App/微信小程序内搜索“文明养犬一件事”，核验官方路径与材料清单，补录直链URL"
+  },
+  {
+   "id": "dg_pet_002",
+   "topic": "《上海市养犬管理条例》市级官方原文直链",
+   "description": "本次未能找到并打开市人大/市政府法规库中的条例原文官方页面。条例条款（第10、11、22、24、25、29、42、43、45、49条等）暂以虹口区人民政府官方办事指南的引用为准；一户一犬政策的条例原文依据、农村地区限养口径、工作犬例外等未核验。",
+   "severity": "P1",
+   "suggested_next": "从上海市人大官网法规库或市政府规章库检索条例全文并核验，补录官方原文URL"
+  },
+  {
+   "id": "dg_pet_003",
+   "topic": "各航司宠物托运/进客舱官方办理页面",
+   "description": "国航、东航、南航、吉祥等航司的宠物运输官方说明页本次未逐一打开核验；当前结论依据市政府英文站综合指引（标注来源为各航司）。各航司在品种、体重、箱体尺寸、费用、航线上的细则差异大且可能调整。",
+   "severity": "P1",
+   "suggested_next": "人工逐一打开主要航司官网宠物运输页面核验，或在产品中仅保留“向航司官方确认”的指引而不收录具体数字"
+  },
+  {
+   "id": "dg_pet_004",
+   "topic": "铁路12306“宠物托运”功能与中铁快运小程序官方细则",
+   "description": "高铁宠物托运结论依据央视新闻报道（经中新网转载），属试点服务且范围持续扩大；12306客户端内“宠物托运”预约入口、中铁快运微信小程序的官方办理细则页面本次未直接打开核验，单只宠物限重/限肩高等细节仅见第三方报道转述，未收录。",
+   "severity": "P1",
+   "suggested_next": "人工在铁路12306客户端实测查询沪始发带“宠”字车次，核验预约流程与限制条件"
+  },
+  {
+   "id": "dg_pet_005",
+   "topic": "海关“进出境人员指尖服务”小程序宠物申报入口",
+   "description": "浦东机场海关宠物预申报入口（微信小程序“海关进出境人员指尖服务”）仅见市政府英文站转述，本次未直接核验小程序官方说明；且该入口主要面向国际入境，与国内跨城搬家关联度低，仅作参考未收录为知识条目。",
+   "severity": "P1",
+   "suggested_next": "如产品需覆盖国际带宠入境场景，人工核验海关小程序官方说明后补录"
+  },
+  {
+   "id": "dg_pet_006",
+   "topic": "家猫登记制度的官方口径",
+   "description": "“上海家猫无需办理类似犬证的登记”仅为未见官方依据的经验类结论（ke_pet_007已标注pending_verification），未找到官方明确说明。",
+   "severity": "P1",
+   "suggested_next": "人工咨询12345或区农业农村部门，确认家猫是否有登记/免疫登记要求后更新条目状态"
+  },
+  {
+   "id": "dg_grad_001",
+   "topic": "2026年非上海生源应届普通高校毕业生进沪就业（落户）通知官方文本",
+   "description": "间接证据显示沪教委学〔2026〕13号《关于做好2026年非上海生源应届普通高校毕业生进沪就业工作的通知》已印发（某高校模板承诺书引用），但上海市教委官网、上海学生就业创业服务网（firstjob.com.cn）的官方文本在公开检索中未见，本次尝试打开 firstjob.com.cn 栏目页失败。不得用2025年及以前年度通知内容冒充2026年政策。",
+   "severity": "P0",
+   "suggested_next": "人工访问上海学生就业创业服务网（www.firstjob.com.cn）通知公告/办事指南栏目，或市教委官网信息公开栏目，检索“2026年非上海生源应届普通高校毕业生进沪就业”，获取官方PDF后补录评分办法、申请时间、材料清单等要点"
+  },
+  {
+   "id": "dg_talent_001",
+   "topic": "人才引进落户新版实施细则官方文本（配套沪府规〔2025〕8号）",
+   "description": "沪府规〔2025〕8号《上海市引进人才申办本市常住户口办法》的存在性已由官方文件（沪人才规〔2025〕4号）引用确认，但其全文及配套新版实施细则的官方页面本次检索未见。现仅有已过期（有效期至2025年11月30日）的2020版实施细则作流程参考。",
+   "severity": "P1",
+   "suggested_next": "人工在 shanghai.gov.cn 或 rsj.sh.gov.cn 检索“沪府规〔2025〕8号”及新版《上海市引进人才申办本市常住户口办法实施细则》，补录人才类别、申请条件与材料清单"
+  },
+  {
+   "id": "dg_liuxue_001",
+   "topic": "留学回国人员落户现行政策官方文本",
+   "description": "现行政策（沪人社规〔2020〕22号《留学回国人员来沪工作申办本市常住户口实施细则》）的官方文本本次检索未见；仅找到已过期的2015版细则（第三方转发）与市政府英文官网的原则性表述。",
+   "severity": "P1",
+   "suggested_next": "人工在 rsj.sh.gov.cn 检索“沪人社规〔2020〕22号”，或通过一网通办/上海市人才服务中心官网核验现行留学生落户申请条件、社保基数要求与办理入口"
+  },
+  {
+   "id": "dg_points_001",
+   "topic": "居住证积分管理信息系统官方网址与积分管理办法官方发布页",
+   "description": "《上海市居住证积分管理办法》（2022版）与配套实施细则（沪人社规〔2022〕41号）的政策文本内容已核实为官方公文，但本次检索到的载体均为第三方域名镜像，shanghai.gov.cn/rsj.sh.gov.cn 官方政策发布页URL未找到；积分管理信息系统的官方网址未见。",
+   "severity": "P1",
+   "suggested_next": "人工在 shanghai.gov.cn 政策文件库检索“上海市居住证积分管理办法”，在 rsj.sh.gov.cn 或随申办APP核验积分模拟估分官方入口URL"
+  },
+  {
+   "id": "gap_001",
+   "topic": "上海第三代社保卡换发官方时间表",
+   "description": "多个非官方渠道（如360doc自媒体、中华网）称2025年全国第三代社保卡换发全面启动、上海为重点城市之一；《上海市社会保障卡管理办法》2025年9月修正版已写入\"加载交通联合一卡通功能\"（第三代卡典型功能）。但未找到上海人社局/上海社保卡服务中心发布的换发启动公告、换发时间表或合作银行名单的官方页面。产品不得承诺\"上海已全面换发第三代卡\"或给出换发截止日期。",
+   "severity": "P1",
+   "suggested_next": "人工核验上海人社局官网(rsj.sh.gov.cn)/上海社保卡服务中心公告，或致电12333确认上海第三代卡发放状态与换发安排。"
+  },
+  {
+   "id": "gap_002",
+   "topic": "上海官方预约挂号统一入口",
+   "description": "上海没有可核验的独立官方网页挂号平台（如北京114挂号平台那样的官网入口）。随申办APP/小程序内的\"预约挂号\"服务是广为人知的官方入口，但未找到可通过browser.open核验的官方说明页面；申康\"医联\"门诊预约电话021-96886/4008203137引自维基百科，未核验。",
+   "severity": "P1",
+   "suggested_next": "人工在随申办APP内核验\"预约挂号\"服务的覆盖医院范围与放号规则；向上海市卫健委核验统一预约渠道口径。"
+  },
+  {
+   "id": "gap_003",
+   "topic": "上海公共交通卡官网域名",
+   "description": "维基百科\"上海公共交通卡\"词条标注官网为www.sptcc.com，但该URL未出现在任何搜索结果的Full URL清单中，未用browser.open验证真实性，按宁缺毋滥原则未录入entries。",
+   "severity": "P1",
+   "suggested_next": "人工打开核验该域名是否为上海公共交通卡股份有限公司官网，核验后补录为entries。"
+  },
+  {
+   "id": "gap_004",
+   "topic": "随申办/一网通办社保卡申领深链与合作银行名单",
+   "description": "社保卡服务中心2025-3-12指南确认随申办APP/支付宝小程序/微信小程序均有\"社保卡专题服务\"，但精确的深链、一网通办PC端\"社会保障卡申领\"事项页URL、以及合作银行名单未用browser.open核验到官方页面。",
+   "severity": "P1",
+   "suggested_next": "人工在一网通办(zwdt.sh.gov.cn)检索\"社会保障卡申领\"获取官方事项页URL；在随申办APP内查看合作银行名单。"
+  },
+  {
+   "id": "dg_broadband_mobile",
+   "topic": "上海移动官方宽带套餐缺失",
+   "description": "上海移动官网（sh.10086.cn）经 browser.open 实际打开验证失败（browser-service 无法抓取，疑为反爬/JS渲染）；搜索引擎未返回上海移动官网宽带资费深层页面。同口径套餐（月费/年费、带宽、安装费、是否需绑定手机号）无官方可核验来源。",
+   "severity": "P1",
+   "suggested_next": "由具备实时浏览器能力的主代理登录/访问上海移动官网或10086官方渠道核验；或待用户授权后拨打10086确认上海地区单宽带资费并记录工号与时间。"
+  },
+  {
+   "id": "dg_broadband_unicom",
+   "topic": "上海联通官方宽带套餐缺失",
+   "description": "上海联通官网（sh.10010.com）经 browser.open 实际打开验证失败（browser-service 无法抓取）；搜索引擎未返回上海联通官网宽带资费深层页面。同口径套餐无官方可核验来源。第三方V2EX帖所述五月特惠套餐（59/64/139元档、安装费100元/路）为非官方社区信息，不可作为政策结论。",
+   "severity": "P1",
+   "suggested_next": "由具备实时浏览器能力的主代理访问上海联通官网/网上营业厅核验；或拨打10010确认并记录。"
+  },
+  {
+   "id": "dg_gas_price",
+   "topic": "居民管道燃气阶梯价缺2024年后官方直接确认",
+   "description": "2024年之后（含2024年）未找到上海市发改委、上海燃气/申能集团官网对居民管道天然气阶梯价格（第一档0-310立方米/年3.00元、第二档311-520立方米/年3.30元、第三档520立方米以上/年4.20元）的直接确认文件。既有库中该组数字引自2023-12-09英文政务页（legacy_corroborated），按任务要求不用旧文件凑数。",
+   "severity": "P1",
+   "suggested_next": "持续监测 fgw.sh.gov.cn 与上海燃气官网（shgas.com）的调价通知；或在随申办/上海燃气官方客服渠道查询现行居民气价表并截图留证。"
+  },
+  {
+   "id": "dg_gas_transfer",
+   "topic": "管道燃气（上海燃气）居民过户/开户官方流程未覆盖",
+   "description": "未找到上海燃气有限公司（申能集团）官网公开发布的居民管道燃气过户/开户流程说明页面；搜索引擎未返回 shgas.com 相关深层页面。",
+   "severity": "P1",
+   "suggested_next": "由具备实时浏览器能力的主代理访问上海燃气官网（shgas.com）或其微信公众号核验过户材料与流程；或记录上海燃气官方客服热线口径。"
+  },
+  {
+   "id": "dg_water_transfer",
+   "topic": "供水（城投水务）居民过户/开户官方流程未覆盖",
+   "description": "未找到上海城投水务（及各区供排水公司）官网公开发布的居民供水过户/开户流程说明页面。",
+   "severity": "P1",
+   "suggested_next": "由具备实时浏览器能力的主代理访问城投水务官网或随申办供水服务页核验；或记录官方客服口径。"
+  },
+  {
+   "id": "dg_electricity_transfer_detail",
+   "topic": "国网上海电力过户版告知书（上海版）未找到",
+   "description": "国网上海市电力公司官网（sh.sgcc.com.cn）已核验《用电业务办理告知书（销户）》（2026-03-31，GZS23-2025-V2.1），但未检索到上海版《用电业务办理告知书（过户）》。安徽版同系列过户告知书可作流程参考样本，但非上海适用，不可直接引用为上海政策结论。",
+   "severity": "P1",
+   "suggested_next": "在 sh.sgcc.com.cn 站内检索过户版告知书，或通过网上国网App/95598 获取上海版过户材料清单。"
+  },
+  {
+   "id": "gap_rentpolicy_entries_001",
+   "topic": "租房政策入口",
+   "description": "rent-policy 主题输出的 11 条 entries 未按 schema 输出（缺 id/service_name 等字段），未入库；该主题全部条目 browser.open 均失败，状态均为 pending_verification/unverifiable\n\n【2026-09-23第二轮核验｜resolved=是】已解决（2026-09-23）：本轮新增 9 条符合 schema 的租房政策入口并入库——entry_rent_001（住房租赁公共服务平台）、entry_rent_002（网签备案操作规定原文）、entry_rent_003（整顿意见原文）、entry_rent_004（市房管局官网导航）、entry_rent_010（房管局规范性文件页）、entry_rent_011（12345投诉举报渠道）、entry_rent_020/021/022（贝壳上海/链家上海/巴乐兔）。随申办APP内事项页（无可直接打开的官网URL）仍待补充。",
+   "severity": "P0",
+   "suggested_next": "安排具备可用浏览器能力的新轮次逐一打开政府 PDF 与各平台官网/应用商店页核验后重做",
+   "resolved": true
+  },
+  {
+   "id": "gap-kuaigou-001",
+   "topic": "快狗打车官方入口与官方计费方式",
+   "description": "公开搜索未找到可实际打开且明确属于中国内地官方的快狗打车官网入口或官方计费说明页；搜索结果多为第三方、新闻或GOGOX相关资料，不符合“政府/官方来源优先、企业服务只收官方官网/APP/小程序入口及官方计费说明”的要求。\n\n【2026-09-23第二轮核验｜resolved=否】未解决（2026-09-23）：www.kugoocar.com 无法打开；GOGOX官方站 gogox.com/cn/ 可打开但内容为中国香港区域（英文、港币计价），非内地快狗打车入口，不收录。建议人工在“快狗打车”官方APP/微信小程序内核验上海服务范围与计价规则。",
+   "severity": "P1",
+   "suggested_next": "人工在“快狗打车”官方APP或微信小程序内搜索并核验上海服务范围与计价规则页。",
+   "resolved": false
+  },
+  {
+   "id": "gap-haibao-001",
+   "topic": "海豹搬家官方入口",
+   "description": "公开搜索未找到可确认的海豹搬家官方网站、官方APP或官方小程序入口及官方计费说明；无可用证据，按“宁缺毋滥”不收录。\n\n【2026-09-23第二轮核验｜resolved=否】未解决（2026-09-23）：多轮公开搜索未找到可确认的海豹搬家官网/官方APP/官方小程序及官方计费说明，按“宁缺毋滥”不收录。建议人工在微信小程序/应用商店搜索“海豹搬家”核验官方主体。",
+   "severity": "P1",
+   "suggested_next": "人工在微信小程序/应用商店搜索“海豹搬家”核验是否为官方主体运营，并确认上海服务范围与计价。",
+   "resolved": false
+  },
+  {
+   "id": "gap-domestic-002",
+   "topic": "家政保洁第二个主流平台官方入口",
+   "description": "本轮仅核验了自如家政（自如APP，示例参考级别）一个家政保洁官方入口。专项搜索天鹅到家、好慷在家官方网站未果（结果多为第三方页面/新闻）；京东家政仅见第三方AI生成的新闻类文章，无官方计费页可核验。按“宁缺毋滥”不收录第三方信息。",
+   "severity": "P1",
+   "suggested_next": "人工在“天鹅到家”“好慷在家”等官方APP/微信小程序内搜索并核验上海服务范围与计价页；或核验京东“京东服务”官方频道的家政入口。"
+  },
+  {
+   "id": "gap_rent_001",
+   "topic": "租房政策",
+   "description": "P0：本轮及上一轮所有 browser.open 尝试均失败（含 2026-09-23 对 https://www.shzfgjj.cn/images/ywzlb.pdf 的终止性失败，及本轮对闵行区政府刊载办法PDF的失败；开发者指令要求失败后不得重试或用curl复现）。因此本JSON中没有任何URL完成“实际打开”核验，全部条目只能标 pending_verification，不符合用户“URL必须经browser.open实际打开方可标verified”的标准。 整个交付物的可信度上限被锁死：所有政策结论与平台入口均为“搜索摘要/第三方转述”级别，不能作为最终依据引用。\n\n【2026-09-23第二轮核验｜resolved=是】已解决（2026-09-23第二轮）：本轮多个URL经 browser.open 实际打开验证——市房管局沪建房管联〔2021〕18号PDF、市政府网沪房规范〔2024〕8号PDF、沪房市场〔2025〕179号PDF、zfzl.fgj.sh.gov.cn、sh.ke.com、sh.lianjia.com、www.baletu.com、fgj.sh.gov.cn规范性文件页。仍未能直接打开的：上海住房公积金网业务指南PDF（shzfgjj.cn）、闵行区政府刊载的2011年办法PDF（shyp.gov.cn）、运营商与三甲医院官网（疑似反爬/WAF），相关条目保持 pending_verification。",
+   "severity": "P0",
+   "suggested_next": "安排具备可用 browser.open 能力的新一轮核验：逐一打开政府PDF（网签备案管理规定、整顿意见、2011年办法、群租联动通知、公积金业务指南）与各平台官网/官方应用商店页，核验标题、发布日期、原文表述后升级为 verified。",
+   "resolved": true
+  },
+  {
+   "id": "gap_rent_002",
+   "topic": "租房政策",
+   "description": "租房提取公积金是否存在“未网签备案”情形的提取路径与额度未见；搜索摘要中的3000元/月上限是否仅对应“已网签备案合同”类型待核验；无配偶关系多人合租的提取规则摘要被截断。 无法回答“没办备案能不能提取公积金、能提多少”这一高频实际问题；条目中的3000元上限可能被误读为适用于所有租房提取。\n\n【2026-09-23第二轮核验｜resolved=是】2026-09-23第二轮核验：业务指南“五、注意事项（三）”给出“未网签备案”路径——租赁住房不属于本市租赁网签备案范围的，申请人须作出承诺（申请后住房变动且属备案范围时，及时终止当前提取、办妥备案后重新申请），新增知识条目 ke_rent_015。额度适用一般规则（不超过实际房租支出；2024年11月1日起月限额4000元）。",
+   "severity": "P0",
+   "suggested_next": "打开上海住房公积金《业务指南》PDF逐字核验，确认是否分“已备案/未备案”两类额度，或咨询上海市公积金管理中心官方口径。",
+   "resolved": true
+  },
+  {
+   "id": "gap_rent_003",
+   "topic": "租房政策",
+   "description": "《上海市住房租赁条例》（新条例）全文未找到；2011年《居住房屋租赁管理办法》在新条例施行后的继续适用范围、第十三条初始备案期限条款原文未核验。 所有引用2011年办法的条目（备案处罚、群租标准、租金、押金、转租）都带有“现行效力待核验”的局限；网签备案的现行统一期限无法下结论。\n\n【2026-09-23第二轮核验｜resolved=是】基本解决（2026-09-23）：《上海市居住房屋租赁管理办法》未被废止，时效性现行有效——2011年市政府令第68号公布，2014年第15号令修正，2021年第49号令修正重新发布，实施日期2021-05-08；制定依据为《民法典》《城市房地产管理法》《上海市房屋租赁条例》（1999年制定、2010年修正的地方性法规）。未发现已颁布施行的地方性《上海市住房租赁条例》；此前所称“新条例”实为国务院《住房租赁条例》（行政法规，2025-09-15施行）。引用时统一标注“2021年修正版，现行有效”。",
+   "severity": "P1",
+   "suggested_next": "检索新条例官方全文（通过市人大或市房管局网站），逐条核验备案强制性、期限与群租认定条款。",
+   "resolved": true
+  },
+  {
+   "id": "gap_rent_004",
+   "topic": "租房政策",
+   "description": "“群租房”现行正式定义未见；厨房、卫生间、阳台、车库、地下储藏空间不得出租居住的现行官方条文未找到逐字出处。 群租条目只能给出最小出租单位/人数/面积三条标准，执法口径中的空间限制依据缺失。\n\n【2026-09-23第二轮核验｜resolved=否】部分解决（2026-09-23）：在2011年办法（2021年修正版）第九条第二款找到逐字条文“原始设计为厨房、卫生间、阳台和地下储藏室等其他空间的，不得出租供人员居住”，已新增 ke_rent_016。仍未找到：“群租房”现行正式定义；车库未在第九条单独列明（“等其他空间”可涵盖，执法口径以条文为准）。",
+   "severity": "P1",
+   "suggested_next": "在新条例全文或市房管局规范性文件中检索相关条文并逐字核验。",
+   "resolved": false
+  },
+  {
+   "id": "gap_rent_005",
+   "topic": "租房政策",
+   "description": "蘑菇租房官方入口未见（官网/官方APP均无可核验信息）；自如、贝壳、链家官方URL未逐字核验（仅有域名级证据）；巴乐兔URL来自第三方来源。 平台入口矩阵中5个条目为待核验/不可核验状态，用户据此访问前需二次确认。\n\n【2026-09-23第二轮核验｜resolved=否】部分解决（2026-09-23）：贝壳上海（sh.ke.com）、链家上海（sh.lianjia.com）、巴乐兔（www.baletu.com）官方页面已逐字打开验证，新增 entry_rent_020/021/022。仍未见：自如官方页面（ziroom.com各变体打不开，仅域名级证据）、蘑菇租房官网（mogoroom.com打不开）。建议人工在应用商店以官方品牌名核对APP或在真实浏览器复核。",
+   "severity": "P1",
+   "suggested_next": "在Apple App Store/主流安卓应用商店以官方品牌名核对APP，或在可打开页面的轮次中逐一打开官网核验。",
+   "resolved": false
+  },
+  {
+   "id": "gap_rent_006",
+   "topic": "租房政策",
+   "description": "随申办APP内办理事项的准确名称（“我要租房”是否为现行栏目名）、一网通办门户的具体事项链接、上海市住房租赁公共服务平台官方URL均未找到逐字来源。 用户按图索骥时可能找不到对应栏目；网签备案线上入口指引不够精确。\n\n【2026-09-23第二轮核验｜resolved=否】部分解决（2026-09-23）：①随申办“我要租房”栏目名已由《上海市住房租赁合同网签备案操作规定》（沪房规范〔2024〕8号）第九条逐字确认；②上海市住房租赁公共服务平台官方URL已确认并实际打开验证：https://zfzl.fgj.sh.gov.cn/。仍缺：一网通办门户该事项的深层办事指南URL（公开搜索未找到，线上实测需登录）。",
+   "severity": "P2",
+   "suggested_next": "在随申办APP内实测检索“住房租赁合同网签备案”事项，或查阅一网通办官方办事指南页。",
+   "resolved": false
+  },
+  {
+   "id": "gap_rent_007",
+   "topic": "租房政策",
+   "description": "《上海市住房租赁合同网签备案管理规定》正式标题、发布日期、文号未核验（仅知施行期2024-12-01至2029-06-30）；群租治理联动通知正式标题、文号未核验（摘要显示发布2025-10-23）。 引用时文件身份信息不完整。\n\n【2026-09-23第二轮核验｜resolved=是】已解决（2026-09-23）：①网签备案文件正式标题为《关于印发〈上海市住房租赁合同网签备案操作规定〉的通知》，文号沪房规范〔2024〕8号，2024-10-31发布（市房管局办公室11月5日印发），2024-12-01施行、有效期至2029-06-30（第十八条）；此前摘要标题“《上海市住房租赁合同网签备案管理规定》”有误，实为“操作规定”。②群租治理联动通知正式标题《关于加强本市住宅物业管理与城管执法群租治理联动工作的通知》，文号沪房市场〔2025〕179号，市房管局、市城管执法局联合印发，2025-10-23印发。",
+   "severity": "P2",
+   "suggested_next": "打开两份PDF逐字核验标题、文号与发布日期。",
+   "resolved": true
+  }
+ ],
+ "sources": [
+  {
+   "id": "src_health_001",
+   "name": "上海市人民政府英文门户 english.shanghai.gov.cn",
+   "url": "https://english.shanghai.gov.cn/en-ArrivalChecklist/20240830/e0c6ab8837044b75a4c2c568abb7589c.html",
+   "type": "政府",
+   "last_verified": "2026-09-23"
+  },
+  {
+   "id": "src_health_002",
+   "name": "南京信息工程大学官网 - 爱康国宾2025年度体检须知PDF",
+   "url": "https://webs.nuist.edu.cn/_upload/article/files/c2/b0/cd9935614f83b15197b573678052/4a67c02e-517d-4fe3-9a30-5b66dd23406b.pdf",
+   "type": "第三方",
+   "last_verified": "2026-09-23"
+  },
+  {
+   "id": "src_health_003",
+   "name": "上海应用技术大学信息公开 - 2024年美年体检方案PDF",
+   "url": "https://xxgk.sitsh.edu.cn/_upload/article/files/cc/b0/3388f8b8427299e03c83ffaf8f5b/5a85adf9-ee68-4005-a9b8-bcbf1dfa3ad45.pdf",
+   "type": "第三方",
+   "last_verified": "2026-09-23"
+  },
+  {
+   "id": "src_health_004",
+   "name": "上海应用技术大学信息公开 - 中山医院体检方案PDF",
+   "url": "https://xxgk.sitsh.edu.cn/_upload/article/files/cc/b0/3388f8b8427299e03c83ffaf8f5b/8838e379-2b95-4dac-82e9-069c636f89da.pdf",
+   "type": "第三方",
+   "last_verified": "2026-09-23"
+  },
+  {
+   "id": "src_health_005",
+   "name": "上海师范大学 - 上海美年门诊部有限公司体检方案PDF",
+   "url": "https://www.shnu.edu.cn/_upload/article/files/15/7d/545b74d0476dbd2adb249da6e4e4/d457058e-061f-4960-ae27-6048815a09df.pdf",
+   "type": "第三方",
+   "last_verified": "2026-09-23"
+  },
+  {
+   "id": "src_health_006",
+   "name": "东华大学 - 光华医院体检信息PDF（含体检中心公众号及报告查询说明）",
+   "url": "https://100.dhu.edu.cn/_upload/article/files/0f/29/da1575bb47219ea4cea5bc0bc8fa/e24aaa19-85ab-4b17-b188-85650c97d5d0.pdf",
+   "type": "第三方",
+   "last_verified": "2026-09-23"
+  },
+  {
+   "id": "src_pet_001",
+   "name": "上海市人民政府英文门户 - How to get a dog license",
+   "url": "https://english.shanghai.gov.cn/en-KeepingAPetInShanghai/20231221/83150016258f4b96848c4402fa14a12f.html",
+   "type": "政府",
+   "last_verified": "2026-09-23"
+  },
+  {
+   "id": "src_pet_002",
+   "name": "上海市人民政府英文门户 - Dog breeds prohibited in Shanghai（来源：上海市农业农村委员会）",
+   "url": "https://english.shanghai.gov.cn/en-Pets/20240115/75e2df0e65c84182a034f33de439dbdf.html",
+   "type": "政府",
+   "last_verified": "2026-09-23"
+  },
+  {
+   "id": "src_pet_003",
+   "name": "上海市人民政府英文门户 - Flying with pets",
+   "url": "https://english.shanghai.gov.cn/en-KeepingAPetInShanghai/20250512/f909afaad3494aef91b64c5655db556e.html",
+   "type": "政府",
+   "last_verified": "2026-09-23"
+  },
+  {
+   "id": "src_pet_004",
+   "name": "上海市虹口区人民政府 - 虹口区依法养宠办事指南",
+   "url": "https://www.shhk.gov.cn/xwzx/002014/20260708/60e1677e-8cc5-4bc0-95f1-f262352829cf.html",
+   "type": "政府",
+   "last_verified": "2026-09-23"
+  },
+  {
+   "id": "src_pet_005",
+   "name": "City News Service - Animal Quarantine Certificate: Pet travel made easy",
+   "url": "https://www.citynewsservice.cn/articles/cns/shanghai-living/animal-quarantine-certificate-pet-travel-made-easy-xm5g6r4k",
+   "type": "官方",
+   "last_verified": "2026-09-23"
+  },
+  {
+   "id": "src_pet_006",
+   "name": "中国新闻网（转引央视新闻客户端）- 高铁宠物托运服务今起扩大试点范围",
+   "url": "https://www.chinanews.com.cn/sh/2026/01-28/10560826.shtml",
+   "type": "第三方",
+   "last_verified": "2026-09-23"
+  },
+  {
+   "id": "src_juzhuan_xize_2025",
+   "name": "上海市人才工作局等8部门《关于印发〈持有〈上海市居住证〉人员申办本市常住户口办法实施细则〉的通知》（沪人才规〔2025〕4号）",
+   "url": "http://www.shanghai.gov.cn/cmsres/d7/d78c35fa05c94506889c0a36aba92155/b020ee114c576fe975d935ac441eddc2.pdf",
+   "type": "政府",
+   "last_verified": "2026-09-23"
+  },
+  {
+   "id": "src_points_banfa_2022",
+   "name": "《上海市居住证积分管理办法》（2022年12月29日印发，第三方转发的官方公文PDF）",
+   "url": "http://wza.xa.gov.cn:9000/xadrcxa_wza/web_files/xadrc/file/2023/02/02/202302021611029012871.pdf",
+   "type": "第三方",
+   "last_verified": "2026-09-23"
+  },
+  {
+   "id": "src_points_xize_2022",
+   "name": "《上海市居住证积分管理办法实施细则》（沪人社规〔2022〕41号，第三方转发扫描件）",
+   "url": "https://static.ciicbj.cn/hrlib/kb/template/2023/05/09/8b20b8d361d346008d99b8ddaed601b8.pdf",
+   "type": "第三方",
+   "last_verified": "2026-09-23"
+  },
+  {
+   "id": "src_talent_xize_2020",
+   "name": "市人社局官网《上海市引进人才申办本市常住户口办法实施细则》（2020年11月26日印发，有效期至2025年11月30日，已过期）",
+   "url": "https://rsj.sh.gov.cn/cmsres/07/0725f3022bbd4438b7d76a114c5dbc6b/ad09259ef24a69eae0f681d6b664230f.pdf",
+   "type": "政府",
+   "last_verified": "2026-09-23"
+  },
+  {
+   "id": "src_liuxue_2015",
+   "name": "《留学回国人员申办上海常住户口实施细则》（沪人社外发〔2015〕49号，第三方转发，已过期）",
+   "url": "http://www.31012333.com/user/site25011/file/20190313/20190313093170677067.pdf",
+   "type": "第三方",
+   "last_verified": "2026-09-23"
+  },
+  {
+   "id": "src_shanghai_gov_en_overseas",
+   "name": "上海市人民政府英文官网公告《鼓励留学人员来上海工作和创业的若干规定》",
+   "url": "https://english.shanghai.gov.cn/en-Bulletin/20240923/1784bf36ea7040acae96a11077de2269.html",
+   "type": "官方",
+   "last_verified": "2026-09-23"
+  },
+  {
+   "id": "src_sina_grad2026",
+   "name": "上观新闻《@2026届高校毕业生，一揽子就业举措请查收》（新浪财经转载，2026-07-10，含市人社局便民服务栏目链接）",
+   "url": "https://finance.sina.cn/2026-07-10/detail-inihinfw3818774.d.html",
+   "type": "第三方",
+   "last_verified": "2026-09-23"
+  },
+  {
+   "id": "src_001",
+   "name": "《上海市社会保障卡管理办法》（上海市人民政府规章）",
+   "url": "https://cdn.shanghai.gov.cn/cmsres/a8/a801f842ac244d16a57d1be0279795f5/39f47e77e807fae0525553c9fd5dc533.pdf",
+   "type": "政府",
+   "last_verified": "2026-09-23"
+  },
+  {
+   "id": "src_002",
+   "name": "上海社保卡服务中心《上海社保卡申领、激活、丢失补办全攻略》（2025-3-12）",
+   "url": "https://www.shsmu.edu.cn/__local/9/18/A7/D52057AE8C157E91F5DFC40111D_0B524BEC_2F70A.pdf",
+   "type": "官方",
+   "last_verified": "2026-09-23"
+  },
+  {
+   "id": "src_003",
+   "name": "上海市绿化市容局《A guide to waste classification》（上海市政府英文官网）",
+   "url": "https://english.shanghai.gov.cn/en-WasteDisposal/20231212/15dc5685586b44b3ad419639b102687c.html",
+   "type": "政府",
+   "last_verified": "2026-09-23"
+  },
+  {
+   "id": "src_004",
+   "name": "上海市政府英文官网《Community》（垃圾分类问答，来源zwdt.sh.gov.cn）",
+   "url": "https://english.shanghai.gov.cn/en-Community/20231213/4d01af34ad254b83a60eafe4e9d95007.html",
+   "type": "政府",
+   "last_verified": "2026-09-23"
+  },
+  {
+   "id": "src_005",
+   "name": "上海地铁《How to take metro in Shanghai》（上海市政府英文官网）",
+   "url": "https://english.shanghai.gov.cn/en-Transportation/20231214/c727f5e15eff4b8c9340651dd95f3f7c.html",
+   "type": "企业官网",
+   "last_verified": "2026-09-23"
+  },
+  {
+   "id": "src_006",
+   "name": "上海市交通委《Shanghai updates English version of all-in-one transport app》（上海市政府英文官网）",
+   "url": "https://english.shanghai.gov.cn/en-Latest-WhatsNew/20250128/fb9efae118334c7b896d23e92cce3552.html",
+   "type": "政府",
+   "last_verified": "2026-09-23"
+  },
+  {
+   "id": "src_007",
+   "name": "上海公共交通卡股份有限公司（经上海市政府英文官网、澎湃新闻发布）",
+   "url": "https://english.shanghai.gov.cn/en-Latest-WhatsNew/20240422/5251c321845b4a488723bb51dd23adc2.html",
+   "type": "企业官网",
+   "last_verified": "2026-09-23"
+  },
+  {
+   "id": "src_008",
+   "name": "新民晨报《\"上海南通\"轨道交通乘车二维码明起互联互通》（2026-4-28）",
+   "url": "http://ep.shxwcb.com/2026/04/28/img/010428.pdf",
+   "type": "第三方",
+   "last_verified": "2026-09-23"
+  },
+  {
+   "id": "src_power_001",
+   "name": "国网上海市电力公司《用电业务办理告知书（销户）》",
+   "url": "http://www.sh.sgcc.com.cn/html/files/2026-03/31/20260331164825760986110.pdf",
+   "type": "企业官网",
+   "last_verified": "2026-09-23"
+  },
+  {
+   "id": "src_gov_001",
+   "name": "上海市政务服务网《水电气网联合报装“一件事”集成服务办事指南》",
+   "url": "https://zwdt.sh.gov.cn/group1/M00/B6/80/rBJ9JmlZwvuAQ3BMAAePYsuIgbw798.pdf",
+   "type": "政府",
+   "last_verified": "2026-09-23"
+  },
+  {
+   "id": "src_gas_001",
+   "name": "上海市发改委《关于调整本市非居民天然气销售基准价格的通知》（沪发改价管〔2026〕8号）",
+   "url": "https://www.shanghai.gov.cn/cmsres/14/14c9486ed6534f4d94e6b982c9a91f4b/19f2a2154cabcb300318ea0db9a7f420.pdf",
+   "type": "政府",
+   "last_verified": "2026-09-23"
+  },
+  {
+   "id": "src_ref_001",
+   "name": "国网安徽省电力有限公司《用电业务告知书（过户）》（非上海，仅作流程参考样本）",
+   "url": "http://www.ah.sgcc.com.cn/u/cms/ahbb/other/202405/da7caadfda5a44cf976aca0f3210da72.pdf",
+   "type": "企业官网",
+   "last_verified": "2026-09-23"
+  },
+  {
+   "id": "src_ref_002",
+   "name": "V2EX社区帖《上海联通五月特惠套餐办理业务指南》（第三方，未采用）",
+   "url": "https://www.v2ex.com/t/1210073",
+   "type": "第三方",
+   "last_verified": "2026-09-23"
+  },
+  {
+   "id": "src_rent_001",
+   "name": "上海市房屋管理局《关于进一步整顿规范本市住房租赁市场秩序的实施意见》（沪建房管联〔2021〕18号）PDF",
+   "url": "https://fgj.sh.gov.cn/cmsres/a1/a1820d956c1445f1a4ca90eeb0901da9/46d8117ed90128af21bbf95cec969373.pdf",
+   "type": "政府",
+   "last_verified": "2026-09-23"
+  },
+  {
+   "id": "src_rent_002",
+   "name": "上海市人民政府/上海市房屋管理局《上海市住房租赁合同网签备案管理规定》PDF（正式标题待核验）",
+   "url": "https://www.shanghai.gov.cn/cmsres/32/326e8eab30f24080812520d89c60fcfc/490f639805a2e0f5190f7b62f7f7b45a.pdf",
+   "type": "政府",
+   "last_verified": "2026-09-23"
+  },
+  {
+   "id": "src_rent_003",
+   "name": "《上海市居住房屋租赁管理办法》（2011年10月1日起施行；闵行区政府网站刊载PDF）",
+   "url": "https://www.shyp.gov.cn/zhengwu/cgzfj-xzcfsx/2025/219/76f3ac1823d03bcbefa3dd0b65e997bc/20ae99d67e9a4d378e38d826ce492f59.pdf",
+   "type": "政府",
+   "last_verified": "2026-09-23"
+  },
+  {
+   "id": "src_rent_004",
+   "name": "上海市房屋管理局网站刊载的群租治理联动通知PDF（正式标题与文号待核验）",
+   "url": "https://fgj.sh.gov.cn/cmsres/72/7244776d9fb6498a83a6ecea1d7af328/f64e2ed6eb77c4581e3f8b3d2675a49b.pdf",
+   "type": "政府",
+   "last_verified": "2026-09-23"
+  },
+  {
+   "id": "src_rent_005",
+   "name": "上海住房公积金网《业务指南》PDF",
+   "url": "https://www.shzfgjj.cn/images/ywzlb.pdf",
+   "type": "政府",
+   "last_verified": "2026-09-23"
+  },
+  {
+   "id": "src_rent_006",
+   "name": "上海市政府信息办官方英文稿 Government Online-Offline Shanghai（一网通办/随申办）",
+   "url": "https://touch.shio.gov.cn/jsp/zfxw_detail_en.jsp?id=20221019183526756",
+   "type": "政府",
+   "last_verified": "2026-09-23"
+  },
+  {
+   "id": "src_rent_007",
+   "name": "安居客官方《用户协议》PDF（pages.anjukestatic.com）",
+   "url": "https://pages.anjukestatic.com/usersite/pdf/xswptyhxy.pdf",
+   "type": "政府",
+   "last_verified": "2026-09-23"
+  },
+  {
+   "id": "src_rent_008",
+   "name": "华泰证券研报（引用贝壳招股说明书，确认 ke.com 为贝壳官方网站）",
+   "url": "https://wkpdf.askci.com/20-08-18/202081818292702.pdf",
+   "type": "第三方",
+   "last_verified": "2026-09-23"
+  },
+  {
+   "id": "src_rent_009",
+   "name": "BCG×贝壳研究院《2021居住地产数字化白皮书》（确认 research.ke.com）",
+   "url": "https://web-assets.bcg.com/0f/58/cfbf80cc4c068c5228dc130c4f86/bcg-x-beike-digital-real-estate-report-cn-mar-2021-%E6%9C%80%E5%B0%8F.pdf",
+   "type": "第三方",
+   "last_verified": "2026-09-23"
+  },
+  {
+   "id": "src_rent_010",
+   "name": "Wikipedia Lianjia 词条（信息框 Website: lianjia.com）",
+   "url": "https://en.wikipedia.org/wiki/Lianjia",
+   "type": "第三方",
+   "last_verified": "2026-09-23"
+  },
+  {
+   "id": "src_rent_011",
+   "name": "GitHub api-evangelist/baletu（http://baletu.com/）",
+   "url": "https://github.com/api-evangelist/baletu",
+   "type": "第三方",
+   "last_verified": "2026-09-23"
+  },
+  {
+   "id": "src_rent_012",
+   "name": "VentureLoop Baletu 公司页（Website sh.baletu.com）",
+   "url": "https://www.ventureloop.com/ventureloop/companyprofile.php?cid=18542",
+   "type": "第三方",
+   "last_verified": "2026-09-23"
+  },
+  {
+   "id": "src_rent_013",
+   "name": "GitHub memos-im/xianyu-slang-helper 文档（Goofish https://www.goofish.com/；闲鱼为阿里巴巴旗下二手市场）",
+   "url": "https://github.com/memos-im/xianyu-slang-helper/blob/HEAD/docs/heihua/xianyu-meaning.md",
+   "type": "第三方",
+   "last_verified": "2026-09-23"
+  },
+  {
+   "id": "src_rent_101",
+   "name": "上海市住房租赁公共服务平台官网",
+   "url": "https://zfzl.fgj.sh.gov.cn/",
+   "type": "政府",
+   "last_verified": "2026-09-23"
+  },
+  {
+   "id": "src_rent_102",
+   "name": "上海市房屋管理局官网首页",
+   "url": "https://fgj.sh.gov.cn/",
+   "type": "政府",
+   "last_verified": "2026-09-23"
+  },
+  {
+   "id": "src_round2_001",
+   "name": "上海市房屋管理局官网—规范性文件栏目",
+   "url": "https://fgj.sh.gov.cn/gfxwj/index.html",
+   "type": "政府",
+   "last_verified": "2026-09-23"
+  },
+  {
+   "id": "src_round2_002",
+   "name": "上海市人民政府英文门户—12345市民服务热线说明页",
+   "url": "https://english.shanghai.gov.cn/en/20231223/7b8359d283634bd99b4e7a2c5a89314c.html",
+   "type": "政府",
+   "last_verified": "2026-09-23"
+  },
+  {
+   "id": "src_rent_105",
+   "name": "贝壳找房上海官方站",
+   "url": "https://sh.ke.com/",
+   "type": "政府",
+   "last_verified": "2026-09-23"
+  },
+  {
+   "id": "src_rent_106",
+   "name": "链家上海官方站",
+   "url": "https://sh.lianjia.com/",
+   "type": "政府",
+   "last_verified": "2026-09-23"
+  },
+  {
+   "id": "src_rent_107",
+   "name": "巴乐兔官方网站",
+   "url": "https://www.baletu.com/",
+   "type": "政府",
+   "last_verified": "2026-09-23"
+  },
+  {
+   "id": "src_rent_108",
+   "name": "GOGOX 官方站 /cn/",
+   "url": "https://www.gogox.com/cn/",
+   "type": "政府",
+   "last_verified": "2026-09-23"
+  },
+  {
+   "id": "src_rent_109",
+   "name": "Wharton/E-House 自如研究报告",
+   "url": "https://knowledge.wharton.upenn.edu/wp-content/uploads/2022/03/2018-07-26-Ziroom-Chinese-FINAL.pdf",
+   "type": "政府",
+   "last_verified": "2026-09-23"
+  },
+  {
+   "id": "src_rent_110",
+   "name": "Wikipedia 华山医院词条",
+   "url": "https://en.wikipedia.org/wiki/Huashan_Hospital",
+   "type": "政府",
+   "last_verified": "2026-09-23"
+  },
+  {
+   "id": "src_rent_111",
+   "name": "Wikipedia 瑞金医院词条",
+   "url": "https://en.wikipedia.org/wiki/Ruijin_Hospital_Affiliated_with_the_Shanghai_Jiao_Tong_University_School_of_Medicine",
+   "type": "政府",
+   "last_verified": "2026-09-23"
+  },
+  {
+   "id": "src_rent_112",
+   "name": "EqualOcean 美年大健康公司档案",
+   "url": "https://equalocean.com/company/meinian-onehealth",
+   "type": "政府",
+   "last_verified": "2026-09-23"
+  },
+  {
+   "id": "src_rent_113",
+   "name": "华东师范大学体检通知单",
+   "url": "http://www.shnu.edu.cn/_upload/article/files/87/d6/7625347845f1bdf0bac60274f289/8dc92ba4-bd19-42c6-9b7e8c8f5a1f41b660.pdf",
+   "type": "政府",
+   "last_verified": "2026-09-23"
+  }
+ ],
+ "task_templates": [
+  {
+   "template_id": "tpl_rent",
+   "title": "租房",
+   "category": "居住",
+   "trigger": "用户尚未确定在上海的住处",
+   "first_action": "与用户确认建议完成租房的日期，并引导其查看目标区域、费用构成及签约注意事项",
+   "dependencies": "具体找房、看房和租住决策由用户自行完成；可与入职要求核验并行推进；不得由大模型替用户做选房决策或给出房源推荐",
+   "knowledge_entry_ids": [],
+   "entry_ids": [],
+   "evidence_status": "pending_verification（rent-policy 主题 browser.open 本轮失败，knowledge entries 未完成页面级验证，且该主题 knowledge_entries 在 results.json 中无稳定 id，故不引用）",
+   "notes": "不得承诺任何房源真实性；不得承诺签约即可获得居住登记/居住证；不得给出租金议价建议；引用网签备案、租房提取公积金等政策时需待 rent-policy 条目完成 verified 核验后补充 id"
+  },
+  {
+   "template_id": "tpl_origin_closeout",
+   "title": "原住所收尾",
+   "category": "居住",
+   "trigger": "用户有现租住处或在原城市有存量服务（租赁合同、宽带、水电气等）",
+   "first_action": "引导用户核对原租住合同中的退租、交接与服务终止安排（提前告知期、押金、验房、合约期违约金等），逐项列出需终止的服务",
+   "dependencies": "截止日期、提前告知期、违约金等均以用户核实的合同/服务条款信息为准，大模型不代为认定；原城市公积金离职提取属地规则差异大，需按原缴存城市单独核验",
+   "knowledge_entry_ids": [],
+   "entry_ids": [],
+   "evidence_status": "none（退租/宽带/水电燃气销户暂无权威来源，utilities-broadband 的 verified 条目 ke_transfer_001/002/003 仅覆盖上海本地水电气过户，不直接适用于原城市销户，故不引用）",
+   "notes": "不得给出统一的退租告知期或违约金结论；不得给出全国统一的公积金离职提取结论；相关诉求转为核验任务，提示用户提供合同文本或原城市官方渠道"
+  },
+  {
+   "template_id": "tpl_move",
+   "title": "搬家",
+   "category": "搬运",
+   "trigger": "用户有物品搬运需求（跨城搬家或市内搬家）",
+   "first_action": "引导用户盘点需搬运物品（数量、体积、特殊物品如宠物/大件），并通过官方渠道了解服务报价范围（基本搬运费、超里程费、楼层费、拆装打包费等构成）",
+   "dependencies": "正式搬入依赖新住所可进入；询价、约车等准备动作可提前进行；宠物跨城随行需单独核验检疫要求",
+   "knowledge_entry_ids": [
+    "moving-huolala-001",
+    "moving-secondhand-001"
+   ],
+   "entry_ids": [
+    "entry-huolala-001",
+    "entry-goofish-001"
+   ],
+   "evidence_status": "verified（搬家服务官方入口与官方计费结构已核验；上海具体城市/车型可用性需在 APP/小程序内确认）",
+   "notes": "不得推荐具体搬家公司或承诺价格；不得以闲鱼等二手平台作为搬家服务主渠道；大件/宠物随行需在询价前单独确认；上海本地可用性以官方 APP/小程序内查询为准"
+  },
+  {
+   "template_id": "tpl_broadband",
+   "title": "宽带",
+   "category": "生活服务",
+   "trigger": "用户有独立网络需求",
+   "first_action": "确认用户新住址、可选择的网络接入方式、现有网络状况及安装条件（小区覆盖、入户方式）",
+   "dependencies": "不默认所有人都需新装宽带；已覆盖小区的已有网络、合租场景、临时住宿等情形需分别判断",
+   "knowledge_entry_ids": [
+    "ke_broadband_001",
+    "ke_broadband_002"
+   ],
+   "entry_ids": [],
+   "evidence_status": "pending_verification（未见上海移动/联通官方宽带套餐的可公开核验来源，条目仅记录了核验失败的结论）",
+   "notes": "不得推荐具体宽带套餐或运营商；不得承诺价格、带宽或安装时限；套餐与费用以运营商官方渠道为准"
+  },
+  {
+   "template_id": "tpl_utilities",
+   "title": "水电等交接",
+   "category": "生活服务",
+   "trigger": "用户已入住或新住所即将交房",
+   "first_action": "引导用户与出租方确认账单归属、表具计量（水/电/燃气抄表）与交接事项清单",
+   "dependencies": "不默认所有地区均需个人过户；上海水电气分属不同专营公司，需分别办理；出租房场景下交接方式以租赁约定为准",
+   "knowledge_entry_ids": [
+    "ke_transfer_001",
+    "ke_transfer_002",
+    "ke_transfer_003"
+   ],
+   "entry_ids": [],
+   "evidence_status": "verified（水电气网'一件事'仅覆盖工程报装、居民水电气过户无全市统一线上入口等结论已核验）",
+   "notes": "不得承诺统一的线上过户入口；不得承诺过户时限与费用；新装与过户是两种事项，需分开判断；具体专营公司渠道以条目中的官方入口为准"
+  },
+  {
+   "template_id": "tpl_social_insurance",
+   "title": "社保",
+   "category": "就业政务",
+   "trigger": "用户就业状态或参保城市发生变化（首次就业参保、跨城换工作）",
+   "first_action": "引导用户向新单位 HR 或官方渠道核验个人需配合事项：实名身份信息提供、原单位停保确认、跨地区转移意愿",
+   "dependencies": "新单位办理与个人跨地区事项（转移、衔接）分别判断；养老保险跨省转移不阻塞新参保，应先参保后转移",
+   "knowledge_entry_ids": [],
+   "entry_ids": [],
+   "evidence_status": "none（7 个主题 results.json 中暂无社保参保/转移类 knowledge entry；研究笔记 report.md 中有 verified-live 的社保结论（用工 30 日登记、养老转移流程等），但尚未形成 knowledge entry，未引用 id）",
+   "notes": "不得承诺缴费记录可查的具体天数；不得承诺转移到账时限（官方只给工作日时限，1—3 个月为经验值）；不得合并医保、公积金转移路径；转入入口以国家社会保险公共服务平台等官方渠道为准"
+  },
+  {
+   "template_id": "tpl_medical_insurance",
+   "title": "医保",
+   "category": "就业政务",
+   "trigger": "用户就医地区或参保状态发生变化",
+   "first_action": "引导用户核验参保状态、待遇生效情况，并确认是否有额外办理事项（跨省异地就医备案、医保关系转移）",
+   "dependencies": "不与社保转移合并成单一路径；避免断缴（断缴次月即停统筹待遇）；跨省异地就医备案与医保关系转移是两个事项",
+   "knowledge_entry_ids": [
+    "ke_med_001"
+   ],
+   "entry_ids": [],
+   "evidence_status": "pending_verification（ke_med_001 为上海医院预约挂号官方渠道说明，仅与'就医入口'部分相关；医保参保/待遇/转移规则本身暂无 knowledge entry，研究笔记 report.md 有 verified-live 依据但未形成 entry）",
+   "notes": "不得承诺报销比例；不得承诺待遇生效的统一天数（仅能转述'缴费次月'等官方口径结论，引用时需核验条目补齐）；上海医保转入的官方办事指南待核验，不可引用地方（烟台等）医保局口径作为上海结论"
+  },
+  {
+   "template_id": "tpl_housing_fund",
+   "title": "公积金",
+   "category": "就业政务",
+   "trigger": "用户有公积金相关账户或新单位有公积金安排",
+   "first_action": "引导用户核验新单位的公积金办理安排（开户/转移/封存），并确认个人是否需要另行操作（异地转入、账户合并）",
+   "dependencies": "不默认转移、提取都适用；新开户、异地转入、离职封存、提取是独立事项，需分别判断；上海账户唯一性（多账户需合并）",
+   "knowledge_entry_ids": [],
+   "entry_ids": [],
+   "evidence_status": "none（7 个主题 results.json 中暂无公积金 knowledge entry；研究笔记 report.md 有 verified-live 结论（新职工 30 日开户、首次就业次月起缴、异地转入满 6 个月等），尚未形成 knowledge entry；rent-policy 主题的租房提取条目未完成页面级验证且无 id）",
+   "notes": "不得承诺缴存记录可查的天数；不得承诺异地转入到账周期；不得给出统一的离职提取结论（属地差异大，按原缴存城市单独核验）；转入上海的官方线上入口待核验"
+  },
+  {
+   "template_id": "tpl_residence",
+   "title": "居住登记/居住证",
+   "category": "就业政务",
+   "trigger": "用户在上海新城市居住且规则或需求相关（如入职、积分、落户前置）",
+   "first_action": "引导用户核验当地居住登记办理方式与申领居住证的条件、材料及适用人群",
+   "dependencies": "居住登记与居住证申领是两类事项，分开核验；居住登记是居住证申领的前置；外地居住证不能替代上海居住登记/居住证（该结论的上海官方直接问答待核验）",
+   "knowledge_entry_ids": [],
+   "entry_ids": [],
+   "evidence_status": "none（7 个主题 results.json 中暂无居住登记/居住证 knowledge entry；研究笔记 report.md 有 verified-live 结论（沪府规〔2023〕2 号：登记满半年可申领、居住登记有效期一年、每年签注等），尚未形成 knowledge entry）",
+   "notes": "不得承诺'搬入即能领证'；不得承诺拿证周期（法定流程约 15 个工作日为理论值，另加快递/领取时间）；不得承诺积分、子女入学等衍生权利；每年签注提醒为固定节点"
+  },
+  {
+   "template_id": "tpl_hukou",
+   "title": "落户相关",
+   "category": "就业政务",
+   "trigger": "用户表达明确的落户意向（居转户、人才引进、应届生落户、留学回国等）",
+   "first_action": "引导用户核验所关注落户路径的现行政策依据、申请入口与资格条件",
+   "dependencies": "首期仅提供政策核验及后续节点提醒；不得做资格判定；不同路径（居转户/人才引进/应届生）政策依据与窗口各异，2026 年应届生落户通知官方文本未见",
+   "knowledge_entry_ids": [
+    "ke_hukou_001",
+    "ke_hukou_002",
+    "ke_points_001",
+    "ke_points_002"
+   ],
+   "entry_ids": [],
+   "evidence_status": "pending_verification（仅 ke_hukou_001 为 verified（居转户现行实施细则）；ke_hukou_002、ke_points_001、ke_points_002 为 pending；留学回国落户条目 ke_hukou_003 为 sample_reference 未引用）",
+   "notes": "不得承诺资格判定或打分结果；不得用 2025 年及以前年度通知内容冒充 2026 年政策；居转户'累计正常缴费'规则中补缴月份不计入年限；积分 120 分不等于落户资格"
+  },
+  {
+   "template_id": "tpl_health_check",
+   "title": "体检",
+   "category": "就业入职",
+   "trigger": "用户所在单位明确要求入职体检，或用户主动提出体检需求",
+   "first_action": "引导用户向 HR 确认认可机构（指定医院/第三方机构）、体检项目与完成时限",
+   "dependencies": "体检标准以用人单位 HR 通知的指定医院/套餐为准；特殊行业职业健康检查须有资质；外籍人员在沪就业/居留体检须在指定机构完成",
+   "knowledge_entry_ids": [
+    "ke_health_001",
+    "ke_health_002"
+   ],
+   "entry_ids": [
+    "entry_health_001"
+   ],
+   "evidence_status": "verified（普通入职体检未见全市统一标准、以用人单位指定为准；外籍人员指定机构结论已核验；爱康/美年、三甲医院体检中心通用预约 URL 未完成页面级验证，未引用相关 pending 条目）",
+   "notes": "不得自行增加医学项目；不得推荐具体体检套餐或机构；不得承诺体检报告周期；第三方机构通用预约入口与三甲医院预约页面待页面级验证"
+  },
+  {
+   "template_id": "tpl_neighborhood",
+   "title": "周边生活",
+   "category": "生活服务",
+   "trigger": "用户住处区域已明确且用户表达生活需求",
+   "first_action": "按用户需求查找超市、交通出行、医疗服务等入口信息",
+   "dependencies": "按需添加生活服务条目；推荐消费类内容不作为必做任务；交通、医疗入口以官方渠道为准",
+   "knowledge_entry_ids": [
+    "ke_metro_001",
+    "ke_metro_002",
+    "ke_med_001"
+   ],
+   "entry_ids": [],
+   "evidence_status": "verified（ke_metro_001、ke_metro_002 为 verified；ke_med_001 为 pending_verification，仅作医疗服务入口参考）",
+   "notes": "不得把推荐消费变成必做任务；不得承诺商家营业状态或价格；菜单/服务内容以 APP 内实际为准并加兜底文案；垃圾分类、社保卡等 ssc-everyday verified 条目可按场景扩展引用"
+  }
+ ]
+}
