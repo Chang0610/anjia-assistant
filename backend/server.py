@@ -533,5 +533,6 @@ class Handler(BaseHTTPRequestHandler):
 if __name__ == "__main__":
     load_local_config()
     port = int(os.getenv("PORT", "8765"))
-    print(f"Shanghai Q&A backend: http://127.0.0.1:{port}", flush=True)
-    ThreadingHTTPServer(("127.0.0.1", port), Handler).serve_forever()
+    host = os.getenv("HOST", "127.0.0.1")
+    print(f"Shanghai Q&A backend: http://{host}:{port}", flush=True)
+    ThreadingHTTPServer((host, port), Handler).serve_forever()
