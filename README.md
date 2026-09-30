@@ -40,17 +40,16 @@
 
 以下截图对应当前可体验版本的主要页面：
 
-| 首页 | 安家助手问答 |
-| --- | --- |
-| ![首页](docs/screenshots/首页.png) | ![安家助手问答](docs/screenshots/安家助手问答.png) |
-
-| 计划日历 | 我的 |
-| --- | --- |
-| ![计划日历](docs/screenshots/计划日历.png) | ![我的](docs/screenshots/我的.png) |
-
-| 区域参考 |
-| --- |
-| ![区域参考](docs/screenshots/区域参考.png) |
+<table>
+  <tr>
+    <td align="center"><img src="docs/screenshots/home.png" width="240" alt="首页"><br>首页</td>
+    <td align="center"><img src="docs/screenshots/assistant.png" width="240" alt="安家助手问答"><br>安家助手问答</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/screenshots/calendar.png" width="240" alt="计划日历"><br>计划日历</td>
+    <td align="center"><img src="docs/screenshots/profile.png" width="240" alt="我的"><br>我的</td>
+  </tr>
+</table>
 
 ## 本地运行
 
