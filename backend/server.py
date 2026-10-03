@@ -465,6 +465,51 @@ class Handler(BaseHTTPRequestHandler):
                 return self.send_json(200, {"ok": True})
             except (ValueError, OSError):
                 return self.send_json(500, {"error": "反馈暂时无法保存"})
+        if self.path == "/api/calendar-date":
+            try:
+                length = int(self.headers.get("Content-Length", "0"))
+                if length < 1 or length > 200_000:
+                    return self.send_json(400, {"error": "请求格式不正确"})
+                body = json.loads(self.rfile.read(length))
+                state = clean_calendar(body.get("calendar"))
+                profile = clean_profile(body.get("profile"))
+                event_id, new_date = body.get("event_id"), body.get("due_date")
+                event = next((item for item in state["confirmed"] if item["id"] == event_id), None)
+                if not event or not isinstance(new_date, str) or not re.fullmatch(r"\d{4}-\d{2}-\d{2}", new_date):
+                    return self.send_json(400, {"error": "请选择有效的日程和日期"})
+                try:
+                    date.fromisoformat(new_date)
+                except ValueError:
+                    return self.send_json(400, {"error": "日期无效"})
+                if state["pending"] is not None:
+                    return self.send_json(409, {"error": "请先处理问答页已有的待确认日程，再修改日期。"})
+                op = {"action": "update", **event, "due_date": new_date, "date_basis": "用户明确"}
+                if event.get("start_date") and event.get("due_date"):
+                    offset = (date.fromisoformat(new_date) - date.fromisoformat(event["due_date"])).days
+                    op["start_date"] = (date.fromisoformat(event["start_date"]) + timedelta(days=offset)).isoformat()
+                result = {"response_mode": "D", "calendar_intent": "propose", "operations": [op], "answer": ""}
+                is_hire = bool(re.search(r"入职|到岗|报到", event["title"]) and not re.search(r"确认|材料|体检|安排|准备", event["title"]))
+                is_move = bool(re.search(r"完成搬家|搬入新住处|新住所入住", event["title"]))
+                if is_hire:
+                    profile["start_date"] = new_date
+                    result = augment_model_result(state, result, profile, f"入职日期改到{new_date[:4]}年{int(new_date[5:7])}月{int(new_date[8:])}日")
+                if is_move:
+                    profile["move_deadline"] = new_date
+                planning_profile = dict(profile)
+                if is_hire:
+                    proposed_move = next((item.get("due_date") for item in result.get("operations", []) if item.get("action") == "update" and re.search(r"完成搬家|搬入新住处|新住所入住", item.get("title", ""))), None)
+                    if proposed_move:
+                        planning_profile["move_deadline"] = proposed_move
+                proposal = build_proposal(state, result, planning_profile)
+                if not proposal or proposal.get("conflicts"):
+                    return self.send_json(409, {"error": "新日期与现有前置事项冲突，请先在问答页核对安排。", "conflicts": proposal.get("conflicts", []) if proposal else []})
+                edited = next((item for item in proposal["events"] if item["id"] == event_id), None)
+                if not edited or edited["due_date"] != new_date:
+                    return self.send_json(409, {"error": "该日程的日期受到其他条件限制，请在问答页核对后调整。"})
+                related = [change for change in proposal["changes"] if change["id"] != event_id]
+                return self.send_json(200, {"event": edited, "related_events": proposal["events"], "related_changes": related, "profile": profile if is_hire or is_move else None})
+            except (ValueError, KeyError, TypeError, json.JSONDecodeError) as error:
+                return self.send_json(400, {"error": str(error) or "日程修改失败"})
         if self.path != "/api/chat":
             return self.send_json(404, {"error": "not_found"})
         try:

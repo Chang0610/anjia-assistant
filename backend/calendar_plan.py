@@ -654,7 +654,7 @@ def augment_model_result(calendar_state, model_result, profile, latest_message, 
             for event in commute_events:
                 ops = [item for item in ops if item.get("id") != event.get("id")]
                 if not event.get("due_date") or event["due_date"] >= hire_date.isoformat():
-                    ops.append(_operation("update", event, due_date=commute_date, detail=event.get("detail", "") + "；入职日期变更后，通勤试走必须安排在入职日前。", date_basis="建议日期", source_note="入职日期变更后的前置安排。"))
+                    ops.append(_operation("update", event, due_date=commute_date, detail=(event.get("detail", "") + "；" if event.get("detail") else "") + "入职日期变更后，通勤试走必须安排在入职日前。", date_basis="建议日期", source_note="入职日期变更后的前置安排。"))
                     answer_parts.append(f"通勤试走拟调整到入职前一天{commute_date}。")
 
             # 入职提前不等于每一项搬家安排都要重写。只有原有的“完成搬家”
@@ -675,7 +675,7 @@ def augment_model_result(calendar_state, model_result, profile, latest_message, 
                     ops = [item for item in ops if item.get("id") != event["id"]]
                     ops.append(_operation(
                         "update", event, due_date=target,
-                        detail=event.get("detail", "") + "；入职日期提前，搬家完成目标需调整到入职前。",
+                        detail=(event.get("detail", "") + "；" if event.get("detail") else "") + "入职日期提前，搬家完成目标需调整到入职前。",
                         date_basis="建议日期", source_note="新入职日前完成搬家的顺序建议；确认前不写入计划日历。",
                     ))
                     moved_earlier.append(target)

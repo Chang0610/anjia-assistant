@@ -55,6 +55,18 @@
           </form>
         </div>
       </div>
+      <div id="edit-date-modal" class="modal-backdrop" hidden>
+        <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="edit-date-title">
+          <form id="edit-date-form">
+            <h2 id="edit-date-title">修改日程日期</h2>
+            <p id="edit-date-event" class="modal-subtitle"></p>
+            <label class="modal-field">新日期<input id="edit-date-input" type="date" required></label>
+            <label id="edit-hard-warning" class="hard-option" hidden><input id="edit-hard-confirm" type="checkbox"><span>我已核验硬截止可以更改</span></label>
+            <div id="edit-date-error" class="modal-error" role="alert"></div>
+            <div class="modal-actions"><button id="cancel-edit-date" type="button">取消</button><button id="save-edit-date" class="primary" type="submit">保存日期</button></div>
+          </form>
+        </div>
+      </div>
     </section>
 
     <section id="profile-view" class="view profile-view" hidden>

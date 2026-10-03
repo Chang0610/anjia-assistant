@@ -262,9 +262,10 @@ function loadCalendar() {
       pendingOnlyDelete: value.pendingOnlyDelete === true,
       bulkDeletePreviousPending: Array.isArray(value.bulkDeletePreviousPending) ? value.bulkDeletePreviousPending : null,
       bulkDeletePreviousChanges: Array.isArray(value.bulkDeletePreviousChanges) ? value.bulkDeletePreviousChanges : [],
+      pendingMoveDate: typeof value.pendingMoveDate === 'string' ? value.pendingMoveDate : null,
     }
   } catch (_) {
-    return { confirmed: [], pending: null, changes: [], bulkDeleteAll: false, pendingOnlyDelete: false, bulkDeletePreviousPending: null, bulkDeletePreviousChanges: [] }
+    return { confirmed: [], pending: null, changes: [], bulkDeleteAll: false, pendingOnlyDelete: false, bulkDeletePreviousPending: null, bulkDeletePreviousChanges: [], pendingMoveDate: null }
   }
 }
 
@@ -530,6 +531,7 @@ document.querySelector('#chat-form').addEventListener('submit', async event => {
     }
     if (data.proposal?.clear_pending) {
       calendarState.pending = null
+      calendarState.pendingMoveDate = null
       calendarState.changes = []
       calendarState.bulkDeleteAll = false
       calendarState.pendingOnlyDelete = false
@@ -553,6 +555,7 @@ document.querySelector('#chat-form').addEventListener('submit', async event => {
       calendarState.pendingOnlyDelete = data.proposal.pending_only_delete === true
       calendarState.pending = clampProposalDates(data.proposal.events, calendarState.confirmed)
       calendarState.changes = data.proposal.changes
+      calendarState.pendingMoveDate = null
       const proposalBase = calendarState.pendingOnlyDelete ? calendarState.bulkDeletePreviousPending || [] : calendarState.confirmed
       proposalSelection = new Set(scopedProposalImpact(calendarState.pending, proposalBase).changes.map(change => (change.next || change.old).id))
       saveCalendar()
@@ -674,6 +677,7 @@ function openProposalDatePicker(event) {
     target.due_date = safeValue
     target.start_date = safeValue
     target.date_basis = '用户明确'
+    if (calendarState.pendingMoveDate && /完成搬家|搬入新住处|新住所入住/.test(target.title)) calendarState.pendingMoveDate = safeValue
     renderProposal()
   } }
   document.querySelector('#picker-title').textContent = `设置“${event.title}”日期`
@@ -827,8 +831,11 @@ function confirmProposal() {
     return
   }
   const selected = clampProposalDates(calendarState.pending, calendarState.confirmed).filter(event => proposalSelection.has(event.id))
+  const acceptedMoveDate = calendarState.pendingMoveDate && selected.some(event => /完成搬家|搬入新住处|新住所入住/.test(event.title) && event.due_date === calendarState.pendingMoveDate) ? calendarState.pendingMoveDate : null
+  const beforeProfile = acceptedMoveDate ? { ...userState.profile } : null
   calendarState.confirmed = dedupeCurrentEvents(calendarState.confirmed.filter(event => !proposalSelection.has(event.id) && !deletedIds.has(event.id)).concat(selected.map(event => ({ ...event }))))
   calendarState.pending = null
+  calendarState.pendingMoveDate = null
   proposalSelection = new Set()
   calendarState.changes = []
   calendarState.bulkDeleteAll = false
@@ -841,6 +848,18 @@ function confirmProposal() {
     renderProposal()
     addMessage('error', '本机存储空间不足或不可用，计划日历未更新；原日程保持不变。请检查浏览器存储后重试。')
     return
+  }
+  if (acceptedMoveDate) {
+    userState.profile.move_deadline = acceptedMoveDate
+    if (!saveUserState()) {
+      userState.profile = beforeProfile
+      calendarState = JSON.parse(before)
+      saveCalendar()
+      renderProposal()
+      addMessage('error', '搬家目标日期未能保存，计划日历保持原样。请检查浏览器存储后重试。')
+      return
+    }
+    updateIntro()
   }
   renderProposal()
   renderInAppReminders()
@@ -865,6 +884,7 @@ function declineProposal() {
   }
   calendarState.bulkDeleteAll = false
   calendarState.pendingOnlyDelete = false
+  calendarState.pendingMoveDate = null
   calendarState.bulkDeletePreviousPending = null
   calendarState.bulkDeletePreviousChanges = []
   saveCalendar()
@@ -884,6 +904,90 @@ document.querySelector('#next-month').addEventListener('click', () => {
 const customModal = document.querySelector('#custom-modal')
 const customForm = document.querySelector('#custom-event-form')
 const customError = document.querySelector('#custom-error')
+const editDateModal = document.querySelector('#edit-date-modal')
+let editingEventId = null
+
+function openEditDate(event) {
+  editingEventId = event.id
+  document.querySelector('#edit-date-event').textContent = event.title
+  document.querySelector('#edit-date-input').value = event.due_date || selectedDate
+  document.querySelector('#edit-date-error').textContent = ''
+  document.querySelector('#edit-hard-warning').hidden = !protectedDeadline(event)
+  document.querySelector('#edit-hard-confirm').checked = false
+  editDateModal.hidden = false
+  document.querySelector('#edit-date-input').focus()
+}
+
+function closeEditDate() {
+  editDateModal.hidden = true
+  editingEventId = null
+}
+
+document.querySelector('#cancel-edit-date').addEventListener('click', closeEditDate)
+editDateModal.addEventListener('click', event => { if (event.target === editDateModal) closeEditDate() })
+document.querySelector('#edit-date-form').addEventListener('submit', async event => {
+  event.preventDefault()
+  const target = calendarState.confirmed.find(item => item.id === editingEventId)
+  const newDate = document.querySelector('#edit-date-input').value
+  const error = document.querySelector('#edit-date-error')
+  if (!target || !newDate) return
+  if (newDate === target.due_date) { closeEditDate(); return }
+  if (protectedDeadline(target) && !document.querySelector('#edit-hard-confirm').checked) {
+    error.textContent = '请先核验硬截止可以更改。'
+    return
+  }
+  const saveButton = document.querySelector('#save-edit-date')
+  saveButton.disabled = true
+  try {
+    const response = await fetch('/api/calendar-date', {
+      method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ calendar: { confirmed: calendarState.confirmed, pending: calendarState.pending }, profile: userState.profile, event_id: target.id, due_date: newDate }),
+    })
+    const data = await response.json()
+    if (!response.ok) throw new Error(data.error || '日期修改失败，请稍后重试。')
+    const beforeCalendar = JSON.stringify(calendarState)
+    const beforeProfile = { ...userState.profile }
+    const oldDate = target.due_date || '日期待确认'
+    calendarState.confirmed = calendarState.confirmed.map(item => item.id === target.id ? data.event : item)
+    if (data.related_changes.length) {
+      calendarState.pending = data.related_events
+      calendarState.changes = data.related_changes
+      proposalSelection = new Set(data.related_changes.map(item => item.id))
+      const moveChange = data.related_changes.find(change => /完成搬家|搬入新住处|新住所入住/.test(change.title))
+      calendarState.pendingMoveDate = moveChange ? data.related_events.find(item => item.id === moveChange.id)?.due_date || null : null
+    }
+    if (!saveCalendar()) {
+      calendarState = JSON.parse(beforeCalendar)
+      throw new Error('本机存储空间不足，日期未保存。')
+    }
+    if (data.profile) {
+      userState.profile = data.profile
+      if (!saveUserState()) {
+        userState.profile = beforeProfile
+        calendarState = JSON.parse(beforeCalendar)
+        saveCalendar()
+        throw new Error('用户资料未能保存，日期未更改。')
+      }
+      updateIntro()
+    }
+    selectedDate = newDate
+    const [year, month] = newDate.split('-').map(Number)
+    viewMonth = new Date(year, month - 1, 1)
+    closeEditDate()
+    renderCalendar()
+    renderInAppReminders()
+    if (data.related_changes.length) {
+      addMessage('assistant', `“${target.title}”已从 ${oldDate} 改为 ${newDate}。另有 ${data.related_changes.length} 项关联日程建议调整，请核对下方变更；确认前这些关联事项保持不变。`)
+      renderProposal()
+      setTab('chat')
+      showProposalStart()
+    }
+  } catch (failure) {
+    error.textContent = failure.message || '日期修改失败，请稍后重试。'
+  } finally {
+    saveButton.disabled = false
+  }
+})
 
 function closeCustomModal() {
   customModal.hidden = true
@@ -1013,6 +1117,11 @@ function renderEventList(container, events, emptyText) {
     if (event.detail) main.appendChild(el('div', 'event-detail', event.detail))
     appendEventSources(main, event)
     card.append(check, main)
+    const edit = el('button', 'event-edit', '修改')
+    edit.type = 'button'
+    edit.setAttribute('aria-label', `修改${event.title}的日期`)
+    edit.addEventListener('click', () => openEditDate(event))
+    card.appendChild(edit)
     if (event.id.startsWith('m_')) {
       const remove = el('button', 'event-delete', '删除')
       remove.type = 'button'
