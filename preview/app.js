@@ -19,6 +19,7 @@ let viewMonth = new Date(today.year, today.month - 1, 1)
 let selectedDate = shanghaiTodayKey()
 let calendarState = loadCalendar()
 saveCalendar()
+const returningVisit = userState.onboardingDone || messages.length > 0 || Object.keys(userState.profile).length > 0 || calendarState.confirmed.length > 0 || Boolean(calendarState.pending?.length)
 let proposalSelection = new Set()
 let busy = false
 let directPlanRequest = false
@@ -86,7 +87,52 @@ function saveUserState() {
   }
 }
 
+function returningWelcomeText() {
+  const tasks = calendarState.confirmed
+  const completed = tasks.filter(item => item.done).length
+  const unfinished = tasks.filter(item => !item.done)
+  const todayKey = shanghaiTodayKey()
+  const groups = [
+    ['租房准备', /租房|房源|看房|租约|签约|交房|网签|备案/],
+    ['搬家入住', /搬家|搬入|入住|旧住处|退租|宽带|水电|燃气|居住登记/],
+    ['入职办事', /入职|报到|HR|通勤|社保|医保|公积金|居住证/],
+  ]
+  const counts = new Map(groups.map(([name]) => [name, 0]))
+  counts.set('其他事项', 0)
+  for (const item of tasks) {
+    const group = groups.find(([, words]) => words.test(item.title))?.[0] || '其他事项'
+    counts.set(group, counts.get(group) + 1)
+  }
+  const overview = [...counts].filter(([, count]) => count).map(([name, count]) => `${name}${count}项`).join('、')
+  const next = [...unfinished].sort((a, b) => (a.due_date || '9999-12-31').localeCompare(b.due_date || '9999-12-31') || a.title.localeCompare(b.title)).slice(0, 3)
+  const dateLabel = value => !value ? '日期待确认' : value < todayKey ? `${value.slice(5)}，已过期` : value === todayKey ? '今天' : value.slice(5)
+  const pendingCount = calendarState.changes?.length || 0
+  const lines = [
+    '欢迎回来，先看看你的安家进度。',
+    `当前进度：${completed} / ${tasks.length}（已完成 / 总任务）。`,
+    `已整理的待办：${overview || '还没有已确认的计划日程'}。`,
+    '接下来要做：',
+  ]
+  if (pendingCount) lines.push(`先核对${pendingCount}项待确认的日程改动。`)
+  if (next.length) next.forEach((item, index) => lines.push(`${index + 1}. ${item.title}（${dateLabel(item.due_date)}）`))
+  else if (!pendingCount) lines.push(tasks.length ? '已确认的事项都已完成，可以告诉我接下来的新安排。' : '告诉我办公位置、入职日和搬家目标，我来帮你整理计划。')
+  if (pendingCount) lines.push('要先核对待确认的日程吗？')
+  else if (!tasks.length) lines.push('要根据已保存的信息生成计划吗？')
+  else if (next.length) lines.push(`需要我说明“${next[0].title}”该怎么完成吗？`)
+  lines.push('最近有日期或其他情况需要调整吗？')
+  return lines.join('\n')
+}
+
 function updateIntro() {
+  const intro = document.querySelector('#intro-row')
+  const isReturning = returningVisit && !needsOnboarding()
+  intro.classList.toggle('returning-welcome', isReturning)
+  document.querySelector('.chat-title').textContent = isReturning ? '欢迎回来，接下来这样做' : '先把下一步想清楚'
+  document.querySelector('.chat-subtitle').textContent = isReturning ? '根据你已确认的计划，先处理最值得关注的事项。' : '描述你的情况，我会梳理顺序、时间与需要核验的事项。'
+  if (isReturning) {
+    document.querySelector('#intro-bubble').textContent = returningWelcomeText()
+    return
+  }
   const profile = userState.profile
   const known = [profile.destination_city, profile.company_location, profile.start_date, profile.commute_preference, profile.monthly_rent_budget].filter(Boolean)
   if (known.length) {
@@ -423,7 +469,7 @@ function setTab(name) {
   document.querySelectorAll('.tab').forEach(tab => tab.classList.toggle('active', tab.dataset.tab === name))
   if (name === 'calendar') renderCalendar()
   if (name === 'profile') renderProfile()
-  if (name === 'chat') renderInAppReminders()
+  if (name === 'chat') { updateIntro(); renderInAppReminders() }
 }
 
 function showProposalStart() {
@@ -1632,7 +1678,12 @@ for (const message of messages.slice(-40)) {
 }
 updateIntro()
 renderOnboarding()
+if (returningVisit && !needsOnboarding()) chat.appendChild(document.querySelector('#intro-row'))
 renderInAppReminders()
 renderCalendar()
 renderProposal()
 if (calendarState.bulkDeleteAll) requestAnimationFrame(showProposalStart)
+else if (returningVisit && !needsOnboarding()) requestAnimationFrame(() => {
+  const intro = document.querySelector('#intro-row')
+  chat.scrollTop += intro.getBoundingClientRect().top - chat.getBoundingClientRect().top - 8
+})

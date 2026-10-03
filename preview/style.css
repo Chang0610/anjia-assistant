@@ -74,3 +74,4 @@ body{background:radial-gradient(circle at 14% 16%,#f2f0ff 0,transparent 30%),rad
 .reminder-times label .picker-input,.reminder-times label .picker-input::placeholder{text-align:center!important}.reminder-times label .picker-input{display:block;margin-left:auto}
 .event-sources{margin-top:7px;color:#6a7d70;font-size:11px;line-height:1.5}.event-sources summary{cursor:pointer;color:#397858;font-weight:700}.event-sources .source-basis{margin-top:5px}.event-sources .source-entry{overflow-wrap:anywhere}
 .picker-columns .wheel-column:only-child{flex:0 0 100%;width:100%}
+.returning-welcome .bubble{max-width:100%;width:100%;background:linear-gradient(135deg,#f0faee,#fff9ec);border-color:#dbeada;border-radius:23px;padding:18px 19px;color:#294b38;line-height:1.8}
